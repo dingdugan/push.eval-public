@@ -1,0 +1,26 @@
+# push.eval — Python 依赖 (W2 起)
+# 建议: python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+
+# ─── 数据 schema + 配置 ───
+pydantic>=2.6
+python-dotenv>=1.0
+eval_type_backport>=0.2          # Python 3.9 支持 `X | None` 新 union 语法 (pydantic v2 要求)
+
+# ─── YouTube 数据采集 (Day 8) ───
+google-api-python-client>=2.130   # YouTube Data API v3 client
+
+# ─── 视频下载 + 抽帧 + 转写 (Day 9) ───
+yt-dlp>=2025.1.1                  # 也走 brew, pip 装作 Python fallback
+scenedetect[opencv]>=0.6.4        # PySceneDetect + OpenCV backend
+openai-whisper>=20240930          # 本地 Whisper-large-v3
+# torch / numpy 由 openai-whisper 拉
+
+# ─── Vendor API client (Day 11+) ───
+openai>=1.40                      # GPT + DeepSeek (OpenAI-compatible) + Kimi (Moonshot OpenAI-compatible)
+google-genai>=1.47                # Gemini 新 SDK (旧 google-generativeai 已官方弃用; 实测 gemini-3.5-flash 通过)
+# Doubao: W3 用, 走火山 SDK 或 OpenAI-compatible endpoint, 到时补
+
+# ─── 数据处理 / 落表 ───
+pandas>=2.2
+jsonlines>=4.0
+

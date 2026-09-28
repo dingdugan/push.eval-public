@@ -1,0 +1,4 @@
+Public export of a private working repo.
+source commit: eb27dfb3f840edc2aaf347daf4eb4ecc32238e1a
+exported: 2026-09-28T23:16:01Z
+excluded (5): .publicignore, CLAUDE.md, notes/retro.md, notes/worklog.md, ops/export_public.sh

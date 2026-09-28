@@ -1,0 +1,54 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python (for W2+)
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env / secrets
+.env
+.env.local
+*.key
+
+# Data outputs (W2+) — large CSV/JSONL not in repo
+results/*.csv
+results/*.jsonl
+
+# 分析派生产物 (数据已内嵌 web/data_results.js, 可由 pipeline 重生成)
+results/*.json
+
+# Claude Code 本地配置 (同 .vscode/ .idea/)
+.claude/
+data/cache/
+
+# curate stage A resume 标记 (per-run 临时态, 入库会让重跑误跳过)
+data/curate_done_cats.txt
+
+# 大体积预处理产物 — 不入 repo (transcript json 索引入 repo, 二进制/图片不入)
+# keyframes 在 {video_id}/ 子目录, 用 ** 覆盖整棵树; 视频源文件同理
+data/preprocess/keyframes/
+data/preprocess/transcripts/*.wav
+data/preprocess/transcripts/*.mp3
+data/videos/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
