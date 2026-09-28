@@ -1,0 +1,391 @@
+{
+  "video_id": "V08",
+  "language": "en",
+  "text": "Come here. But it's all good, dude. You be good girl. You make somebody very happy. Okay. Watch out now. Okay. Okay. I'm Haiti and this is Blue's story for GOP's. We got a text message from a person trying to surrender a 4-year-old chihuahua named Blue. The person came to surrender Blue. Hi. Hey, she's okay, she's okay. It's a new place. Let me see, can I see the other end of her leash? I wanna walk her into the room and see if she'll let me handle her without you there. Okay, come on, come on. It's okay. I know, it's okay. It's okay, come. I know, I know, I know, mama. Here, you wanna go with your daddy? Come here, come here, come here. This way, go, go, go, go. Hey, come here. Okay, relax, you'll see. was very sad and traumatic for her. After the owner left, she started shaking. Hi, sweetheart. The volunteers that work at our facility were able to calm her a little bit, but we were desperate to find her a foster home, that way she will not stay in the facility. As soon as we found a foster home, we realized that she was more than a case of being sad or scared. You want anything? You okay? She was really, really traumatized. You okay? She would go into the bathroom and really get so, so scared because it was a shock for her. Look at this little baby Burrito. She's a baby. You better know Shakey's. It took our foster to touch her about three weeks. Good girl. Here's a treat. Then she opened up and it was like a little by little confidence. Hello cute face. Is that a tail wag? Hi. And it took us about a month, a good month, for her to be able to be held and picked up without her getting scared. Once she was ready to be adopted, she found this woman. You're gonna have a beautiful life. The kingdom was no longer just a house. It was a home. Something I've learned about Blue. Every single toy she owns must be in her bed with her at all times. Now she's doing amazing. She's very, very happy to be with her adopter. I'm still wagging. Princess Blue began writing the next chapter of her story, not with fear, but with trust. The end.",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.0,
+      "text": "Come here.",
+      "avg_logprob": -0.3389
+    },
+    {
+      "start": 1.0,
+      "end": 3.0,
+      "text": "But it's all good, dude.",
+      "avg_logprob": -0.3389
+    },
+    {
+      "start": 3.0,
+      "end": 5.0,
+      "text": "You be good girl.",
+      "avg_logprob": -0.3389
+    },
+    {
+      "start": 5.0,
+      "end": 7.0,
+      "text": "You make somebody very happy.",
+      "avg_logprob": -0.3389
+    },
+    {
+      "start": 7.0,
+      "end": 8.0,
+      "text": "Okay.",
+      "avg_logprob": -0.3389
+    },
+    {
+      "start": 8.0,
+      "end": 9.0,
+      "text": "Watch out now.",
+      "avg_logprob": -0.3389
+    },
+    {
+      "start": 9.0,
+      "end": 10.0,
+      "text": "Okay.",
+      "avg_logprob": -0.3389
+    },
+    {
+      "start": 10.0,
+      "end": 11.0,
+      "text": "Okay.",
+      "avg_logprob": -0.3389
+    },
+    {
+      "start": 15.0,
+      "end": 18.0,
+      "text": "I'm Haiti and this is Blue's story for GOP's.",
+      "avg_logprob": -0.3389
+    },
+    {
+      "start": 18.0,
+      "end": 24.0,
+      "text": "We got a text message from a person trying to surrender a 4-year-old chihuahua named Blue.",
+      "avg_logprob": -0.3389
+    },
+    {
+      "start": 25.0,
+      "end": 27.0,
+      "text": "The person came to surrender Blue.",
+      "avg_logprob": -0.3389
+    },
+    {
+      "start": 27.0,
+      "end": 28.0,
+      "text": "Hi.",
+      "avg_logprob": -0.3389
+    },
+    {
+      "start": 28.0,
+      "end": 30.58,
+      "text": "Hey, she's okay, she's okay.",
+      "avg_logprob": -0.3517
+    },
+    {
+      "start": 30.58,
+      "end": 31.6,
+      "text": "It's a new place.",
+      "avg_logprob": -0.3517
+    },
+    {
+      "start": 33.06,
+      "end": 34.98,
+      "text": "Let me see, can I see the other end of her leash?",
+      "avg_logprob": -0.3517
+    },
+    {
+      "start": 34.98,
+      "end": 36.1,
+      "text": "I wanna walk her into the room",
+      "avg_logprob": -0.3517
+    },
+    {
+      "start": 36.1,
+      "end": 39.36,
+      "text": "and see if she'll let me handle her without you there.",
+      "avg_logprob": -0.3517
+    },
+    {
+      "start": 39.36,
+      "end": 41.18,
+      "text": "Okay, come on, come on.",
+      "avg_logprob": -0.3517
+    },
+    {
+      "start": 41.18,
+      "end": 42.02,
+      "text": "It's okay.",
+      "avg_logprob": -0.3517
+    },
+    {
+      "start": 42.02,
+      "end": 42.86,
+      "text": "I know, it's okay.",
+      "avg_logprob": -0.3517
+    },
+    {
+      "start": 42.86,
+      "end": 44.04,
+      "text": "It's okay, come.",
+      "avg_logprob": -0.3517
+    },
+    {
+      "start": 44.04,
+      "end": 45.58,
+      "text": "I know, I know, I know, mama.",
+      "avg_logprob": -0.3517
+    },
+    {
+      "start": 45.58,
+      "end": 47.12,
+      "text": "Here, you wanna go with your daddy?",
+      "avg_logprob": -0.3517
+    },
+    {
+      "start": 47.12,
+      "end": 49.12,
+      "text": "Come here, come here, come here.",
+      "avg_logprob": -0.3517
+    },
+    {
+      "start": 49.12,
+      "end": 50.78,
+      "text": "This way, go, go, go, go.",
+      "avg_logprob": -0.3517
+    },
+    {
+      "start": 50.78,
+      "end": 51.78,
+      "text": "Hey, come here.",
+      "avg_logprob": -0.3517
+    },
+    {
+      "start": 52.94,
+      "end": 55.62,
+      "text": "Okay, relax, you'll see.",
+      "avg_logprob": -0.3517
+    },
+    {
+      "start": 55.62,
+      "end": 57.38,
+      "text": "was very sad and traumatic for her.",
+      "avg_logprob": -0.481
+    },
+    {
+      "start": 78.52,
+      "end": 81.18,
+      "text": "After the owner left, she started shaking.",
+      "avg_logprob": -0.481
+    },
+    {
+      "start": 81.18,
+      "end": 81.98,
+      "text": "Hi, sweetheart.",
+      "avg_logprob": -0.481
+    },
+    {
+      "start": 85.62,
+      "end": 90.5,
+      "text": "The volunteers that work at our facility were able to calm her a little bit, but we were",
+      "avg_logprob": -0.2058
+    },
+    {
+      "start": 90.5,
+      "end": 95.36,
+      "text": "desperate to find her a foster home, that way she will not stay in the facility.",
+      "avg_logprob": -0.2058
+    },
+    {
+      "start": 95.36,
+      "end": 99.74,
+      "text": "As soon as we found a foster home, we realized that she was more than a case of being sad",
+      "avg_logprob": -0.2058
+    },
+    {
+      "start": 99.74,
+      "end": 100.74,
+      "text": "or scared.",
+      "avg_logprob": -0.2058
+    },
+    {
+      "start": 100.74,
+      "end": 101.74,
+      "text": "You want anything?",
+      "avg_logprob": -0.2058
+    },
+    {
+      "start": 101.74,
+      "end": 102.74,
+      "text": "You okay?",
+      "avg_logprob": -0.2058
+    },
+    {
+      "start": 102.74,
+      "end": 105.74,
+      "text": "She was really, really traumatized.",
+      "avg_logprob": -0.2058
+    },
+    {
+      "start": 105.74,
+      "end": 108.52,
+      "text": "You okay?",
+      "avg_logprob": -0.2058
+    },
+    {
+      "start": 108.52,
+      "end": 112.78,
+      "text": "She would go into the bathroom and really get so, so scared because it was a shock for",
+      "avg_logprob": -0.2058
+    },
+    {
+      "start": 112.78,
+      "end": 113.78,
+      "text": "her.",
+      "avg_logprob": -0.2058
+    },
+    {
+      "start": 113.78,
+      "end": 114.78,
+      "text": "Look at this little baby Burrito.",
+      "avg_logprob": -0.2058
+    },
+    {
+      "start": 114.78,
+      "end": 116.78,
+      "text": "She's a baby.",
+      "avg_logprob": -0.3448
+    },
+    {
+      "start": 116.78,
+      "end": 119.78,
+      "text": "You better know Shakey's.",
+      "avg_logprob": -0.3448
+    },
+    {
+      "start": 119.78,
+      "end": 122.78,
+      "text": "It took our foster to touch her about three weeks.",
+      "avg_logprob": -0.3448
+    },
+    {
+      "start": 125.78,
+      "end": 126.78,
+      "text": "Good girl.",
+      "avg_logprob": -0.3448
+    },
+    {
+      "start": 126.78,
+      "end": 127.78,
+      "text": "Here's a treat.",
+      "avg_logprob": -0.3448
+    },
+    {
+      "start": 131.78,
+      "end": 135.78,
+      "text": "Then she opened up and it was like a little by little confidence.",
+      "avg_logprob": -0.3448
+    },
+    {
+      "start": 136.78,
+      "end": 138.78,
+      "text": "Hello cute face.",
+      "avg_logprob": -0.3448
+    },
+    {
+      "start": 139.78,
+      "end": 141.78,
+      "text": "Is that a tail wag?",
+      "avg_logprob": -0.3448
+    },
+    {
+      "start": 141.78,
+      "end": 142.78,
+      "text": "Hi.",
+      "avg_logprob": -0.3448
+    },
+    {
+      "start": 144.78,
+      "end": 146.74,
+      "text": "And it took us about a month, a good month,",
+      "avg_logprob": -0.1878
+    },
+    {
+      "start": 146.74,
+      "end": 149.28,
+      "text": "for her to be able to be held and picked up",
+      "avg_logprob": -0.1878
+    },
+    {
+      "start": 149.28,
+      "end": 150.74,
+      "text": "without her getting scared.",
+      "avg_logprob": -0.1878
+    },
+    {
+      "start": 163.78,
+      "end": 166.88,
+      "text": "Once she was ready to be adopted, she found this woman.",
+      "avg_logprob": -0.1878
+    },
+    {
+      "start": 168.08,
+      "end": 170.22,
+      "text": "You're gonna have a beautiful life.",
+      "avg_logprob": -0.1878
+    },
+    {
+      "start": 170.22,
+      "end": 172.84,
+      "text": "The kingdom was no longer just a house.",
+      "avg_logprob": -0.1878
+    },
+    {
+      "start": 172.84,
+      "end": 173.68,
+      "text": "It was a home.",
+      "avg_logprob": -0.1878
+    },
+    {
+      "start": 173.68,
+      "end": 174.94,
+      "text": "Something I've learned about Blue.",
+      "avg_logprob": -0.2202
+    },
+    {
+      "start": 175.82,
+      "end": 181.24,
+      "text": "Every single toy she owns must be in her bed with her at all times.",
+      "avg_logprob": -0.2202
+    },
+    {
+      "start": 181.38,
+      "end": 182.36,
+      "text": "Now she's doing amazing.",
+      "avg_logprob": -0.2202
+    },
+    {
+      "start": 182.54,
+      "end": 184.86,
+      "text": "She's very, very happy to be with her adopter.",
+      "avg_logprob": -0.2202
+    },
+    {
+      "start": 184.86,
+      "end": 186.02,
+      "text": "I'm still wagging.",
+      "avg_logprob": -0.2202
+    },
+    {
+      "start": 186.08,
+      "end": 191.52,
+      "text": "Princess Blue began writing the next chapter of her story, not with fear, but with trust.",
+      "avg_logprob": -0.2202
+    },
+    {
+      "start": 192.1,
+      "end": 193.1,
+      "text": "The end.",
+      "avg_logprob": -0.2202
+    }
+  ]
+}

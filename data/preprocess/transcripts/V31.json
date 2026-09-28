@@ -1,0 +1,409 @@
+{
+  "video_id": "V31",
+  "language": "en",
+  "text": "Hi everyone, in this tutorial I want to show you the new full stack vibe coding experience in Google AI Studio and teach you how you can build apps with it. For example here we have a recipe tracker app where you can now save recipes to a database. Also you can build really cool multiplayer experiences and multiplayer games like this one. So before we dive into it let's quickly go over the new features that we shipped. The main one is that it's now powered by a new Google anti gravity coding agents. So a similar agent that you also have in the anti gravity IDE. And with this, you can build powerful full stack apps, it now also has support for the next JS framework. And you can install any NPM packages, then you can also easily add databases and authentication with Firebase. And I show you this in the example app that we built. You can also connect to real world services like other API's and easily and securely store your API keys inside your apps. And you can build multiplayer experiences like you've seen here. And then of course, you can also easily add any AI features powered by the Gemini API. So yeah, let's just build an app together and see this in action. So So to get started, you can type ai.studio slash build. And then you land here on the starting screen where you can describe your app. And I will copy and paste an a prompt here. So I want to build a recipe app where groups can collaborate on a private cookbook, add authentication so users can log in to a shared space to view and save recipes together. The core feature is an AI chef, so users type in the ingredients they have or a meal theme. And then the AI generates a complete recipe with a title, ingredients and instructions. Users can then save this recipe to their group's shared feed for everyone else to cook. And I want a beautiful and modern design. So this is the app. Additionally, you could add those chips, for example, I can click on Add database and off. You don't have to do this, you can also just describe it here. But if you add this, then it helps a little bit the agent to understand to really add database and authentication. And similarly, you could add, for example, Google search data, Google Maps data, and Gemini intelligence, a chatbot feature, and so on. So yeah, you can browse through here and see what cool features you want to add. And now when you're done describing your app, you can simply click on Build. And now it's spinning up the coding agent, and then a container for you. And now it starts building the app. This may take a few minutes even and you can come back, you can even close the browser, and then later continue here again. So let's wait a little bit until it starts building. And now the coding agent prompts us to enable Firebase. So store data from your app using Firebase. And with this, we can save our data over time, we can start on the free tier, we can also select a location to host our app. And of course, by enabling it, we agree to the terms of service here. So let's click on enable and then the agent can continue with Firebase integrated. And the app is done. It builds flavor sync for us the art of shared cooking. And then on the left side, you can also read the summary of what the agent built for us and you can see a drain for 353 seconds, a little over five minutes for the first shot at this app. And here it has the key features with an AI chef powered by Gemini three flash, then the collaborative feed, then secure authentication via Firebase auth, then the design with frame emotion, the tech stack is based on NextJS and Tailwind, the back end powered by Firebase Firestore. And then some more info you can read through it, you can also of course, click on the code and for example, review some of the code some of the instructions for Gemini. Also, the Firebase rules are important to review. But yeah, let's actually test the app. So let's see what we get. So we can join a group sign in to access your group's private cookbook and start generating recipes together. So yeah, let's click on sign in. And now this is powered by Firebase off so we can log in with our Google account. So let me choose this. And then I have to click on continue. And yeah, now I'm actually logged in with my Google account. So it already has my name here. And I should be able to start creating recipes. So for example, a vegan salad, and then let's click on generate. And now it's cooking. And here it generated this rainbow quinoa and roasted chickpea power salad with those ingredients and the instructions. And then we can save this and then go back to the group feed. And here we have it in the group feed, it saved our recipe. So everyone that's logged in now should be able to see this. What I'm not seeing right now is the option to create multiple groups and invite certain members to certain groups. But of course, you can always go into this chat window and then make changes at new features or tweak the UI. For example, you could say, add support for multiple groups, and then the option to invite members. But yeah, it created this in the first try with Firebase authentication to log in and Firestore to save this to our database, you can actually go to firebase.google.com and then check if this is correct. So let's click on one, go to console. And then here, you should see the Gemini API default project if you didn't specify a different one. And then in here, we can click on fire store. And here it created this recipe collection for us. And in here, it has one item actually. So this is the exact one that we just created. Rainbow quinoa and roasted chickpea power sell it. So storing it to the database worked. And then also we can check the authentication tab. And here we should see the one user that we just used for logging in. So authentication work. So yeah, this is the new full stack vibe coding experience in AI studio. In a nutshell, you can also go to the gallery and get inspired by some of the cool apps you can build with this. And And hopefully you have a lot of fun with this. So see you in the next one.",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.98,
+      "text": "Hi everyone, in this tutorial I want to show you the new full stack vibe coding experience in Google",
+      "avg_logprob": -0.0612
+    },
+    {
+      "start": 4.98,
+      "end": 10.5,
+      "text": "AI Studio and teach you how you can build apps with it. For example here we have a recipe tracker",
+      "avg_logprob": -0.0612
+    },
+    {
+      "start": 10.5,
+      "end": 16.48,
+      "text": "app where you can now save recipes to a database. Also you can build really cool multiplayer",
+      "avg_logprob": -0.0612
+    },
+    {
+      "start": 16.48,
+      "end": 23.24,
+      "text": "experiences and multiplayer games like this one. So before we dive into it let's quickly go over",
+      "avg_logprob": -0.0612
+    },
+    {
+      "start": 23.24,
+      "end": 28.64,
+      "text": "the new features that we shipped. The main one is that it's now powered by a new Google",
+      "avg_logprob": -0.0612
+    },
+    {
+      "start": 28.64,
+      "end": 36.44,
+      "text": "anti gravity coding agents. So a similar agent that you also have in the anti gravity IDE.",
+      "avg_logprob": -0.1569
+    },
+    {
+      "start": 36.44,
+      "end": 41.74,
+      "text": "And with this, you can build powerful full stack apps, it now also has support for the",
+      "avg_logprob": -0.1569
+    },
+    {
+      "start": 41.74,
+      "end": 49.02,
+      "text": "next JS framework. And you can install any NPM packages, then you can also easily add",
+      "avg_logprob": -0.1569
+    },
+    {
+      "start": 49.02,
+      "end": 54.8,
+      "text": "databases and authentication with Firebase. And I show you this in the example app that",
+      "avg_logprob": -0.1569
+    },
+    {
+      "start": 54.8,
+      "end": 61.54,
+      "text": "we built. You can also connect to real world services like other API's and easily and securely",
+      "avg_logprob": -0.1029
+    },
+    {
+      "start": 61.54,
+      "end": 67.24,
+      "text": "store your API keys inside your apps. And you can build multiplayer experiences like",
+      "avg_logprob": -0.1029
+    },
+    {
+      "start": 67.24,
+      "end": 72.58,
+      "text": "you've seen here. And then of course, you can also easily add any AI features powered",
+      "avg_logprob": -0.1029
+    },
+    {
+      "start": 72.58,
+      "end": 78.8,
+      "text": "by the Gemini API. So yeah, let's just build an app together and see this in action. So",
+      "avg_logprob": -0.1029
+    },
+    {
+      "start": 78.8,
+      "end": 87.56,
+      "text": "So to get started, you can type ai.studio slash build. And then you land here on the starting",
+      "avg_logprob": -0.1239
+    },
+    {
+      "start": 87.56,
+      "end": 95.38,
+      "text": "screen where you can describe your app. And I will copy and paste an a prompt here. So I want",
+      "avg_logprob": -0.1239
+    },
+    {
+      "start": 95.38,
+      "end": 102.0,
+      "text": "to build a recipe app where groups can collaborate on a private cookbook, add authentication so users",
+      "avg_logprob": -0.1239
+    },
+    {
+      "start": 102.0,
+      "end": 108.78,
+      "text": "can log in to a shared space to view and save recipes together. The core feature is an AI chef,",
+      "avg_logprob": -0.0986
+    },
+    {
+      "start": 108.9,
+      "end": 115.02,
+      "text": "so users type in the ingredients they have or a meal theme. And then the AI generates a complete",
+      "avg_logprob": -0.0986
+    },
+    {
+      "start": 115.02,
+      "end": 121.38,
+      "text": "recipe with a title, ingredients and instructions. Users can then save this recipe to their group's",
+      "avg_logprob": -0.0986
+    },
+    {
+      "start": 121.38,
+      "end": 128.3,
+      "text": "shared feed for everyone else to cook. And I want a beautiful and modern design. So this is the app.",
+      "avg_logprob": -0.0986
+    },
+    {
+      "start": 128.3,
+      "end": 137.62,
+      "text": "Additionally, you could add those chips, for example, I can click on Add database and off.",
+      "avg_logprob": -0.1441
+    },
+    {
+      "start": 137.62,
+      "end": 140.9,
+      "text": "You don't have to do this, you can also just describe it here.",
+      "avg_logprob": -0.1441
+    },
+    {
+      "start": 140.9,
+      "end": 145.54,
+      "text": "But if you add this, then it helps a little bit the agent to understand to really add",
+      "avg_logprob": -0.1441
+    },
+    {
+      "start": 145.54,
+      "end": 148.18,
+      "text": "database and authentication.",
+      "avg_logprob": -0.1441
+    },
+    {
+      "start": 148.18,
+      "end": 154.34,
+      "text": "And similarly, you could add, for example, Google search data, Google Maps data, and",
+      "avg_logprob": -0.1441
+    },
+    {
+      "start": 154.34,
+      "end": 161.22,
+      "text": "Gemini intelligence, a chatbot feature, and so on. So yeah, you can browse through here and see what",
+      "avg_logprob": -0.0638
+    },
+    {
+      "start": 161.22,
+      "end": 167.78,
+      "text": "cool features you want to add. And now when you're done describing your app, you can simply click on",
+      "avg_logprob": -0.0638
+    },
+    {
+      "start": 167.78,
+      "end": 176.9,
+      "text": "Build. And now it's spinning up the coding agent, and then a container for you. And now it starts",
+      "avg_logprob": -0.0638
+    },
+    {
+      "start": 176.9,
+      "end": 182.74,
+      "text": "building the app. This may take a few minutes even and you can come back, you can even close the",
+      "avg_logprob": -0.0638
+    },
+    {
+      "start": 182.74,
+      "end": 190.66,
+      "text": "browser, and then later continue here again. So let's wait a little bit until it starts building.",
+      "avg_logprob": -0.0432
+    },
+    {
+      "start": 191.38,
+      "end": 196.98,
+      "text": "And now the coding agent prompts us to enable Firebase. So store data from your app using",
+      "avg_logprob": -0.0432
+    },
+    {
+      "start": 196.98,
+      "end": 202.58,
+      "text": "Firebase. And with this, we can save our data over time, we can start on the free tier,",
+      "avg_logprob": -0.0432
+    },
+    {
+      "start": 202.58,
+      "end": 209.14,
+      "text": "we can also select a location to host our app. And of course, by enabling it, we agree to the terms",
+      "avg_logprob": -0.0432
+    },
+    {
+      "start": 209.14,
+      "end": 215.94,
+      "text": "of service here. So let's click on enable and then the agent can continue with Firebase integrated.",
+      "avg_logprob": -0.0924
+    },
+    {
+      "start": 216.98,
+      "end": 223.78,
+      "text": "And the app is done. It builds flavor sync for us the art of shared cooking. And then on the left",
+      "avg_logprob": -0.0924
+    },
+    {
+      "start": 223.78,
+      "end": 230.34,
+      "text": "side, you can also read the summary of what the agent built for us and you can see a drain for",
+      "avg_logprob": -0.0924
+    },
+    {
+      "start": 230.34,
+      "end": 238.5,
+      "text": "353 seconds, a little over five minutes for the first shot at this app. And here it has the key",
+      "avg_logprob": -0.0924
+    },
+    {
+      "start": 238.5,
+      "end": 245.38,
+      "text": "features with an AI chef powered by Gemini three flash, then the collaborative feed,",
+      "avg_logprob": -0.2142
+    },
+    {
+      "start": 245.38,
+      "end": 253.78,
+      "text": "then secure authentication via Firebase auth, then the design with frame emotion, the tech stack is",
+      "avg_logprob": -0.2142
+    },
+    {
+      "start": 253.78,
+      "end": 262.02,
+      "text": "based on NextJS and Tailwind, the back end powered by Firebase Firestore. And then some more info you",
+      "avg_logprob": -0.2142
+    },
+    {
+      "start": 262.02,
+      "end": 268.5,
+      "text": "can read through it, you can also of course, click on the code and for example, review some of the",
+      "avg_logprob": -0.101
+    },
+    {
+      "start": 268.5,
+      "end": 280.74,
+      "text": "code some of the instructions for Gemini. Also, the Firebase rules are important to review. But",
+      "avg_logprob": -0.101
+    },
+    {
+      "start": 280.74,
+      "end": 287.7,
+      "text": "yeah, let's actually test the app. So let's see what we get. So we can join a group sign in to",
+      "avg_logprob": -0.101
+    },
+    {
+      "start": 287.7,
+      "end": 294.02,
+      "text": "access your group's private cookbook and start generating recipes together. So yeah, let's click",
+      "avg_logprob": -0.0737
+    },
+    {
+      "start": 294.02,
+      "end": 301.46,
+      "text": "on sign in. And now this is powered by Firebase off so we can log in with our Google account.",
+      "avg_logprob": -0.0737
+    },
+    {
+      "start": 301.46,
+      "end": 311.46,
+      "text": "So let me choose this. And then I have to click on continue. And yeah, now I'm actually logged",
+      "avg_logprob": -0.0737
+    },
+    {
+      "start": 311.46,
+      "end": 320.34,
+      "text": "in with my Google account. So it already has my name here. And I should be able to start creating",
+      "avg_logprob": -0.0745
+    },
+    {
+      "start": 322.58,
+      "end": 332.18,
+      "text": "recipes. So for example, a vegan salad, and then let's click on generate. And now it's cooking.",
+      "avg_logprob": -0.0745
+    },
+    {
+      "start": 332.9,
+      "end": 338.9,
+      "text": "And here it generated this rainbow quinoa and roasted chickpea power salad with those",
+      "avg_logprob": -0.0745
+    },
+    {
+      "start": 338.9,
+      "end": 347.3,
+      "text": "ingredients and the instructions. And then we can save this and then go back to the group feed.",
+      "avg_logprob": -0.0565
+    },
+    {
+      "start": 347.3,
+      "end": 353.46,
+      "text": "And here we have it in the group feed, it saved our recipe. So everyone that's logged in now",
+      "avg_logprob": -0.0565
+    },
+    {
+      "start": 353.46,
+      "end": 359.46,
+      "text": "should be able to see this. What I'm not seeing right now is the option to create multiple groups",
+      "avg_logprob": -0.0565
+    },
+    {
+      "start": 359.46,
+      "end": 365.3,
+      "text": "and invite certain members to certain groups. But of course, you can always go into this chat window",
+      "avg_logprob": -0.0565
+    },
+    {
+      "start": 365.3,
+      "end": 373.38,
+      "text": "and then make changes at new features or tweak the UI. For example, you could say, add support for",
+      "avg_logprob": -0.0873
+    },
+    {
+      "start": 373.38,
+      "end": 380.98,
+      "text": "multiple groups, and then the option to invite members. But yeah, it created this in the first",
+      "avg_logprob": -0.0873
+    },
+    {
+      "start": 380.98,
+      "end": 387.3,
+      "text": "try with Firebase authentication to log in and Firestore to save this to our database,",
+      "avg_logprob": -0.0873
+    },
+    {
+      "start": 387.3,
+      "end": 395.22,
+      "text": "you can actually go to firebase.google.com and then check if this is correct. So let's click on",
+      "avg_logprob": -0.0873
+    },
+    {
+      "start": 395.3,
+      "end": 402.18,
+      "text": "one, go to console. And then here, you should see the Gemini API default project if you",
+      "avg_logprob": -0.1154
+    },
+    {
+      "start": 402.18,
+      "end": 410.24,
+      "text": "didn't specify a different one. And then in here, we can click on fire store. And here",
+      "avg_logprob": -0.1154
+    },
+    {
+      "start": 410.24,
+      "end": 417.06,
+      "text": "it created this recipe collection for us. And in here, it has one item actually. So",
+      "avg_logprob": -0.1154
+    },
+    {
+      "start": 417.06,
+      "end": 422.16,
+      "text": "this is the exact one that we just created. Rainbow quinoa and roasted chickpea power",
+      "avg_logprob": -0.1154
+    },
+    {
+      "start": 422.16,
+      "end": 429.76,
+      "text": "sell it. So storing it to the database worked. And then also we can check the authentication tab.",
+      "avg_logprob": -0.0796
+    },
+    {
+      "start": 429.76,
+      "end": 436.64,
+      "text": "And here we should see the one user that we just used for logging in. So authentication work. So",
+      "avg_logprob": -0.0796
+    },
+    {
+      "start": 436.64,
+      "end": 443.2,
+      "text": "yeah, this is the new full stack vibe coding experience in AI studio. In a nutshell, you can",
+      "avg_logprob": -0.0796
+    },
+    {
+      "start": 443.2,
+      "end": 450.72,
+      "text": "also go to the gallery and get inspired by some of the cool apps you can build with this. And",
+      "avg_logprob": -0.0796
+    },
+    {
+      "start": 450.72,
+      "end": 452.7,
+      "text": "And hopefully you have a lot of fun with this.",
+      "avg_logprob": -0.1587
+    },
+    {
+      "start": 452.96,
+      "end": 454.46,
+      "text": "So see you in the next one.",
+      "avg_logprob": -0.1587
+    }
+  ]
+}

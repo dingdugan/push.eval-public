@@ -1,0 +1,13 @@
+{"persona_id":"P1","lifecycle":"cold-start","content_preference":{"style":"未知","categories":[]},"last_active":"today"}
+{"persona_id":"P2","lifecycle":"exploring","content_preference":{"style":"单偏好","categories":["Sports"]},"last_active":"今天 (首次活跃 8 天前)"}
+{"persona_id":"P3","lifecycle":"exploring","content_preference":{"style":"窄偏好","categories":["Education","Music"]},"last_active":"昨天 (首次活跃 15 天前)"}
+{"persona_id":"P4","lifecycle":"exploring","content_preference":{"style":"宽偏好","categories":["Sports","Education","Howto & Style","News & Politics"]},"last_active":"今天 (首次活跃 22 天前)"}
+{"persona_id":"P5","lifecycle":"engaged","content_preference":{"style":"单偏好","categories":["Howto & Style"]},"last_active":"today"}
+{"persona_id":"P6","lifecycle":"engaged","content_preference":{"style":"窄偏好","categories":["Howto & Style","Sports"]},"last_active":"today"}
+{"persona_id":"P7","lifecycle":"engaged","content_preference":{"style":"宽偏好","categories":["Pets & Animals","Education","Science & Technology","Music"]},"last_active":"昨天"}
+{"persona_id":"P8","lifecycle":"at-risk","content_preference":{"style":"单偏好","categories":["Gaming"]},"last_active":"5 天前"}
+{"persona_id":"P9","lifecycle":"at-risk","content_preference":{"style":"窄偏好","categories":["Pets & Animals","Science & Technology"]},"last_active":"8 天前"}
+{"persona_id":"P10","lifecycle":"at-risk","content_preference":{"style":"宽偏好","categories":["Gaming","Music","News & Politics","Science & Technology"]},"last_active":"11 天前"}
+{"persona_id":"P11","lifecycle":"dormant","content_preference":{"style":"单偏好","categories":["News & Politics"]},"last_active":"35 天前"}
+{"persona_id":"P12","lifecycle":"dormant","content_preference":{"style":"窄偏好","categories":["Gaming","Music"]},"last_active":"60 天前"}
+{"persona_id":"P13","lifecycle":"dormant","content_preference":{"style":"宽偏好","categories":["Pets & Animals","Gaming","Sports","Education"]},"last_active":"120 天前"}

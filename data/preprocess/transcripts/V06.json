@@ -1,0 +1,151 @@
+{
+  "video_id": "V06",
+  "language": "en",
+  "text": "Just a little clip, okay? AHHHH! Oh my gosh! It was mine! It was my nail! I barely touched it! What? Why do you look like... What's wrong? You have this weird... Oh. Mm-hmm. Mm-hmm. What? Now what? You were just outside. What did you pick up outside now? I'll see you with my gourmet grasslands! See you later. I'm going to the bathroom. What are you doing there? Look what you are doing. What did you do? What did you do? so i'm out doing a wide-angle mirror finished yummy poo This is a very smart rooster. Why is it barking? Does it think it can't stand it if it barks?",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.52,
+      "text": "Just a little clip, okay?",
+      "avg_logprob": -0.802
+    },
+    {
+      "start": 1.52,
+      "end": 3.24,
+      "text": "AHHHH!",
+      "avg_logprob": -0.802
+    },
+    {
+      "start": 3.24,
+      "end": 5.72,
+      "text": "Oh my gosh!",
+      "avg_logprob": -0.802
+    },
+    {
+      "start": 5.72,
+      "end": 7.72,
+      "text": "It was mine! It was my nail!",
+      "avg_logprob": -0.802
+    },
+    {
+      "start": 7.72,
+      "end": 9.72,
+      "text": "I barely touched it!",
+      "avg_logprob": -0.802
+    },
+    {
+      "start": 30.0,
+      "end": 42.78,
+      "text": "What? Why do you look like... What's wrong? You have this weird...",
+      "avg_logprob": -0.2792
+    },
+    {
+      "start": 42.78,
+      "end": 48.52,
+      "text": "Oh. Mm-hmm. Mm-hmm. What?",
+      "avg_logprob": -0.2792
+    },
+    {
+      "start": 50.0,
+      "end": 55.28,
+      "text": "Now what? You were just outside. What did you pick up outside now?",
+      "avg_logprob": -0.2792
+    },
+    {
+      "start": 60.0,
+      "end": 63.96,
+      "text": "I'll see you with my gourmet grasslands!",
+      "avg_logprob": -3.5572
+    },
+    {
+      "start": 71.96,
+      "end": 73.34,
+      "text": "See you later.",
+      "avg_logprob": -3.5572
+    },
+    {
+      "start": 90.0,
+      "end": 92.0,
+      "text": "I'm going to the bathroom.",
+      "avg_logprob": -0.5904
+    },
+    {
+      "start": 105.0,
+      "end": 106.0,
+      "text": "What are you doing there?",
+      "avg_logprob": -0.5904
+    },
+    {
+      "start": 107.0,
+      "end": 108.0,
+      "text": "Look what you are doing.",
+      "avg_logprob": -0.5904
+    },
+    {
+      "start": 109.0,
+      "end": 110.0,
+      "text": "What did you do?",
+      "avg_logprob": -0.5904
+    },
+    {
+      "start": 112.0,
+      "end": 113.0,
+      "text": "What did you do?",
+      "avg_logprob": -0.5904
+    },
+    {
+      "start": 120.0,
+      "end": 130.08,
+      "text": "so",
+      "avg_logprob": -1.8524
+    },
+    {
+      "start": 180.0,
+      "end": 183.72,
+      "text": "i'm out",
+      "avg_logprob": -4.9775
+    },
+    {
+      "start": 183.72,
+      "end": 191.96,
+      "text": "doing a wide-angle mirror",
+      "avg_logprob": -4.9775
+    },
+    {
+      "start": 193.54,
+      "end": 196.14,
+      "text": "finished",
+      "avg_logprob": -4.9775
+    },
+    {
+      "start": 196.14,
+      "end": 199.54,
+      "text": "yummy",
+      "avg_logprob": -4.9775
+    },
+    {
+      "start": 199.68,
+      "end": 202.72,
+      "text": "poo",
+      "avg_logprob": -4.9775
+    },
+    {
+      "start": 202.72,
+      "end": 208.86,
+      "text": "This is a very smart rooster.",
+      "avg_logprob": -0.9467
+    },
+    {
+      "start": 209.4,
+      "end": 210.46,
+      "text": "Why is it barking?",
+      "avg_logprob": -0.9467
+    },
+    {
+      "start": 211.9,
+      "end": 213.88,
+      "text": "Does it think it can't stand it if it barks?",
+      "avg_logprob": -0.9467
+    }
+  ]
+}

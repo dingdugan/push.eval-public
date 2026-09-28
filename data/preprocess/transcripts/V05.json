@@ -1,0 +1,391 @@
+{
+  "video_id": "V05",
+  "language": "en",
+  "text": "He was too gentle for the herd, so they gave him away. What he did next broke us. We got the call about a bull who kept getting pushed away, not because he was aggressive or violent, but simply because no one wanted him. And even after doing this work for so long, those are the ones that stay with you the most. Bema was supposed to live a completely different life one where he and his brother Dharma would spend their days pulling plows in an urban garden in Michigan working without choice without pause just existing as labor but when that plan fell apart and the permit didn't go through they suddenly needed somewhere to go and that's how they found their way to us the first time I saw him I didn't move I just stood there trying to process how something that big could feel so gentle at the same time because while his body was massive over 2,500 pounds His eyes told a completely different story, soft and uncertain, like he was the one trying to figure out if we were safe. Not long after they arrived, we lost Dharma to pneumonia, and it happened so quickly that it barely felt real. One day he was there, and the next he wasn't, and Bema changed after that. not in a loud or obvious way but in the quiet way he carried himself standing alone more often not calling out not searching just waiting like a part of him was still expecting his brother to come back around that same time we had to remove his horns because they had become badly infected and when the vets took them off, it wasn't just relief you could see physically. It was like something inside him finally let go, like he had been holding on to discomfort for so long that he didn't even know what it felt like to be okay anymore. Bima is so handsome. Yes, he is. Handsome Bima. But even after all that, the hardest part wasn't his health. It was the fact that he didn't fit in anywhere because cows are deeply social animals. They build bonds and families, and for reasons we'll never fully understand, Bama just wasn't accepted by the herd. There was no fighting, no chaos, just distance like he existed just outside of where he was supposed to belong. So we tried something different and introduced him to the goats, the sheep, and a few ponies, and without any pressure or expectation, something shifted because for the first time he wasn't being compared or pushed away he was just there and that's when his real personality started to show bima doesn't rush toward people the way you'd expect from an animal his size instead he walks up slowly directly and then just stands there waiting like he's asking permission in the gentlest way possible. Tell your secret. Tell you. I love you. And the moment you reach out, he leans into you completely. Like he's been waiting for that exact connection all along. And if you scratch his belly, he'll lower himself all the way down beside you, choosing to make himself small despite everything about him being so big, trusting you enough to lie there, breathing slowly, letting out that soft, rumbling sound that feels almost like a purr. Sometimes people get scared when they see him moving toward them, thinking he's charging, but the truth is he's just trying to get closer, trying to be near someone, trying to feel that contact he seems to crave so deeply, and even now he barely runs. I've only seen it a couple of times, and he almost never makes a sound. So the first time I heard him vocalize, it felt like hearing something incredibly rare, like a part of him finally finding its way out. even though the herd never fully accepted him there are still a few cows who come up to the fence every day standing there with him sharing those quiet moments that look simple from the outside but mean everything when you understand what he's been through and somehow that seems to be enough for him boop i love you what stays with me the most isn't just how kind he is but that he still chooses to be that way after everything after losing his brother after being pushed aside after never really having a place where he fully fit in he still walks up to people with that same softness that same openness like none of it hardened him like none of it made him close off and i think that's the part that really humbles you because animals like bema remind you that Being different doesn't mean you don't deserve connection. And being rejected doesn't mean you don't have love to give. Sometimes it just means you haven't found where you're meant to be yet. And honestly, I think that's something a lot of us understand more than we'd like to admit. So if this story stayed with you even for a moment, I'd really love to know what part you felt the most. and if you want to keep following stories like this the quiet ones that don't need to shout to be heard just stay with us because there's so much more we haven't told yet",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.8,
+      "text": "He was too gentle for the herd, so they gave him away. What he did next broke us.",
+      "avg_logprob": -0.1472
+    },
+    {
+      "start": 9.7,
+      "end": 19.02,
+      "text": "We got the call about a bull who kept getting pushed away, not because he was aggressive or violent, but simply because no one wanted him.",
+      "avg_logprob": -0.1472
+    },
+    {
+      "start": 19.02,
+      "end": 25.68,
+      "text": "And even after doing this work for so long, those are the ones that stay with you the most.",
+      "avg_logprob": -0.1472
+    },
+    {
+      "start": 25.68,
+      "end": 35.86,
+      "text": "Bema was supposed to live a completely different life one where he and his brother Dharma would",
+      "avg_logprob": -0.0849
+    },
+    {
+      "start": 35.86,
+      "end": 43.54,
+      "text": "spend their days pulling plows in an urban garden in Michigan working without choice without pause",
+      "avg_logprob": -0.0849
+    },
+    {
+      "start": 43.54,
+      "end": 50.86,
+      "text": "just existing as labor but when that plan fell apart and the permit didn't go through",
+      "avg_logprob": -0.0849
+    },
+    {
+      "start": 50.86,
+      "end": 55.42,
+      "text": "they suddenly needed somewhere to go and that's how they found their way to us",
+      "avg_logprob": -0.0849
+    },
+    {
+      "start": 55.42,
+      "end": 69.14,
+      "text": "the first time I saw him I didn't move I just stood there trying to process how something that",
+      "avg_logprob": -0.0856
+    },
+    {
+      "start": 69.14,
+      "end": 78.74,
+      "text": "big could feel so gentle at the same time because while his body was massive over 2,500 pounds",
+      "avg_logprob": -0.0856
+    },
+    {
+      "start": 78.74,
+      "end": 87.1,
+      "text": "His eyes told a completely different story, soft and uncertain, like he was the one trying to figure out if we were safe.",
+      "avg_logprob": -0.1714
+    },
+    {
+      "start": 91.74,
+      "end": 98.22,
+      "text": "Not long after they arrived, we lost Dharma to pneumonia, and it happened so quickly that it barely felt real.",
+      "avg_logprob": -0.1714
+    },
+    {
+      "start": 98.7,
+      "end": 102.9,
+      "text": "One day he was there, and the next he wasn't, and Bema changed after that.",
+      "avg_logprob": -0.1714
+    },
+    {
+      "start": 102.9,
+      "end": 111.28,
+      "text": "not in a loud or obvious way but in the quiet way he carried himself standing alone more often",
+      "avg_logprob": -0.0715
+    },
+    {
+      "start": 111.28,
+      "end": 119.04,
+      "text": "not calling out not searching just waiting like a part of him was still expecting his brother to",
+      "avg_logprob": -0.0715
+    },
+    {
+      "start": 119.04,
+      "end": 129.8,
+      "text": "come back around that same time we had to remove his horns because they had become badly infected",
+      "avg_logprob": -0.0715
+    },
+    {
+      "start": 129.8,
+      "end": 134.58,
+      "text": "and when the vets took them off, it wasn't just relief you could see physically.",
+      "avg_logprob": -0.1656
+    },
+    {
+      "start": 135.46,
+      "end": 139.1,
+      "text": "It was like something inside him finally let go,",
+      "avg_logprob": -0.1656
+    },
+    {
+      "start": 139.26,
+      "end": 142.5,
+      "text": "like he had been holding on to discomfort for so long",
+      "avg_logprob": -0.1656
+    },
+    {
+      "start": 142.5,
+      "end": 145.38,
+      "text": "that he didn't even know what it felt like to be okay anymore.",
+      "avg_logprob": -0.1656
+    },
+    {
+      "start": 146.7,
+      "end": 148.22,
+      "text": "Bima is so handsome.",
+      "avg_logprob": -0.1656
+    },
+    {
+      "start": 149.0,
+      "end": 151.04,
+      "text": "Yes, he is. Handsome Bima.",
+      "avg_logprob": -0.1656
+    },
+    {
+      "start": 151.5,
+      "end": 154.7,
+      "text": "But even after all that, the hardest part wasn't his health.",
+      "avg_logprob": -0.1656
+    },
+    {
+      "start": 155.1,
+      "end": 157.42,
+      "text": "It was the fact that he didn't fit in anywhere",
+      "avg_logprob": -0.1656
+    },
+    {
+      "start": 157.42,
+      "end": 160.18,
+      "text": "because cows are deeply social animals.",
+      "avg_logprob": -0.1917
+    },
+    {
+      "start": 160.38,
+      "end": 161.94,
+      "text": "They build bonds and families,",
+      "avg_logprob": -0.1917
+    },
+    {
+      "start": 162.24,
+      "end": 165.5,
+      "text": "and for reasons we'll never fully understand,",
+      "avg_logprob": -0.1917
+    },
+    {
+      "start": 166.1,
+      "end": 168.54,
+      "text": "Bama just wasn't accepted by the herd.",
+      "avg_logprob": -0.1917
+    },
+    {
+      "start": 168.72,
+      "end": 170.58,
+      "text": "There was no fighting, no chaos,",
+      "avg_logprob": -0.1917
+    },
+    {
+      "start": 170.98,
+      "end": 173.42,
+      "text": "just distance like he existed",
+      "avg_logprob": -0.1917
+    },
+    {
+      "start": 173.42,
+      "end": 176.34,
+      "text": "just outside of where he was supposed to belong.",
+      "avg_logprob": -0.1917
+    },
+    {
+      "start": 178.02,
+      "end": 180.08,
+      "text": "So we tried something different",
+      "avg_logprob": -0.1917
+    },
+    {
+      "start": 180.08,
+      "end": 183.92,
+      "text": "and introduced him to the goats, the sheep, and a few ponies,",
+      "avg_logprob": -0.1917
+    },
+    {
+      "start": 184.14,
+      "end": 186.92,
+      "text": "and without any pressure or expectation,",
+      "avg_logprob": -0.1917
+    },
+    {
+      "start": 186.92,
+      "end": 194.38,
+      "text": "something shifted because for the first time he wasn't being compared or pushed away he was just",
+      "avg_logprob": -0.0819
+    },
+    {
+      "start": 194.38,
+      "end": 198.86,
+      "text": "there and that's when his real personality started to show",
+      "avg_logprob": -0.0819
+    },
+    {
+      "start": 198.86,
+      "end": 205.38,
+      "text": "bima doesn't rush toward people the way you'd expect from an animal his size",
+      "avg_logprob": -0.0819
+    },
+    {
+      "start": 205.38,
+      "end": 212.78,
+      "text": "instead he walks up slowly directly and then just stands there waiting like he's asking",
+      "avg_logprob": -0.0819
+    },
+    {
+      "start": 212.78,
+      "end": 221.08,
+      "text": "permission in the gentlest way possible. Tell your secret. Tell you. I love you.",
+      "avg_logprob": -0.1212
+    },
+    {
+      "start": 222.66,
+      "end": 229.32,
+      "text": "And the moment you reach out, he leans into you completely. Like he's been waiting for that exact",
+      "avg_logprob": -0.1212
+    },
+    {
+      "start": 229.32,
+      "end": 237.76,
+      "text": "connection all along. And if you scratch his belly, he'll lower himself all the way down",
+      "avg_logprob": -0.1212
+    },
+    {
+      "start": 237.76,
+      "end": 243.8,
+      "text": "beside you, choosing to make himself small despite everything about him being so big,",
+      "avg_logprob": -0.1466
+    },
+    {
+      "start": 244.2,
+      "end": 250.66,
+      "text": "trusting you enough to lie there, breathing slowly, letting out that soft, rumbling sound",
+      "avg_logprob": -0.1466
+    },
+    {
+      "start": 250.66,
+      "end": 252.54,
+      "text": "that feels almost like a purr.",
+      "avg_logprob": -0.1466
+    },
+    {
+      "start": 256.42,
+      "end": 262.6,
+      "text": "Sometimes people get scared when they see him moving toward them, thinking he's charging,",
+      "avg_logprob": -0.1466
+    },
+    {
+      "start": 262.6,
+      "end": 266.94,
+      "text": "but the truth is he's just trying to get closer, trying to be near someone,",
+      "avg_logprob": -0.1547
+    },
+    {
+      "start": 267.6,
+      "end": 274.26,
+      "text": "trying to feel that contact he seems to crave so deeply, and even now he barely runs.",
+      "avg_logprob": -0.1547
+    },
+    {
+      "start": 274.64,
+      "end": 278.0,
+      "text": "I've only seen it a couple of times, and he almost never makes a sound.",
+      "avg_logprob": -0.1547
+    },
+    {
+      "start": 278.44,
+      "end": 285.74,
+      "text": "So the first time I heard him vocalize, it felt like hearing something incredibly rare,",
+      "avg_logprob": -0.1547
+    },
+    {
+      "start": 285.94,
+      "end": 288.64,
+      "text": "like a part of him finally finding its way out.",
+      "avg_logprob": -0.1547
+    },
+    {
+      "start": 288.64,
+      "end": 296.96,
+      "text": "even though the herd never fully accepted him there are still a few cows who come up to the",
+      "avg_logprob": -0.0537
+    },
+    {
+      "start": 296.96,
+      "end": 303.2,
+      "text": "fence every day standing there with him sharing those quiet moments that look simple from the",
+      "avg_logprob": -0.0537
+    },
+    {
+      "start": 303.2,
+      "end": 309.38,
+      "text": "outside but mean everything when you understand what he's been through and somehow that seems to",
+      "avg_logprob": -0.0537
+    },
+    {
+      "start": 309.38,
+      "end": 317.96,
+      "text": "be enough for him boop i love you what stays with me the most isn't just how kind he is but that he",
+      "avg_logprob": -0.0537
+    },
+    {
+      "start": 317.96,
+      "end": 324.6,
+      "text": "still chooses to be that way after everything after losing his brother after being pushed aside",
+      "avg_logprob": -0.0682
+    },
+    {
+      "start": 325.32,
+      "end": 332.2,
+      "text": "after never really having a place where he fully fit in he still walks up to people with that same",
+      "avg_logprob": -0.0682
+    },
+    {
+      "start": 332.2,
+      "end": 337.88,
+      "text": "softness that same openness like none of it hardened him like none of it made him close off",
+      "avg_logprob": -0.0682
+    },
+    {
+      "start": 340.76,
+      "end": 347.64,
+      "text": "and i think that's the part that really humbles you because animals like bema remind you that",
+      "avg_logprob": -0.0682
+    },
+    {
+      "start": 347.64,
+      "end": 350.44,
+      "text": "Being different doesn't mean you don't deserve connection.",
+      "avg_logprob": -0.1541
+    },
+    {
+      "start": 351.44,
+      "end": 354.44,
+      "text": "And being rejected doesn't mean you don't have love to give.",
+      "avg_logprob": -0.1541
+    },
+    {
+      "start": 354.54,
+      "end": 358.06,
+      "text": "Sometimes it just means you haven't found where you're meant to be yet.",
+      "avg_logprob": -0.1541
+    },
+    {
+      "start": 362.52,
+      "end": 368.5,
+      "text": "And honestly, I think that's something a lot of us understand more than we'd like to admit.",
+      "avg_logprob": -0.1541
+    },
+    {
+      "start": 368.5,
+      "end": 376.1,
+      "text": "So if this story stayed with you even for a moment, I'd really love to know what part you felt the most.",
+      "avg_logprob": -0.1541
+    },
+    {
+      "start": 376.1,
+      "end": 382.56,
+      "text": "and if you want to keep following stories like this the quiet ones that don't need to shout to",
+      "avg_logprob": -0.0978
+    },
+    {
+      "start": 382.56,
+      "end": 386.32,
+      "text": "be heard just stay with us because there's so much more we haven't told yet",
+      "avg_logprob": -0.0978
+    }
+  ]
+}

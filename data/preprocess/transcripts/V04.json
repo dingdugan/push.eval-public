@@ -1,0 +1,271 @@
+{
+  "video_id": "V04",
+  "language": "en",
+  "text": "This is Hendrix Nasiwezi wachanyama Tena waskulagi sana Leo silali Nikukesha mitungi na washa na choma Tena sijali Yamewashinda yao yetu wataweza Leo silali Nikukesha mitungi na washa na choma Tena sijali Yamewashinda yao yetu wataweza Wadadi, wadadupenda, refari, puliza kipenga Wadadi, wadadupenda, refari, puliza kipenga I'm not a doctor, I'm not a doctor I'm not a professor, I'm not a professor I know that there's no such thing as a doctor Oh my love, I know God will help us Oh baby Today is not a day, it's your birthday tonight I'm going to make a wish, I'm going to make a wish Hakikisha yobila sipewe mwingine Leo sinali Nishobrute tunatakizia dorime Natamali Ubavu chuma upande Mwanaume wa shine Watati Fanale Watatupenda Fanale Wefari Fanale Uliza kipenda Fanale Watati Fanale Watatupenda Play fiery Police like you bring a I'm not a Reminder, reminder, reminder, reminder, yeah Take me, take me, take me I gotta take, take me, take me Take me, take me, take me",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.6,
+      "text": "This is Hendrix",
+      "avg_logprob": -0.8256
+    },
+    {
+      "start": 30.0,
+      "end": 33.62,
+      "text": "Nasiwezi wachanyama",
+      "avg_logprob": -0.2357
+    },
+    {
+      "start": 33.62,
+      "end": 36.14,
+      "text": "Tena waskulagi sana",
+      "avg_logprob": -0.2357
+    },
+    {
+      "start": 36.14,
+      "end": 38.12,
+      "text": "Leo silali",
+      "avg_logprob": -0.2357
+    },
+    {
+      "start": 38.12,
+      "end": 41.66,
+      "text": "Nikukesha mitungi na washa na choma",
+      "avg_logprob": -0.2357
+    },
+    {
+      "start": 41.66,
+      "end": 43.38,
+      "text": "Tena sijali",
+      "avg_logprob": -0.2357
+    },
+    {
+      "start": 43.38,
+      "end": 46.94,
+      "text": "Yamewashinda yao yetu wataweza",
+      "avg_logprob": -0.2357
+    },
+    {
+      "start": 46.94,
+      "end": 48.54,
+      "text": "Leo silali",
+      "avg_logprob": -0.2357
+    },
+    {
+      "start": 48.54,
+      "end": 52.06,
+      "text": "Nikukesha mitungi na washa na choma",
+      "avg_logprob": -0.2357
+    },
+    {
+      "start": 52.06,
+      "end": 53.66,
+      "text": "Tena sijali",
+      "avg_logprob": -0.2357
+    },
+    {
+      "start": 53.66,
+      "end": 57.52,
+      "text": "Yamewashinda yao yetu wataweza",
+      "avg_logprob": -0.2357
+    },
+    {
+      "start": 57.52,
+      "end": 67.7,
+      "text": "Wadadi, wadadupenda, refari, puliza kipenga",
+      "avg_logprob": -0.3043
+    },
+    {
+      "start": 67.7,
+      "end": 78.04,
+      "text": "Wadadi, wadadupenda, refari, puliza kipenga",
+      "avg_logprob": -0.3043
+    },
+    {
+      "start": 87.52,
+      "end": 92.3,
+      "text": "I'm not a doctor, I'm not a doctor",
+      "avg_logprob": -0.7796
+    },
+    {
+      "start": 92.3,
+      "end": 95.52,
+      "text": "I'm not a professor, I'm not a professor",
+      "avg_logprob": -0.7796
+    },
+    {
+      "start": 95.52,
+      "end": 100.52,
+      "text": "I know that there's no such thing as a doctor",
+      "avg_logprob": -0.7796
+    },
+    {
+      "start": 100.52,
+      "end": 105.52,
+      "text": "Oh my love, I know God will help us",
+      "avg_logprob": -0.7796
+    },
+    {
+      "start": 105.52,
+      "end": 108.64,
+      "text": "Oh baby",
+      "avg_logprob": -0.7796
+    },
+    {
+      "start": 108.64,
+      "end": 112.36,
+      "text": "Today is not a day, it's your birthday tonight",
+      "avg_logprob": -0.7796
+    },
+    {
+      "start": 112.36,
+      "end": 115.6,
+      "text": "I'm going to make a wish, I'm going to make a wish",
+      "avg_logprob": -0.7796
+    },
+    {
+      "start": 115.6,
+      "end": 119.1,
+      "text": "Hakikisha yobila sipewe mwingine",
+      "avg_logprob": -0.4462
+    },
+    {
+      "start": 119.1,
+      "end": 120.76,
+      "text": "Leo sinali",
+      "avg_logprob": -0.4462
+    },
+    {
+      "start": 120.76,
+      "end": 124.22,
+      "text": "Nishobrute tunatakizia dorime",
+      "avg_logprob": -0.4462
+    },
+    {
+      "start": 124.22,
+      "end": 125.86,
+      "text": "Natamali",
+      "avg_logprob": -0.4462
+    },
+    {
+      "start": 125.86,
+      "end": 127.96,
+      "text": "Ubavu chuma upande",
+      "avg_logprob": -0.4462
+    },
+    {
+      "start": 127.96,
+      "end": 129.62,
+      "text": "Mwanaume wa shine",
+      "avg_logprob": -0.4462
+    },
+    {
+      "start": 129.62,
+      "end": 132.02,
+      "text": "Watati",
+      "avg_logprob": -0.4462
+    },
+    {
+      "start": 132.02,
+      "end": 133.06,
+      "text": "Fanale",
+      "avg_logprob": -0.4462
+    },
+    {
+      "start": 133.06,
+      "end": 134.8,
+      "text": "Watatupenda",
+      "avg_logprob": -0.4462
+    },
+    {
+      "start": 134.8,
+      "end": 135.94,
+      "text": "Fanale",
+      "avg_logprob": -0.4462
+    },
+    {
+      "start": 135.94,
+      "end": 137.14,
+      "text": "Wefari",
+      "avg_logprob": -0.4462
+    },
+    {
+      "start": 137.14,
+      "end": 138.52,
+      "text": "Fanale",
+      "avg_logprob": -0.4462
+    },
+    {
+      "start": 138.52,
+      "end": 140.0,
+      "text": "Uliza kipenda",
+      "avg_logprob": -0.4462
+    },
+    {
+      "start": 140.0,
+      "end": 141.08,
+      "text": "Fanale",
+      "avg_logprob": -0.4462
+    },
+    {
+      "start": 141.08,
+      "end": 142.22,
+      "text": "Watati",
+      "avg_logprob": -0.4462
+    },
+    {
+      "start": 142.22,
+      "end": 143.36,
+      "text": "Fanale",
+      "avg_logprob": -0.4462
+    },
+    {
+      "start": 143.36,
+      "end": 145.18,
+      "text": "Watatupenda",
+      "avg_logprob": -0.4462
+    },
+    {
+      "start": 145.18,
+      "end": 147.48,
+      "text": "Play fiery",
+      "avg_logprob": -0.7601
+    },
+    {
+      "start": 147.48,
+      "end": 150.44,
+      "text": "Police like you bring a",
+      "avg_logprob": -0.7601
+    },
+    {
+      "start": 150.44,
+      "end": 151.44,
+      "text": "I'm not a",
+      "avg_logprob": -0.8182
+    },
+    {
+      "start": 151.44,
+      "end": 175.66,
+      "text": "Reminder, reminder, reminder, reminder, yeah",
+      "avg_logprob": -0.8182
+    },
+    {
+      "start": 180.44,
+      "end": 184.3,
+      "text": "Take me, take me, take me",
+      "avg_logprob": -0.5174
+    },
+    {
+      "start": 184.3,
+      "end": 187.96,
+      "text": "I gotta take, take me, take me",
+      "avg_logprob": -0.5174
+    },
+    {
+      "start": 187.96,
+      "end": 191.94,
+      "text": "Take me, take me, take me",
+      "avg_logprob": -0.5174
+    }
+  ]
+}

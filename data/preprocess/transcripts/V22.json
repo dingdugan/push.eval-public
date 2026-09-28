@@ -1,0 +1,115 @@
+{
+  "video_id": "V22",
+  "language": "nn",
+  "text": "2 tbsps of soy sauce 1 tbs of mirim 2 tbs of sugar 1 tbs of salt 1 tbs of oyster sauce 2 tbs of sugar 1 tbs of mirim 1 tbs of sugar Mix well Add the sauce Mix well Add the pork Add the pork Mix well 1 tbsp. vanille 1 tbsp. vanille 1 tbsp. vanille Lekker!",
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 32.0,
+      "text": "2 tbsps of soy sauce",
+      "avg_logprob": -0.8241
+    },
+    {
+      "start": 32.0,
+      "end": 34.0,
+      "text": "1 tbs of mirim",
+      "avg_logprob": -0.8241
+    },
+    {
+      "start": 34.0,
+      "end": 36.0,
+      "text": "2 tbs of sugar",
+      "avg_logprob": -0.8241
+    },
+    {
+      "start": 36.0,
+      "end": 38.0,
+      "text": "1 tbs of salt",
+      "avg_logprob": -0.8241
+    },
+    {
+      "start": 38.0,
+      "end": 40.0,
+      "text": "1 tbs of oyster sauce",
+      "avg_logprob": -0.8241
+    },
+    {
+      "start": 40.0,
+      "end": 42.0,
+      "text": "2 tbs of sugar",
+      "avg_logprob": -0.8241
+    },
+    {
+      "start": 42.0,
+      "end": 44.0,
+      "text": "1 tbs of mirim",
+      "avg_logprob": -0.8241
+    },
+    {
+      "start": 44.0,
+      "end": 46.0,
+      "text": "1 tbs of sugar",
+      "avg_logprob": -0.8241
+    },
+    {
+      "start": 46.0,
+      "end": 48.0,
+      "text": "Mix well",
+      "avg_logprob": -0.8241
+    },
+    {
+      "start": 48.0,
+      "end": 50.0,
+      "text": "Add the sauce",
+      "avg_logprob": -0.8241
+    },
+    {
+      "start": 50.0,
+      "end": 52.0,
+      "text": "Mix well",
+      "avg_logprob": -0.8241
+    },
+    {
+      "start": 52.0,
+      "end": 54.0,
+      "text": "Add the pork",
+      "avg_logprob": -0.8241
+    },
+    {
+      "start": 54.0,
+      "end": 56.0,
+      "text": "Add the pork",
+      "avg_logprob": -0.8241
+    },
+    {
+      "start": 56.0,
+      "end": 58.0,
+      "text": "Mix well",
+      "avg_logprob": -0.8241
+    },
+    {
+      "start": 118.0,
+      "end": 122.0,
+      "text": "1 tbsp. vanille",
+      "avg_logprob": -0.8574
+    },
+    {
+      "start": 123.0,
+      "end": 127.0,
+      "text": "1 tbsp. vanille",
+      "avg_logprob": -0.8574
+    },
+    {
+      "start": 132.0,
+      "end": 136.0,
+      "text": "1 tbsp. vanille",
+      "avg_logprob": -0.8574
+    },
+    {
+      "start": 226.0,
+      "end": 228.0,
+      "text": "Lekker!",
+      "avg_logprob": -0.9254
+    }
+  ]
+}

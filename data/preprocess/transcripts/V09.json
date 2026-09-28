@@ -1,0 +1,535 @@
+{
+  "video_id": "V09",
+  "language": "en",
+  "text": "Someone said the June update was stored in here and I... New Evo, new hero, new game mode, victory run, it's all in here! What are you doing? Have you been here the whole time? Duh. Okay, so are we gonna do this thing or what? Uh, yeah, let's start with what's out there. There's a new queen in the arena. Hero Tombstone. Your building now becomes your win condition. The ability sacrifices the building to summon the ultimate hero inside. True Queen. A tower targeter who spawns skeletons and leaves more behind once she's defeated. She only has eyes for buildings. Troops are beneath her. And the building doesn't have to survive for the ability to be triggered. You still have a few seconds to activate it after it's destroyed. You can't just earthquake it away. Oh, you know that XP bar at the top of your screen? Right now, every time you upgrade a card, it moves. But different cards give different amounts of XP. There's no way to predict how close you are to your next level. In this update, that changes. Meet the Collection Level. Your Collection Level is one single number. The total sum of all your cards across your entire collection. Every upgrade adds exactly one. Let's break it down. As that number grows, you hit milestones. Wild Cards, Evo Boxes, Gems, Lucky Chests. You can always see the next few rewards coming up. And once you have enough cards at the right level, your King Tower level will be automatically upgraded. Playing every day gets you the most rewards. That's not changing. But if life gets in the way and you miss a few days, when you come back, the first win of the day will have a boosted reward waiting just for you. Some of you will start seeing this in-game soon. Remember the Seasonal Arena from way back in 2025? You had reached the end of Trophy Road and a new set of monthly arenas opened up. Well, Seasonal Trophy Road is back with a twist. Seasonal Arena 1 works the same as before. Your main deck, no restrictions, climb the track, earn rewards. But when you finish the first arena... The next arena is a different challenge. You'll need to build a second deck from the ground up without the eight cards you won with most. To help with deck building, all cards in Seasonal Arena 2 start at level 15. And if you have no idea what to run, the Deck Wizard can suggest a full deck with just one tap. Didn't that used to give terrible suggestions? This time it's actually offering good suggestions. I think. Victory run! Win, climb. Every few wins you'll reach a checkpoint, a safe space that will keep you from falling back down the track. Reach a checkpoint to refill your lives and claim a reward. Keep on climbing for better rewards. But each loss costs a life. Run out before the next checkpoint and... Game over. Well, kinda. You can either reset back to your last checkpoint or use gems and hold your position to get three more lives. New game mode! And this one is genuinely built different. Princess Gambit. This is Gambit. No deck building, no meta preparation, just tap and play. The arena is different too. No king, just two princess towers. The first to destroy one wins. This mode has a preset pool of 40 cards. They appear randomly in your hand as you play. Your cards play at your actual card level. Don't know what card it appears? It still shows up at its minimum level and you can still play it. At the start of every match, the game shows you exactly which cards will be evos or heroes, so you always know before the first card hits the arena. are three minutes max single elixir double triple destroy princess tower and that's your two crowns crowds and tasks count just like any other mode okay we saved the best for last not that i'm biased princess evolution icy arrows she fires one on her first attack and every third attack after each frozen arrow deals damage and slows nearby enemies and when she's defeated her arrows rain down from above area damage frost zone enemies slow down she works best with other troops not just cycling at Yay. Find all the information about the update linked in our blog below and, uh... Marco? Marco? Marco! Marco! We'll take you there. I think it's Donald's colour. No. This device will self-destroy him. Five, four, three, two, one.",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "text": "Someone said the June update was stored in here and I...",
+      "avg_logprob": -0.2635
+    },
+    {
+      "start": 5.0,
+      "end": 9.0,
+      "text": "New Evo, new hero, new game mode, victory run, it's all in here!",
+      "avg_logprob": -0.2635
+    },
+    {
+      "start": 11.0,
+      "end": 13.0,
+      "text": "What are you doing?",
+      "avg_logprob": -0.2635
+    },
+    {
+      "start": 14.0,
+      "end": 16.0,
+      "text": "Have you been here the whole time?",
+      "avg_logprob": -0.2635
+    },
+    {
+      "start": 17.0,
+      "end": 18.0,
+      "text": "Duh.",
+      "avg_logprob": -0.2635
+    },
+    {
+      "start": 19.0,
+      "end": 22.0,
+      "text": "Okay, so are we gonna do this thing or what?",
+      "avg_logprob": -0.2635
+    },
+    {
+      "start": 23.0,
+      "end": 26.0,
+      "text": "Uh, yeah, let's start with what's out there.",
+      "avg_logprob": -0.2635
+    },
+    {
+      "start": 26.0,
+      "end": 30.4,
+      "text": "There's a new queen in the arena.",
+      "avg_logprob": -0.1964
+    },
+    {
+      "start": 30.64,
+      "end": 31.56,
+      "text": "Hero Tombstone.",
+      "avg_logprob": -0.1964
+    },
+    {
+      "start": 31.82,
+      "end": 33.68,
+      "text": "Your building now becomes your win condition.",
+      "avg_logprob": -0.1964
+    },
+    {
+      "start": 33.86,
+      "end": 37.22,
+      "text": "The ability sacrifices the building to summon the ultimate hero inside.",
+      "avg_logprob": -0.1964
+    },
+    {
+      "start": 37.44,
+      "end": 38.08,
+      "text": "True Queen.",
+      "avg_logprob": -0.1964
+    },
+    {
+      "start": 38.32,
+      "end": 42.28,
+      "text": "A tower targeter who spawns skeletons and leaves more behind once she's defeated.",
+      "avg_logprob": -0.1964
+    },
+    {
+      "start": 42.38,
+      "end": 43.98,
+      "text": "She only has eyes for buildings.",
+      "avg_logprob": -0.1964
+    },
+    {
+      "start": 44.3,
+      "end": 45.18,
+      "text": "Troops are beneath her.",
+      "avg_logprob": -0.1964
+    },
+    {
+      "start": 45.22,
+      "end": 48.18,
+      "text": "And the building doesn't have to survive for the ability to be triggered.",
+      "avg_logprob": -0.1964
+    },
+    {
+      "start": 48.18,
+      "end": 50.86,
+      "text": "You still have a few seconds to activate it after it's destroyed.",
+      "avg_logprob": -0.1964
+    },
+    {
+      "start": 50.98,
+      "end": 52.44,
+      "text": "You can't just earthquake it away.",
+      "avg_logprob": -0.1964
+    },
+    {
+      "start": 52.44,
+      "end": 56.7,
+      "text": "Oh, you know that XP bar at the top of your screen?",
+      "avg_logprob": -0.1255
+    },
+    {
+      "start": 56.78,
+      "end": 59.0,
+      "text": "Right now, every time you upgrade a card, it moves.",
+      "avg_logprob": -0.1255
+    },
+    {
+      "start": 59.08,
+      "end": 60.9,
+      "text": "But different cards give different amounts of XP.",
+      "avg_logprob": -0.1255
+    },
+    {
+      "start": 61.06,
+      "end": 63.42,
+      "text": "There's no way to predict how close you are to your next level.",
+      "avg_logprob": -0.1255
+    },
+    {
+      "start": 63.52,
+      "end": 65.18,
+      "text": "In this update, that changes.",
+      "avg_logprob": -0.1255
+    },
+    {
+      "start": 65.48,
+      "end": 66.56,
+      "text": "Meet the Collection Level.",
+      "avg_logprob": -0.1255
+    },
+    {
+      "start": 66.66,
+      "end": 68.58,
+      "text": "Your Collection Level is one single number.",
+      "avg_logprob": -0.1255
+    },
+    {
+      "start": 68.7,
+      "end": 71.16,
+      "text": "The total sum of all your cards across your entire collection.",
+      "avg_logprob": -0.1255
+    },
+    {
+      "start": 71.3,
+      "end": 72.8,
+      "text": "Every upgrade adds exactly one.",
+      "avg_logprob": -0.1255
+    },
+    {
+      "start": 73.28,
+      "end": 74.24,
+      "text": "Let's break it down.",
+      "avg_logprob": -0.1255
+    },
+    {
+      "start": 74.72,
+      "end": 76.5,
+      "text": "As that number grows, you hit milestones.",
+      "avg_logprob": -0.1255
+    },
+    {
+      "start": 76.76,
+      "end": 79.0,
+      "text": "Wild Cards, Evo Boxes, Gems, Lucky Chests.",
+      "avg_logprob": -0.1255
+    },
+    {
+      "start": 79.04,
+      "end": 81.42,
+      "text": "You can always see the next few rewards coming up.",
+      "avg_logprob": -0.1255
+    },
+    {
+      "start": 81.42,
+      "end": 83.18,
+      "text": "And once you have enough cards at the right level,",
+      "avg_logprob": -0.135
+    },
+    {
+      "start": 83.26,
+      "end": 85.5,
+      "text": "your King Tower level will be automatically upgraded.",
+      "avg_logprob": -0.135
+    },
+    {
+      "start": 87.18,
+      "end": 89.1,
+      "text": "Playing every day gets you the most rewards.",
+      "avg_logprob": -0.135
+    },
+    {
+      "start": 89.24,
+      "end": 89.9,
+      "text": "That's not changing.",
+      "avg_logprob": -0.135
+    },
+    {
+      "start": 89.96,
+      "end": 91.9,
+      "text": "But if life gets in the way and you miss a few days,",
+      "avg_logprob": -0.135
+    },
+    {
+      "start": 91.98,
+      "end": 95.28,
+      "text": "when you come back, the first win of the day will have a boosted reward waiting just for you.",
+      "avg_logprob": -0.135
+    },
+    {
+      "start": 95.32,
+      "end": 97.34,
+      "text": "Some of you will start seeing this in-game soon.",
+      "avg_logprob": -0.135
+    },
+    {
+      "start": 98.56,
+      "end": 102.0,
+      "text": "Remember the Seasonal Arena from way back in 2025?",
+      "avg_logprob": -0.135
+    },
+    {
+      "start": 102.72,
+      "end": 106.04,
+      "text": "You had reached the end of Trophy Road and a new set of monthly arenas opened up.",
+      "avg_logprob": -0.135
+    },
+    {
+      "start": 106.04,
+      "end": 108.8,
+      "text": "Well, Seasonal Trophy Road is back with a twist.",
+      "avg_logprob": -0.135
+    },
+    {
+      "start": 109.0,
+      "end": 110.84,
+      "text": "Seasonal Arena 1 works the same as before.",
+      "avg_logprob": -0.135
+    },
+    {
+      "start": 110.84,
+      "end": 113.98,
+      "text": "Your main deck, no restrictions, climb the track, earn rewards.",
+      "avg_logprob": -0.1785
+    },
+    {
+      "start": 114.1,
+      "end": 116.06,
+      "text": "But when you finish the first arena...",
+      "avg_logprob": -0.1785
+    },
+    {
+      "start": 116.06,
+      "end": 117.52,
+      "text": "The next arena is a different challenge.",
+      "avg_logprob": -0.1785
+    },
+    {
+      "start": 117.7,
+      "end": 121.48,
+      "text": "You'll need to build a second deck from the ground up without the eight cards you won with most.",
+      "avg_logprob": -0.1785
+    },
+    {
+      "start": 121.6,
+      "end": 125.56,
+      "text": "To help with deck building, all cards in Seasonal Arena 2 start at level 15.",
+      "avg_logprob": -0.1785
+    },
+    {
+      "start": 125.66,
+      "end": 131.12,
+      "text": "And if you have no idea what to run, the Deck Wizard can suggest a full deck with just one tap.",
+      "avg_logprob": -0.1785
+    },
+    {
+      "start": 131.46,
+      "end": 133.8,
+      "text": "Didn't that used to give terrible suggestions?",
+      "avg_logprob": -0.1785
+    },
+    {
+      "start": 134.04,
+      "end": 136.66,
+      "text": "This time it's actually offering good suggestions.",
+      "avg_logprob": -0.1785
+    },
+    {
+      "start": 137.02,
+      "end": 137.76,
+      "text": "I think.",
+      "avg_logprob": -0.1785
+    },
+    {
+      "start": 138.48,
+      "end": 139.36,
+      "text": "Victory run!",
+      "avg_logprob": -0.1785
+    },
+    {
+      "start": 139.54,
+      "end": 140.68,
+      "text": "Win, climb.",
+      "avg_logprob": -0.1785
+    },
+    {
+      "start": 140.84,
+      "end": 142.84,
+      "text": "Every few wins you'll reach a checkpoint,",
+      "avg_logprob": -0.1389
+    },
+    {
+      "start": 142.84,
+      "end": 145.84,
+      "text": "a safe space that will keep you from falling back down the track.",
+      "avg_logprob": -0.1389
+    },
+    {
+      "start": 145.84,
+      "end": 148.84,
+      "text": "Reach a checkpoint to refill your lives and claim a reward.",
+      "avg_logprob": -0.1389
+    },
+    {
+      "start": 148.84,
+      "end": 150.84,
+      "text": "Keep on climbing for better rewards.",
+      "avg_logprob": -0.1389
+    },
+    {
+      "start": 150.84,
+      "end": 151.84,
+      "text": "But each loss costs a life.",
+      "avg_logprob": -0.1389
+    },
+    {
+      "start": 151.84,
+      "end": 153.84,
+      "text": "Run out before the next checkpoint and...",
+      "avg_logprob": -0.1389
+    },
+    {
+      "start": 153.84,
+      "end": 155.84,
+      "text": "Game over.",
+      "avg_logprob": -0.1389
+    },
+    {
+      "start": 155.84,
+      "end": 156.84,
+      "text": "Well, kinda.",
+      "avg_logprob": -0.1389
+    },
+    {
+      "start": 156.84,
+      "end": 159.84,
+      "text": "You can either reset back to your last checkpoint or use gems",
+      "avg_logprob": -0.1389
+    },
+    {
+      "start": 159.84,
+      "end": 162.84,
+      "text": "and hold your position to get three more lives.",
+      "avg_logprob": -0.1389
+    },
+    {
+      "start": 163.84,
+      "end": 164.84,
+      "text": "New game mode!",
+      "avg_logprob": -0.1389
+    },
+    {
+      "start": 164.84,
+      "end": 167.84,
+      "text": "And this one is genuinely built different.",
+      "avg_logprob": -0.1389
+    },
+    {
+      "start": 167.84,
+      "end": 168.84,
+      "text": "Princess Gambit.",
+      "avg_logprob": -0.1389
+    },
+    {
+      "start": 168.84,
+      "end": 172.84,
+      "text": "This is Gambit. No deck building, no meta preparation, just tap and play.",
+      "avg_logprob": -0.1182
+    },
+    {
+      "start": 172.84,
+      "end": 177.84,
+      "text": "The arena is different too. No king, just two princess towers. The first to destroy one wins.",
+      "avg_logprob": -0.1182
+    },
+    {
+      "start": 177.84,
+      "end": 181.84,
+      "text": "This mode has a preset pool of 40 cards. They appear randomly in your hand as you play.",
+      "avg_logprob": -0.1182
+    },
+    {
+      "start": 181.84,
+      "end": 183.84,
+      "text": "Your cards play at your actual card level.",
+      "avg_logprob": -0.1182
+    },
+    {
+      "start": 183.84,
+      "end": 187.84,
+      "text": "Don't know what card it appears? It still shows up at its minimum level and you can still play it.",
+      "avg_logprob": -0.1182
+    },
+    {
+      "start": 187.84,
+      "end": 194.84,
+      "text": "At the start of every match, the game shows you exactly which cards will be evos or heroes, so you always know before the first card hits the arena.",
+      "avg_logprob": -0.1182
+    },
+    {
+      "start": 194.84,
+      "end": 199.96,
+      "text": "are three minutes max single elixir double triple destroy princess tower and that's your two crowns",
+      "avg_logprob": -0.0813
+    },
+    {
+      "start": 199.96,
+      "end": 208.12,
+      "text": "crowds and tasks count just like any other mode okay we saved the best for last not that i'm biased",
+      "avg_logprob": -0.0813
+    },
+    {
+      "start": 208.12,
+      "end": 213.56,
+      "text": "princess evolution icy arrows she fires one on her first attack and every third attack after each",
+      "avg_logprob": -0.0813
+    },
+    {
+      "start": 213.56,
+      "end": 218.68,
+      "text": "frozen arrow deals damage and slows nearby enemies and when she's defeated her arrows rain down from",
+      "avg_logprob": -0.0813
+    },
+    {
+      "start": 218.68,
+      "end": 223.96,
+      "text": "above area damage frost zone enemies slow down she works best with other troops not just cycling at",
+      "avg_logprob": -0.0813
+    },
+    {
+      "start": 223.96,
+      "end": 224.96,
+      "text": "Yay.",
+      "avg_logprob": -0.2593
+    },
+    {
+      "start": 224.96,
+      "end": 228.96,
+      "text": "Find all the information about the update linked in our blog below and, uh...",
+      "avg_logprob": -0.2593
+    },
+    {
+      "start": 228.96,
+      "end": 229.96,
+      "text": "Marco?",
+      "avg_logprob": -0.2593
+    },
+    {
+      "start": 229.96,
+      "end": 230.96,
+      "text": "Marco?",
+      "avg_logprob": -0.2593
+    },
+    {
+      "start": 230.96,
+      "end": 231.96,
+      "text": "Marco!",
+      "avg_logprob": -0.2593
+    },
+    {
+      "start": 231.96,
+      "end": 232.96,
+      "text": "Marco!",
+      "avg_logprob": -0.2593
+    },
+    {
+      "start": 232.96,
+      "end": 233.96,
+      "text": "We'll take you there.",
+      "avg_logprob": -0.2593
+    },
+    {
+      "start": 233.96,
+      "end": 234.96,
+      "text": "I think it's Donald's colour.",
+      "avg_logprob": -0.2593
+    },
+    {
+      "start": 234.96,
+      "end": 235.96,
+      "text": "No.",
+      "avg_logprob": -0.2593
+    },
+    {
+      "start": 235.96,
+      "end": 238.96,
+      "text": "This device will self-destroy him.",
+      "avg_logprob": -0.2593
+    },
+    {
+      "start": 238.96,
+      "end": 244.16,
+      "text": "Five, four, three, two, one.",
+      "avg_logprob": -0.2593
+    }
+  ]
+}

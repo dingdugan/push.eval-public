@@ -1,0 +1,265 @@
+{
+  "video_id": "V17",
+  "language": "en",
+  "text": "Have you ever stood at a port, looked at a massive cargo vessel or a luxury cruise liner, and noticed a very specific detail? Almost every large ship on the planet is painted red just below the waterline. It's a stark, bold contrast. But why? Is it to scare off sea creatures? Is it marine camouflage? Or maybe a universal warning sign? The truth has nothing to do with aesthetics? The answer is a fascinating mix of ancient maritime struggles, clever chemistry, and a stubborn respect for tradition. Today, we're diving beneath the waves to uncover the real reason the world's ships wear red bottoms. Right here on Simple Things, Surprising Histories. To understand the red paint, we have to sail back a few centuries to the age of wooden ships. Back then, crossing the ocean was a slow, perilous journey, and a slow-moving wooden ship was essentially a giant, floating buffet for sea life. As soon as a vessel hit the water, it became home to algae, seaweed, barnacles, and a notorious little creature called the shipworm, which literally ate through the wooden hull. In the maritime world, this is known as biofouling. Now, a few barnacles might not sound like a big deal, but biofouling was a disaster. It added massive weight and severe drag to the ship. A heavily fouled ship could lose up to half of its top speed and maneuverability. In an era where speed meant surviving a naval battle or winning a lucrative trade race, sailors desperately needed a solution to keep their hulls clean. By the late 1700s, shipbuilders found a brilliant fix. They began nailing thin sheets of copper to the bottom of the wooden hulls. Copper is a natural biocide. When it interacts with seawater, it creates a toxic environment for marine life. Barnacles couldn't stick, and worms couldn't chew. The ship stayed fast and light. But as the Industrial Revolution arrived, wooden ships were replaced by iron and steel. Shipbuilders quickly realized you can't just attach copper sheets to an iron hull. The saltwater acts like a battery, causing a chemical reaction that rapidly rusts and destroys the iron. So, instead of metal sheets, they invented anti-fouling paint. And the primary active ingredient in this new protective coating? Copper oxide. Copper oxide is naturally a rich, rusty red. The iconic red bottom wasn't a stylish design choice. It was simply the natural color of the toxic chemistry keeping the ship alive. Fast forward to today, modern chemistry has advanced light years beyond those early days. We can now engineer highly effective, eco-friendly anti-fouling paints in absolutely any color imaginable. We could have neon green, bright blue, or jet black ship bottoms. So why is red still the standard? Part of it is pure maritime tradition. Sailors are famously superstitious and deeply respectful of history. But there's also a highly practical bonus. That stark contrast between a black or white hull and the red bottom creates a perfect visual horizon line. It makes it incredibly easy for the crew to see how deep the ship is sitting in the water. This helps them monitor the plimsoll line, the official markings on the side of the hull that indicate if a ship is safely loaded or dangerously overweight. So the next time you see a giant ship resting in harbor, you'll know. That bold red line isn't just paint, it's a 300-year-old legacy. What started as a desperate fight against wood-eating worms turned into an iconic symbol of human navigation that still sails the oceans today. If you enjoyed this deep dive, please hit that like button, share this video with a curious friend, and subscribe to Simple Things, Surprising Histories for more fascinating stories hidden in plain sight. Thanks for watching, and until next time, keep wondering.",
+  "segments": [
+    {
+      "start": 0.64,
+      "end": 6.72,
+      "text": "Have you ever stood at a port, looked at a massive cargo vessel or a luxury cruise liner,",
+      "avg_logprob": -0.0688
+    },
+    {
+      "start": 6.72,
+      "end": 13.84,
+      "text": "and noticed a very specific detail? Almost every large ship on the planet is painted red",
+      "avg_logprob": -0.0688
+    },
+    {
+      "start": 13.84,
+      "end": 20.96,
+      "text": "just below the waterline. It's a stark, bold contrast. But why? Is it to scare off sea",
+      "avg_logprob": -0.0688
+    },
+    {
+      "start": 20.96,
+      "end": 28.32,
+      "text": "creatures? Is it marine camouflage? Or maybe a universal warning sign? The truth has nothing",
+      "avg_logprob": -0.0688
+    },
+    {
+      "start": 28.32,
+      "end": 35.36,
+      "text": "to do with aesthetics? The answer is a fascinating mix of ancient maritime struggles, clever chemistry,",
+      "avg_logprob": -0.1495
+    },
+    {
+      "start": 35.64,
+      "end": 41.74,
+      "text": "and a stubborn respect for tradition. Today, we're diving beneath the waves to uncover the",
+      "avg_logprob": -0.1495
+    },
+    {
+      "start": 41.74,
+      "end": 48.64,
+      "text": "real reason the world's ships wear red bottoms. Right here on Simple Things, Surprising Histories.",
+      "avg_logprob": -0.1495
+    },
+    {
+      "start": 48.64,
+      "end": 62.64,
+      "text": "To understand the red paint, we have to sail back a few centuries to the age of wooden ships.",
+      "avg_logprob": -0.0869
+    },
+    {
+      "start": 63.14,
+      "end": 69.22,
+      "text": "Back then, crossing the ocean was a slow, perilous journey, and a slow-moving wooden",
+      "avg_logprob": -0.0869
+    },
+    {
+      "start": 69.22,
+      "end": 75.96,
+      "text": "ship was essentially a giant, floating buffet for sea life. As soon as a vessel hit the water,",
+      "avg_logprob": -0.0869
+    },
+    {
+      "start": 75.96,
+      "end": 82.94,
+      "text": "it became home to algae, seaweed, barnacles, and a notorious little creature called the shipworm,",
+      "avg_logprob": -0.05
+    },
+    {
+      "start": 83.34,
+      "end": 89.6,
+      "text": "which literally ate through the wooden hull. In the maritime world, this is known as biofouling.",
+      "avg_logprob": -0.05
+    },
+    {
+      "start": 90.04,
+      "end": 96.42,
+      "text": "Now, a few barnacles might not sound like a big deal, but biofouling was a disaster. It added",
+      "avg_logprob": -0.05
+    },
+    {
+      "start": 96.42,
+      "end": 102.52,
+      "text": "massive weight and severe drag to the ship. A heavily fouled ship could lose up to half of",
+      "avg_logprob": -0.05
+    },
+    {
+      "start": 102.52,
+      "end": 108.48,
+      "text": "its top speed and maneuverability. In an era where speed meant surviving a naval battle or winning a",
+      "avg_logprob": -0.05
+    },
+    {
+      "start": 108.48,
+      "end": 115.02,
+      "text": "lucrative trade race, sailors desperately needed a solution to keep their hulls clean. By the late",
+      "avg_logprob": -0.05
+    },
+    {
+      "start": 115.02,
+      "end": 122.1,
+      "text": "1700s, shipbuilders found a brilliant fix. They began nailing thin sheets of copper to the bottom",
+      "avg_logprob": -0.05
+    },
+    {
+      "start": 122.1,
+      "end": 128.96,
+      "text": "of the wooden hulls. Copper is a natural biocide. When it interacts with seawater, it creates a toxic",
+      "avg_logprob": -0.05
+    },
+    {
+      "start": 128.96,
+      "end": 135.12,
+      "text": "environment for marine life. Barnacles couldn't stick, and worms couldn't chew. The ship stayed",
+      "avg_logprob": -0.0656
+    },
+    {
+      "start": 135.12,
+      "end": 141.62,
+      "text": "fast and light. But as the Industrial Revolution arrived, wooden ships were replaced by iron and",
+      "avg_logprob": -0.0656
+    },
+    {
+      "start": 141.62,
+      "end": 148.1,
+      "text": "steel. Shipbuilders quickly realized you can't just attach copper sheets to an iron hull. The",
+      "avg_logprob": -0.0656
+    },
+    {
+      "start": 148.1,
+      "end": 154.38,
+      "text": "saltwater acts like a battery, causing a chemical reaction that rapidly rusts and destroys the iron.",
+      "avg_logprob": -0.0656
+    },
+    {
+      "start": 154.38,
+      "end": 159.06,
+      "text": "So, instead of metal sheets, they invented anti-fouling paint.",
+      "avg_logprob": -0.1343
+    },
+    {
+      "start": 159.4,
+      "end": 162.98,
+      "text": "And the primary active ingredient in this new protective coating?",
+      "avg_logprob": -0.1343
+    },
+    {
+      "start": 163.56,
+      "end": 164.42,
+      "text": "Copper oxide.",
+      "avg_logprob": -0.1343
+    },
+    {
+      "start": 164.88,
+      "end": 168.56,
+      "text": "Copper oxide is naturally a rich, rusty red.",
+      "avg_logprob": -0.1343
+    },
+    {
+      "start": 169.22,
+      "end": 172.78,
+      "text": "The iconic red bottom wasn't a stylish design choice.",
+      "avg_logprob": -0.1343
+    },
+    {
+      "start": 173.1,
+      "end": 178.1,
+      "text": "It was simply the natural color of the toxic chemistry keeping the ship alive.",
+      "avg_logprob": -0.1343
+    },
+    {
+      "start": 178.84,
+      "end": 184.54,
+      "text": "Fast forward to today, modern chemistry has advanced light years beyond those early days.",
+      "avg_logprob": -0.0823
+    },
+    {
+      "start": 184.54,
+      "end": 191.26,
+      "text": "We can now engineer highly effective, eco-friendly anti-fouling paints in absolutely any color",
+      "avg_logprob": -0.0823
+    },
+    {
+      "start": 191.26,
+      "end": 198.54,
+      "text": "imaginable. We could have neon green, bright blue, or jet black ship bottoms. So why is red",
+      "avg_logprob": -0.0823
+    },
+    {
+      "start": 198.54,
+      "end": 205.54,
+      "text": "still the standard? Part of it is pure maritime tradition. Sailors are famously superstitious and",
+      "avg_logprob": -0.0823
+    },
+    {
+      "start": 205.54,
+      "end": 212.02,
+      "text": "deeply respectful of history. But there's also a highly practical bonus. That stark contrast",
+      "avg_logprob": -0.0369
+    },
+    {
+      "start": 212.02,
+      "end": 218.22,
+      "text": "between a black or white hull and the red bottom creates a perfect visual horizon line. It makes",
+      "avg_logprob": -0.0369
+    },
+    {
+      "start": 218.22,
+      "end": 223.48,
+      "text": "it incredibly easy for the crew to see how deep the ship is sitting in the water. This helps them",
+      "avg_logprob": -0.0369
+    },
+    {
+      "start": 223.48,
+      "end": 228.56,
+      "text": "monitor the plimsoll line, the official markings on the side of the hull that indicate if a ship",
+      "avg_logprob": -0.0369
+    },
+    {
+      "start": 228.56,
+      "end": 235.16,
+      "text": "is safely loaded or dangerously overweight. So the next time you see a giant ship resting in",
+      "avg_logprob": -0.0369
+    },
+    {
+      "start": 235.16,
+      "end": 243.32,
+      "text": "harbor, you'll know. That bold red line isn't just paint, it's a 300-year-old legacy. What started as",
+      "avg_logprob": -0.0779
+    },
+    {
+      "start": 243.32,
+      "end": 249.3,
+      "text": "a desperate fight against wood-eating worms turned into an iconic symbol of human navigation that",
+      "avg_logprob": -0.0779
+    },
+    {
+      "start": 249.3,
+      "end": 254.84,
+      "text": "still sails the oceans today. If you enjoyed this deep dive, please hit that like button,",
+      "avg_logprob": -0.0779
+    },
+    {
+      "start": 255.1,
+      "end": 260.38,
+      "text": "share this video with a curious friend, and subscribe to Simple Things, Surprising Histories",
+      "avg_logprob": -0.0779
+    },
+    {
+      "start": 260.38,
+      "end": 263.66,
+      "text": "for more fascinating stories hidden in plain sight.",
+      "avg_logprob": -0.1496
+    },
+    {
+      "start": 264.28,
+      "end": 267.52,
+      "text": "Thanks for watching, and until next time, keep wondering.",
+      "avg_logprob": -0.1496
+    }
+  ]
+}

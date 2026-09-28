@@ -1,0 +1,559 @@
+{
+  "video_id": "V03",
+  "language": "en",
+  "text": "Like a man, don't make her wonder, make her feel honest. It's really hard to pinch a tank on the ground. Yeah, boy, if you're believing, you're wrong. My dad, oh. Good old sopping grounds, huh? Yeah, something like that. You ever wish you didn't leave Texas? Sometimes. I wonder about you. After we finish up, some of the boys want to get a drink. What do you think? Just one? Just one. Look what the cat drove in. Hey, God bless you for putting up with this whole song. Oh, Lord. Here we go. We're gonna grab a drink real quick. Y'all behave. I got a shiner and a jack for the lady. Perfect. Thank you. Just when I thought I got him to fall in love with Tennessee I should've known better than to take him back to Abilene Put him right back into her arms I wasn't a match for that kind of spark She's from Texas, I can tell by the way He's two-stepping round the room And judging by the smile that's written on his face There's nothing I can do It doesn't take a crystal ball to see A cowboy always finds a way to leave Drinking Jack all by myself He's choosing Texas, I can tell Hey, I'll be right back. All right. You're not from around here, are you? No, Tennessee, actually. I can tell. Hey. Yes, right here. Let me see you. You got some kind of nerve bringing him around here again. Oh, yeah? Well, just so you know, Texas has a way of keeping what's hers. Yes. The bold hang tunes, the Memphis blues we hear Hey. Hey. You wanna go dance? Yeah. Sure. Okay. I should've taken that as a warning She's from Texas, I can tell by the way He's two-steppin' round the room And judging by the smile that's written on his face There's nothing I can do It doesn't take a crystal ball to see A cowboy always finds a way to leave Drinking Jack all by myself His shoes in Texas I can tell When I'm eastbound and down and I can't help but cry Cause at 40 it gets lonelier with every mile I don't know that his mind was never gonna change Cause his heart still belongs to the Lone Star State Hey, you mind if I have some of that? Go ahead. How are you doing? Honestly? I think the guy that I'm in love with is in love with somebody else. Hmm. Well, sounds like he ain't the one for you, then. I'm starting to think that's true. Where are you taking that thing? We're going back to Tennessee. We got room for one more. I can do No, yeah Does it take a crystal ball to see A cowboy always finds a way to leave Drinking Jack all by myself He's choosing Texas I can tell No, oh Drinking Jack all by myself He's choosing Texas I can tell Come on, baby Oh, yeah Just when I thought I got in the fall In love with Tennessee It's life's call for us. It's life's call for us. It's life's call for us.",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.82,
+      "text": "Like a man, don't make her wonder, make her feel honest.",
+      "avg_logprob": -0.5534
+    },
+    {
+      "start": 6.96,
+      "end": 11.88,
+      "text": "It's really hard to pinch a tank on the ground.",
+      "avg_logprob": -0.5534
+    },
+    {
+      "start": 12.24,
+      "end": 16.94,
+      "text": "Yeah, boy, if you're believing, you're wrong.",
+      "avg_logprob": -0.5534
+    },
+    {
+      "start": 17.4,
+      "end": 19.68,
+      "text": "My dad, oh.",
+      "avg_logprob": -0.5534
+    },
+    {
+      "start": 20.04,
+      "end": 21.66,
+      "text": "Good old sopping grounds, huh?",
+      "avg_logprob": -0.5534
+    },
+    {
+      "start": 22.48,
+      "end": 24.46,
+      "text": "Yeah, something like that.",
+      "avg_logprob": -0.5534
+    },
+    {
+      "start": 25.88,
+      "end": 27.7,
+      "text": "You ever wish you didn't leave Texas?",
+      "avg_logprob": -0.5534
+    },
+    {
+      "start": 30.0,
+      "end": 32.0,
+      "text": "Sometimes.",
+      "avg_logprob": -0.2815
+    },
+    {
+      "start": 32.0,
+      "end": 34.0,
+      "text": "I wonder about you.",
+      "avg_logprob": -0.2815
+    },
+    {
+      "start": 36.0,
+      "end": 39.0,
+      "text": "After we finish up, some of the boys want to get a drink.",
+      "avg_logprob": -0.2815
+    },
+    {
+      "start": 39.0,
+      "end": 41.0,
+      "text": "What do you think?",
+      "avg_logprob": -0.2815
+    },
+    {
+      "start": 41.0,
+      "end": 43.0,
+      "text": "Just one?",
+      "avg_logprob": -0.2815
+    },
+    {
+      "start": 43.0,
+      "end": 45.0,
+      "text": "Just one.",
+      "avg_logprob": -0.2815
+    },
+    {
+      "start": 60.0,
+      "end": 67.68,
+      "text": "Look what the cat drove in.",
+      "avg_logprob": -0.2667
+    },
+    {
+      "start": 68.38,
+      "end": 70.76,
+      "text": "Hey, God bless you for putting up with this whole song.",
+      "avg_logprob": -0.2667
+    },
+    {
+      "start": 71.0,
+      "end": 71.72,
+      "text": "Oh, Lord.",
+      "avg_logprob": -0.2667
+    },
+    {
+      "start": 72.06,
+      "end": 72.92,
+      "text": "Here we go.",
+      "avg_logprob": -0.2667
+    },
+    {
+      "start": 73.28,
+      "end": 74.74,
+      "text": "We're gonna grab a drink real quick.",
+      "avg_logprob": -0.2667
+    },
+    {
+      "start": 75.4,
+      "end": 75.84,
+      "text": "Y'all behave.",
+      "avg_logprob": -0.2667
+    },
+    {
+      "start": 77.44,
+      "end": 79.98,
+      "text": "I got a shiner and a jack for the lady.",
+      "avg_logprob": -0.2667
+    },
+    {
+      "start": 80.34,
+      "end": 80.62,
+      "text": "Perfect.",
+      "avg_logprob": -0.2667
+    },
+    {
+      "start": 82.22,
+      "end": 82.8,
+      "text": "Thank you.",
+      "avg_logprob": -0.2667
+    },
+    {
+      "start": 90.0,
+      "end": 116.68,
+      "text": "Just when I thought I got him to fall in love with Tennessee",
+      "avg_logprob": -0.4397
+    },
+    {
+      "start": 116.68,
+      "end": 125.68,
+      "text": "I should've known better than to take him back to Abilene",
+      "avg_logprob": -0.1135
+    },
+    {
+      "start": 125.68,
+      "end": 132.14,
+      "text": "Put him right back into her arms",
+      "avg_logprob": -0.1135
+    },
+    {
+      "start": 132.14,
+      "end": 136.28,
+      "text": "I wasn't a match for that kind of spark",
+      "avg_logprob": -0.1135
+    },
+    {
+      "start": 136.28,
+      "end": 140.54,
+      "text": "She's from Texas, I can tell by the way",
+      "avg_logprob": -0.1135
+    },
+    {
+      "start": 140.54,
+      "end": 142.9,
+      "text": "He's two-stepping round the room",
+      "avg_logprob": -0.1135
+    },
+    {
+      "start": 142.9,
+      "end": 149.28,
+      "text": "And judging by the smile that's written on his face",
+      "avg_logprob": -0.1242
+    },
+    {
+      "start": 149.28,
+      "end": 151.72,
+      "text": "There's nothing I can do",
+      "avg_logprob": -0.1242
+    },
+    {
+      "start": 151.72,
+      "end": 157.74,
+      "text": "It doesn't take a crystal ball to see",
+      "avg_logprob": -0.1242
+    },
+    {
+      "start": 157.74,
+      "end": 162.12,
+      "text": "A cowboy always finds a way to leave",
+      "avg_logprob": -0.1242
+    },
+    {
+      "start": 162.12,
+      "end": 164.58,
+      "text": "Drinking Jack all by myself",
+      "avg_logprob": -0.1242
+    },
+    {
+      "start": 164.58,
+      "end": 169.1,
+      "text": "He's choosing Texas, I can tell",
+      "avg_logprob": -0.1242
+    },
+    {
+      "start": 169.1,
+      "end": 175.88,
+      "text": "Hey, I'll be right back.",
+      "avg_logprob": -0.3331
+    },
+    {
+      "start": 176.08,
+      "end": 176.44,
+      "text": "All right.",
+      "avg_logprob": -0.3331
+    },
+    {
+      "start": 191.76,
+      "end": 193.32,
+      "text": "You're not from around here, are you?",
+      "avg_logprob": -0.3331
+    },
+    {
+      "start": 194.52,
+      "end": 196.18,
+      "text": "No, Tennessee, actually.",
+      "avg_logprob": -0.3331
+    },
+    {
+      "start": 196.88,
+      "end": 197.74,
+      "text": "I can tell.",
+      "avg_logprob": -0.3331
+    },
+    {
+      "start": 199.1,
+      "end": 201.82,
+      "text": "Hey.",
+      "avg_logprob": -0.4687
+    },
+    {
+      "start": 201.82,
+      "end": 202.56,
+      "text": "Yes, right here.",
+      "avg_logprob": -0.4687
+    },
+    {
+      "start": 204.52,
+      "end": 205.3,
+      "text": "Let me see you.",
+      "avg_logprob": -0.4687
+    },
+    {
+      "start": 205.74,
+      "end": 208.02,
+      "text": "You got some kind of nerve bringing him around here again.",
+      "avg_logprob": -0.4687
+    },
+    {
+      "start": 208.3,
+      "end": 208.72,
+      "text": "Oh, yeah?",
+      "avg_logprob": -0.4687
+    },
+    {
+      "start": 209.88,
+      "end": 214.0,
+      "text": "Well, just so you know, Texas has a way of keeping what's hers.",
+      "avg_logprob": -0.4687
+    },
+    {
+      "start": 214.0,
+      "end": 214.16,
+      "text": "Yes.",
+      "avg_logprob": -0.4687
+    },
+    {
+      "start": 229.1,
+      "end": 233.1,
+      "text": "The bold hang tunes, the Memphis blues we hear",
+      "avg_logprob": -0.3077
+    },
+    {
+      "start": 233.1,
+      "end": 234.1,
+      "text": "Hey.",
+      "avg_logprob": -0.3077
+    },
+    {
+      "start": 235.1,
+      "end": 236.1,
+      "text": "Hey.",
+      "avg_logprob": -0.3077
+    },
+    {
+      "start": 237.1,
+      "end": 238.1,
+      "text": "You wanna go dance?",
+      "avg_logprob": -0.3077
+    },
+    {
+      "start": 239.1,
+      "end": 240.1,
+      "text": "Yeah.",
+      "avg_logprob": -0.3077
+    },
+    {
+      "start": 240.1,
+      "end": 241.1,
+      "text": "Sure.",
+      "avg_logprob": -0.3077
+    },
+    {
+      "start": 241.1,
+      "end": 242.1,
+      "text": "Okay.",
+      "avg_logprob": -0.3077
+    },
+    {
+      "start": 242.1,
+      "end": 245.1,
+      "text": "I should've taken that as a warning",
+      "avg_logprob": -0.3077
+    },
+    {
+      "start": 245.1,
+      "end": 249.1,
+      "text": "She's from Texas, I can tell by the way",
+      "avg_logprob": -0.3077
+    },
+    {
+      "start": 249.1,
+      "end": 252.1,
+      "text": "He's two-steppin' round the room",
+      "avg_logprob": -0.3077
+    },
+    {
+      "start": 254.1,
+      "end": 258.1,
+      "text": "And judging by the smile that's written on his face",
+      "avg_logprob": -0.3077
+    },
+    {
+      "start": 258.1,
+      "end": 261.04,
+      "text": "There's nothing I can do",
+      "avg_logprob": -0.1841
+    },
+    {
+      "start": 261.04,
+      "end": 267.08,
+      "text": "It doesn't take a crystal ball to see",
+      "avg_logprob": -0.1841
+    },
+    {
+      "start": 267.08,
+      "end": 271.4,
+      "text": "A cowboy always finds a way to leave",
+      "avg_logprob": -0.1841
+    },
+    {
+      "start": 271.4,
+      "end": 273.86,
+      "text": "Drinking Jack all by myself",
+      "avg_logprob": -0.1841
+    },
+    {
+      "start": 273.86,
+      "end": 278.68,
+      "text": "His shoes in Texas I can tell",
+      "avg_logprob": -0.1841
+    },
+    {
+      "start": 278.68,
+      "end": 285.04,
+      "text": "When I'm eastbound and down and I can't help but cry",
+      "avg_logprob": -0.1841
+    },
+    {
+      "start": 285.04,
+      "end": 289.18,
+      "text": "Cause at 40 it gets lonelier with every mile",
+      "avg_logprob": -0.2188
+    },
+    {
+      "start": 289.18,
+      "end": 293.64,
+      "text": "I don't know that his mind was never gonna change",
+      "avg_logprob": -0.2188
+    },
+    {
+      "start": 293.64,
+      "end": 298.28,
+      "text": "Cause his heart still belongs to the Lone Star State",
+      "avg_logprob": -0.2188
+    },
+    {
+      "start": 298.28,
+      "end": 304.9,
+      "text": "Hey, you mind if I have some of that?",
+      "avg_logprob": -0.2188
+    },
+    {
+      "start": 305.16,
+      "end": 306.78,
+      "text": "Go ahead. How are you doing?",
+      "avg_logprob": -0.2188
+    },
+    {
+      "start": 307.92,
+      "end": 308.52,
+      "text": "Honestly?",
+      "avg_logprob": -0.2188
+    },
+    {
+      "start": 310.14,
+      "end": 313.38,
+      "text": "I think the guy that I'm in love with is in love with somebody else.",
+      "avg_logprob": -0.2188
+    },
+    {
+      "start": 313.38,
+      "end": 315.38,
+      "text": "Hmm.",
+      "avg_logprob": -0.2399
+    },
+    {
+      "start": 315.38,
+      "end": 318.38,
+      "text": "Well, sounds like he ain't the one for you, then.",
+      "avg_logprob": -0.2399
+    },
+    {
+      "start": 318.38,
+      "end": 320.38,
+      "text": "I'm starting to think that's true.",
+      "avg_logprob": -0.2399
+    },
+    {
+      "start": 323.38,
+      "end": 324.38,
+      "text": "Where are you taking that thing?",
+      "avg_logprob": -0.2399
+    },
+    {
+      "start": 324.38,
+      "end": 326.38,
+      "text": "We're going back to Tennessee.",
+      "avg_logprob": -0.2399
+    },
+    {
+      "start": 326.38,
+      "end": 328.38,
+      "text": "We got room for one more.",
+      "avg_logprob": -0.2399
+    },
+    {
+      "start": 343.38,
+      "end": 345.38,
+      "text": "I can do",
+      "avg_logprob": -0.2726
+    },
+    {
+      "start": 345.38,
+      "end": 347.38,
+      "text": "No, yeah",
+      "avg_logprob": -0.2726
+    },
+    {
+      "start": 347.38,
+      "end": 350.38,
+      "text": "Does it take a crystal ball to see",
+      "avg_logprob": -0.2726
+    },
+    {
+      "start": 350.38,
+      "end": 354.38,
+      "text": "A cowboy always finds a way to leave",
+      "avg_logprob": -0.2726
+    },
+    {
+      "start": 354.38,
+      "end": 358.38,
+      "text": "Drinking Jack all by myself",
+      "avg_logprob": -0.2726
+    },
+    {
+      "start": 358.38,
+      "end": 362.38,
+      "text": "He's choosing Texas I can tell",
+      "avg_logprob": -0.2726
+    },
+    {
+      "start": 362.38,
+      "end": 363.38,
+      "text": "No, oh",
+      "avg_logprob": -0.2726
+    },
+    {
+      "start": 363.38,
+      "end": 367.38,
+      "text": "Drinking Jack all by myself",
+      "avg_logprob": -0.2726
+    },
+    {
+      "start": 367.38,
+      "end": 371.38,
+      "text": "He's choosing Texas I can tell",
+      "avg_logprob": -0.2726
+    },
+    {
+      "start": 371.38,
+      "end": 372.58,
+      "text": "Come on, baby",
+      "avg_logprob": -0.4134
+    },
+    {
+      "start": 372.58,
+      "end": 378.64,
+      "text": "Oh, yeah",
+      "avg_logprob": -0.4134
+    },
+    {
+      "start": 378.64,
+      "end": 384.38,
+      "text": "Just when I thought I got in the fall",
+      "avg_logprob": -0.4134
+    },
+    {
+      "start": 385.06,
+      "end": 387.3,
+      "text": "In love with Tennessee",
+      "avg_logprob": -0.4134
+    },
+    {
+      "start": 401.38,
+      "end": 404.78,
+      "text": "It's life's call for us.",
+      "avg_logprob": -0.4936
+    },
+    {
+      "start": 406.78,
+      "end": 409.88,
+      "text": "It's life's call for us.",
+      "avg_logprob": -0.4936
+    },
+    {
+      "start": 411.68,
+      "end": 416.38,
+      "text": "It's life's call for us.",
+      "avg_logprob": -0.4936
+    }
+  ]
+}

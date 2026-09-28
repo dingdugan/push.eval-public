@@ -1,0 +1,475 @@
+{
+  "video_id": "V12",
+  "language": "en",
+  "text": "Now it's time to get into something completely new. Our next game drop is truly embracing the sandboxiness of Minecraft. And to tell you more, we need to venture underground. There's something about the caves. Not seeing the sun rise and fall makes it easy to lose track of time. You dig a little deeper and suddenly you're somewhere new. It's quiet, a little or very unsettling. But it's also full of possibility. You never know what hides behind the next block. Welcome to our new cave biome, the Sulfur Caves. Upon entering this biome, you'll notice the warm colours. There's red, yellow, there's nothing quite like it underground in the overworld. So this cave is very different from other caves because its surface is kind of three-dimensional. You have these patches of different blocks that fade into each other. So you have the pools at the center and then sulfur on the edges and then cinnabar. So it's a very unique environment. With the new sulfur caves, you know, we use the cinnabar blocks and the sulfur blocks. That of course also means that us players can build with all these different blocks. Both the Cinnabar and Sulfur come with full block sets, really pretty blocks. The Sulfur Cave has been inspired by multiple hot springs, sulfur springs all over the world. So if you look at the water, there is some sort of gas on the water surface. So in the sulfur caves you can find sulfur pools, which are these natural pools composed of sulfur and then on their bottom they have some blocks of potent sulfur. And potent sulfur is a potent variety of sulfur which I guess reacts with water and produces bubbles. And then when these bubbles reach the surface they create an oxus gas which gives players in mobs nausea. As soon as you walk into it and the whole world starts like, whoo, you definitely understand, like, OK, yes, this is a bit dangerous. But it's not just the new pools and the new blocks that you find in the sulfur caves. It's the home of our newest mob. The sulfur cave. Is it smiling? Doesn't it have eyes? Maybe it's a mollucca. Yeah, right? It's up to interpretation if it's smiling or not. And it has a little secret. The Sulfur Cube is unlike anything we've ever done before. And it's a mob that has an ability to absorb blocks. So when you hold the block that the Sulfur Cube likes, the Sulfur Cube is going to move towards you. So to make it absorb a block, you just interact with it while you're holding the block. And when it does, something strange happens. They stop moving, and if you punch it, they will take off. It kind of stops behaving as a mob, and instead starts behaving kind of like a ball. When the sulfur cube absorbs a block it will get different behavior depending on what kind of block it is. So for example ice makes it very slidy, wool blocks make it a bit more floaty like it's you know light and filled with air. If you have metal it is like very heavy. But it was fun with ice I was playing I think I had a sulfur cube absorb the packed ice and then I had it on ice as well, and he did, and it was just gliding super, super, super far away. It was like so low friction. Depending on where you hit it, it will move in different directions. But there's some element of skill to be able to make it bounce the way you want, which I think adds interesting dynamics to mini games, for instance. I think I can see them doing pinball machines, you know, with pistons and everything. I mean all the ball sports, they come to mind, but I'm sure they're going to be doing super creative things. It can be redstone contraptions. It can be used in parkour or making traps, stuff like that. Overall I think it's quite a chaotic picture. It's like bouncing around so anything's happening. So like a slime, you can split a sulphur cube. And these two small cubes will grow up to become a big cube. And that's how you get a new sulphur cube. I think the sulfur cube is a big part of what makes this drop so sandboxy. Like it comes with endless possibilities. And that's really important for us when we develop Minecraft. Instead of creating a specific experience for the players, we try to enable and inspire the players to create their own experiences. And I think the sulfur cube really follows that. These features are going into testing soon. And we also have a name for this drop, and it will be… Chaos Cubed!",
+  "segments": [
+    {
+      "start": 0.16,
+      "end": 4.0,
+      "text": "Now it's time to get into something completely new.",
+      "avg_logprob": -0.238
+    },
+    {
+      "start": 4.32,
+      "end": 8.96,
+      "text": "Our next game drop is truly embracing the sandboxiness of Minecraft.",
+      "avg_logprob": -0.238
+    },
+    {
+      "start": 9.4,
+      "end": 13.12,
+      "text": "And to tell you more, we need to venture underground.",
+      "avg_logprob": -0.238
+    },
+    {
+      "start": 16.08,
+      "end": 17.84,
+      "text": "There's something about the caves.",
+      "avg_logprob": -0.238
+    },
+    {
+      "start": 18.16,
+      "end": 23.36,
+      "text": "Not seeing the sun rise and fall makes it easy to lose track of time.",
+      "avg_logprob": -0.238
+    },
+    {
+      "start": 23.36,
+      "end": 32.88,
+      "text": "You dig a little deeper and suddenly you're somewhere new.",
+      "avg_logprob": -0.1888
+    },
+    {
+      "start": 32.88,
+      "end": 39.96,
+      "text": "It's quiet, a little or very unsettling.",
+      "avg_logprob": -0.1888
+    },
+    {
+      "start": 39.96,
+      "end": 43.04,
+      "text": "But it's also full of possibility.",
+      "avg_logprob": -0.1888
+    },
+    {
+      "start": 43.04,
+      "end": 48.14,
+      "text": "You never know what hides behind the next block.",
+      "avg_logprob": -0.1888
+    },
+    {
+      "start": 48.14,
+      "end": 53.14,
+      "text": "Welcome to our new cave biome, the Sulfur Caves.",
+      "avg_logprob": -0.2454
+    },
+    {
+      "start": 63.14,
+      "end": 66.14,
+      "text": "Upon entering this biome, you'll notice the warm colours.",
+      "avg_logprob": -0.2454
+    },
+    {
+      "start": 66.14,
+      "end": 71.14,
+      "text": "There's red, yellow, there's nothing quite like it underground in the overworld.",
+      "avg_logprob": -0.2454
+    },
+    {
+      "start": 71.14,
+      "end": 80.2,
+      "text": "So this cave is very different from other caves because its surface is kind of three-dimensional.",
+      "avg_logprob": -0.1608
+    },
+    {
+      "start": 80.2,
+      "end": 83.5,
+      "text": "You have these patches of different blocks that fade into each other.",
+      "avg_logprob": -0.1608
+    },
+    {
+      "start": 83.5,
+      "end": 87.86,
+      "text": "So you have the pools at the center and then sulfur on the edges and then cinnabar.",
+      "avg_logprob": -0.1608
+    },
+    {
+      "start": 87.86,
+      "end": 93.32,
+      "text": "So it's a very unique environment.",
+      "avg_logprob": -0.1608
+    },
+    {
+      "start": 93.32,
+      "end": 98.22,
+      "text": "With the new sulfur caves, you know, we use the cinnabar blocks and the sulfur blocks.",
+      "avg_logprob": -0.1608
+    },
+    {
+      "start": 98.22,
+      "end": 104.22,
+      "text": "That of course also means that us players can build with all these different blocks.",
+      "avg_logprob": -0.2112
+    },
+    {
+      "start": 107.22,
+      "end": 112.22,
+      "text": "Both the Cinnabar and Sulfur come with full block sets, really pretty blocks.",
+      "avg_logprob": -0.2112
+    },
+    {
+      "start": 115.22,
+      "end": 121.22,
+      "text": "The Sulfur Cave has been inspired by multiple hot springs, sulfur springs all over the world.",
+      "avg_logprob": -0.2112
+    },
+    {
+      "start": 121.22,
+      "end": 127.22,
+      "text": "So if you look at the water, there is some sort of gas on the water surface.",
+      "avg_logprob": -0.2112
+    },
+    {
+      "start": 128.22,
+      "end": 139.26,
+      "text": "So in the sulfur caves you can find sulfur pools, which are these natural pools composed",
+      "avg_logprob": -0.2277
+    },
+    {
+      "start": 139.26,
+      "end": 143.36,
+      "text": "of sulfur and then on their bottom they have some blocks of potent sulfur.",
+      "avg_logprob": -0.2277
+    },
+    {
+      "start": 143.36,
+      "end": 147.98,
+      "text": "And potent sulfur is a potent variety of sulfur which I guess reacts with water and produces",
+      "avg_logprob": -0.2277
+    },
+    {
+      "start": 147.98,
+      "end": 149.04,
+      "text": "bubbles.",
+      "avg_logprob": -0.2277
+    },
+    {
+      "start": 149.04,
+      "end": 154.44,
+      "text": "And then when these bubbles reach the surface they create an oxus gas which gives players",
+      "avg_logprob": -0.2277
+    },
+    {
+      "start": 154.44,
+      "end": 155.44,
+      "text": "in mobs nausea.",
+      "avg_logprob": -0.3512
+    },
+    {
+      "start": 159.4,
+      "end": 162.2,
+      "text": "As soon as you walk into it and the whole world",
+      "avg_logprob": -0.3512
+    },
+    {
+      "start": 162.2,
+      "end": 165.6,
+      "text": "starts like, whoo, you definitely understand, like, OK, yes,",
+      "avg_logprob": -0.3512
+    },
+    {
+      "start": 165.6,
+      "end": 169.72,
+      "text": "this is a bit dangerous.",
+      "avg_logprob": -0.3512
+    },
+    {
+      "start": 169.72,
+      "end": 172.4,
+      "text": "But it's not just the new pools and the new blocks",
+      "avg_logprob": -0.3512
+    },
+    {
+      "start": 172.4,
+      "end": 175.12,
+      "text": "that you find in the sulfur caves.",
+      "avg_logprob": -0.3512
+    },
+    {
+      "start": 175.12,
+      "end": 179.08,
+      "text": "It's the home of our newest mob.",
+      "avg_logprob": -0.3512
+    },
+    {
+      "start": 179.08,
+      "end": 179.92,
+      "text": "The sulfur cave.",
+      "avg_logprob": -0.3512
+    },
+    {
+      "start": 184.44,
+      "end": 186.44,
+      "text": "Is it smiling? Doesn't it have eyes?",
+      "avg_logprob": -0.2376
+    },
+    {
+      "start": 186.44,
+      "end": 187.44,
+      "text": "Maybe it's a mollucca.",
+      "avg_logprob": -0.2376
+    },
+    {
+      "start": 187.44,
+      "end": 188.44,
+      "text": "Yeah, right?",
+      "avg_logprob": -0.2376
+    },
+    {
+      "start": 188.44,
+      "end": 191.44,
+      "text": "It's up to interpretation if it's smiling or not.",
+      "avg_logprob": -0.2376
+    },
+    {
+      "start": 192.44,
+      "end": 195.44,
+      "text": "And it has a little secret.",
+      "avg_logprob": -0.2376
+    },
+    {
+      "start": 196.44,
+      "end": 199.44,
+      "text": "The Sulfur Cube is unlike anything we've ever done before.",
+      "avg_logprob": -0.2376
+    },
+    {
+      "start": 199.44,
+      "end": 203.44,
+      "text": "And it's a mob that has an ability to absorb blocks.",
+      "avg_logprob": -0.2376
+    },
+    {
+      "start": 208.44,
+      "end": 211.44,
+      "text": "So when you hold the block that the Sulfur Cube likes,",
+      "avg_logprob": -0.2376
+    },
+    {
+      "start": 211.44,
+      "end": 213.44,
+      "text": "the Sulfur Cube is going to move towards you.",
+      "avg_logprob": -0.2376
+    },
+    {
+      "start": 213.44,
+      "end": 217.88,
+      "text": "So to make it absorb a block, you just interact with it while you're holding the block.",
+      "avg_logprob": -0.2459
+    },
+    {
+      "start": 219.96,
+      "end": 222.06,
+      "text": "And when it does, something strange happens.",
+      "avg_logprob": -0.2459
+    },
+    {
+      "start": 222.38,
+      "end": 226.86,
+      "text": "They stop moving, and if you punch it, they will take off.",
+      "avg_logprob": -0.2459
+    },
+    {
+      "start": 229.94,
+      "end": 235.68,
+      "text": "It kind of stops behaving as a mob, and instead starts behaving kind of like a ball.",
+      "avg_logprob": -0.2459
+    },
+    {
+      "start": 235.68,
+      "end": 247.62,
+      "text": "When the sulfur cube absorbs a block it will get different behavior depending on what kind",
+      "avg_logprob": -0.2492
+    },
+    {
+      "start": 247.62,
+      "end": 249.06,
+      "text": "of block it is.",
+      "avg_logprob": -0.2492
+    },
+    {
+      "start": 249.06,
+      "end": 255.54,
+      "text": "So for example ice makes it very slidy, wool blocks make it a bit more floaty like it's",
+      "avg_logprob": -0.2492
+    },
+    {
+      "start": 255.54,
+      "end": 257.72,
+      "text": "you know light and filled with air.",
+      "avg_logprob": -0.2492
+    },
+    {
+      "start": 257.72,
+      "end": 260.72,
+      "text": "If you have metal it is like very heavy.",
+      "avg_logprob": -0.2492
+    },
+    {
+      "start": 260.72,
+      "end": 265.46,
+      "text": "But it was fun with ice I was playing I think I had a sulfur cube absorb the packed ice",
+      "avg_logprob": -0.2492
+    },
+    {
+      "start": 265.46,
+      "end": 268.22,
+      "text": "and then I had it on ice as well, and he did,",
+      "avg_logprob": -0.3207
+    },
+    {
+      "start": 268.22,
+      "end": 270.78,
+      "text": "and it was just gliding super, super, super far away.",
+      "avg_logprob": -0.3207
+    },
+    {
+      "start": 270.78,
+      "end": 272.58,
+      "text": "It was like so low friction.",
+      "avg_logprob": -0.3207
+    },
+    {
+      "start": 274.3,
+      "end": 277.14,
+      "text": "Depending on where you hit it, it will move in different directions.",
+      "avg_logprob": -0.3207
+    },
+    {
+      "start": 277.5,
+      "end": 282.7,
+      "text": "But there's some element of skill to be able to make it bounce the way you want,",
+      "avg_logprob": -0.3207
+    },
+    {
+      "start": 283.18,
+      "end": 286.66,
+      "text": "which I think adds interesting dynamics to mini games, for instance.",
+      "avg_logprob": -0.3207
+    },
+    {
+      "start": 286.66,
+      "end": 300.1,
+      "text": "I think I can see them doing pinball machines, you know, with pistons and everything.",
+      "avg_logprob": -0.2158
+    },
+    {
+      "start": 300.1,
+      "end": 304.48,
+      "text": "I mean all the ball sports, they come to mind, but I'm sure they're going to be doing super",
+      "avg_logprob": -0.2158
+    },
+    {
+      "start": 304.48,
+      "end": 307.18,
+      "text": "creative things.",
+      "avg_logprob": -0.2158
+    },
+    {
+      "start": 307.18,
+      "end": 310.42,
+      "text": "It can be redstone contraptions.",
+      "avg_logprob": -0.2158
+    },
+    {
+      "start": 310.42,
+      "end": 317.42,
+      "text": "It can be used in parkour or making traps, stuff like that.",
+      "avg_logprob": -0.2106
+    },
+    {
+      "start": 317.42,
+      "end": 320.42,
+      "text": "Overall I think it's quite a chaotic picture.",
+      "avg_logprob": -0.2106
+    },
+    {
+      "start": 320.42,
+      "end": 324.42,
+      "text": "It's like bouncing around so anything's happening.",
+      "avg_logprob": -0.2106
+    },
+    {
+      "start": 324.42,
+      "end": 327.42,
+      "text": "So like a slime, you can split a sulphur cube.",
+      "avg_logprob": -0.2106
+    },
+    {
+      "start": 327.42,
+      "end": 331.42,
+      "text": "And these two small cubes will grow up to become a big cube.",
+      "avg_logprob": -0.2106
+    },
+    {
+      "start": 331.42,
+      "end": 334.42,
+      "text": "And that's how you get a new sulphur cube.",
+      "avg_logprob": -0.2106
+    },
+    {
+      "start": 334.42,
+      "end": 346.14,
+      "text": "I think the sulfur cube is a big part of what makes this drop so sandboxy.",
+      "avg_logprob": -0.2148
+    },
+    {
+      "start": 346.42,
+      "end": 348.54,
+      "text": "Like it comes with endless possibilities.",
+      "avg_logprob": -0.2148
+    },
+    {
+      "start": 349.26,
+      "end": 351.9,
+      "text": "And that's really important for us when we develop Minecraft.",
+      "avg_logprob": -0.2148
+    },
+    {
+      "start": 351.9,
+      "end": 355.86,
+      "text": "Instead of creating a specific experience for the players,",
+      "avg_logprob": -0.2148
+    },
+    {
+      "start": 356.18,
+      "end": 359.6,
+      "text": "we try to enable and inspire the players to create their own experiences.",
+      "avg_logprob": -0.2148
+    },
+    {
+      "start": 359.98,
+      "end": 362.6,
+      "text": "And I think the sulfur cube really follows that.",
+      "avg_logprob": -0.2148
+    },
+    {
+      "start": 364.42,
+      "end": 368.42,
+      "text": "These features are going into testing soon.",
+      "avg_logprob": -0.317
+    },
+    {
+      "start": 368.42,
+      "end": 372.42,
+      "text": "And we also have a name for this drop, and it will be…",
+      "avg_logprob": -0.317
+    },
+    {
+      "start": 372.42,
+      "end": 374.42,
+      "text": "Chaos Cubed!",
+      "avg_logprob": -0.317
+    }
+  ]
+}

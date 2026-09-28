@@ -1,0 +1,307 @@
+{
+  "video_id": "V10",
+  "language": "en",
+  "text": "Pokemon battles for everyone! Pokemon Champions! This game is all about battles. Compete online against players from across the world with the Pokémon you've recruited! There are two ways to obtain battle-ready Pokémon. The first is by connecting to the Pokémon Home app. Transfer your Pokémon from games in the Pokémon RPG series. and the Pokémon GO app to Pokémon Home, then link the app to this game. The second way is via Recruit. Choose one Pokémon to recruit once per day from a random selection of Pokémon that appear in the game. Recruited Pokémon can only be used in Pokémon Champions for a certain amount of time. After you've gathered your Pokémon, choose six of them and form your team. For battle, you'll be able to see your opponent's team and vice versa, and choose the Pokémon you want to use for the impending match. Consider which Pokémon your opponent will use. Then select your own Pokémon to start the battle. alternate turns with moves. Win by reducing the HP of all your opponent's Pokémon to zero. If you're in a bind, you can swap one Pokémon for another. Or use Mega Evolution to power up your Pokémon. The decisions you make could influence the tide of battle. With Mega Evolution, certain Pokémon will gain abilities brand new to the series. There are also different battle formats. Use one Pokémon at a time in single battles, or have Pokémon fight two-on-two in double battles. There are three different online battle modes. In Ranked Battles, test your skills against evenly matched trainers and aim for the highest rank. In Casual Battles, wins and losses aren't recorded, so you can enjoy matches however you'd like. And in Private Battles, create a room and battle against anyone with the room ID. There are also in-game online competitions in which you'll battle with preset rules that change every season. Engage in battles to earn victory points or VP. Here's how to use VP. You can swap the moves a Pokémon can learn. change its nature, modify its abilities, and more! The stat points of a Pokémon can also be adjusted. For example, you could increase attack and speed to boost offense. or raise HP and defense to withstand attacks. Pokémon can be easily trained to your liking, so try out different ways to battle. You can only recruit once per day, but by using VP, you can recruit multiple times. Keep in mind that recruited Pokémon are only available for one week, but with VP, any recruited Pokémon will be permanently added. In the shop, spend VP to purchase held items or Mega Stones for your Pokémon. You can also get clothing and looks for your trainer, different Poké Ball throwing styles, and battle music. A world of fierce battles with your Pokémon awaits! Pokémon Champions! Available April 8th on the Nintendo Switch System!",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 11.6,
+      "text": "Pokemon battles for everyone!",
+      "avg_logprob": -0.7432
+    },
+    {
+      "start": 11.6,
+      "end": 19.44,
+      "text": "Pokemon Champions!",
+      "avg_logprob": -0.7432
+    },
+    {
+      "start": 19.44,
+      "end": 26.72,
+      "text": "This game is all about battles.",
+      "avg_logprob": -0.7432
+    },
+    {
+      "start": 26.72,
+      "end": 33.72,
+      "text": "Compete online against players from across the world with the Pokémon you've recruited!",
+      "avg_logprob": -0.1902
+    },
+    {
+      "start": 40.72,
+      "end": 43.72,
+      "text": "There are two ways to obtain battle-ready Pokémon.",
+      "avg_logprob": -0.1902
+    },
+    {
+      "start": 44.72,
+      "end": 47.72,
+      "text": "The first is by connecting to the Pokémon Home app.",
+      "avg_logprob": -0.1902
+    },
+    {
+      "start": 49.72,
+      "end": 53.72,
+      "text": "Transfer your Pokémon from games in the Pokémon RPG series.",
+      "avg_logprob": -0.1902
+    },
+    {
+      "start": 53.72,
+      "end": 59.72,
+      "text": "and the Pokémon GO app to Pokémon Home,",
+      "avg_logprob": -0.2103
+    },
+    {
+      "start": 59.72,
+      "end": 62.72,
+      "text": "then link the app to this game.",
+      "avg_logprob": -0.2103
+    },
+    {
+      "start": 65.72,
+      "end": 68.72,
+      "text": "The second way is via Recruit.",
+      "avg_logprob": -0.2103
+    },
+    {
+      "start": 70.72,
+      "end": 73.72,
+      "text": "Choose one Pokémon to recruit once per day",
+      "avg_logprob": -0.2103
+    },
+    {
+      "start": 73.72,
+      "end": 77.72,
+      "text": "from a random selection of Pokémon that appear in the game.",
+      "avg_logprob": -0.2103
+    },
+    {
+      "start": 77.72,
+      "end": 94.34,
+      "text": "Recruited Pokémon can only be used in Pokémon Champions for a certain amount of time.",
+      "avg_logprob": -0.1998
+    },
+    {
+      "start": 94.34,
+      "end": 103.24,
+      "text": "After you've gathered your Pokémon, choose six of them and form your team.",
+      "avg_logprob": -0.1998
+    },
+    {
+      "start": 103.24,
+      "end": 109.24,
+      "text": "For battle, you'll be able to see your opponent's team and vice versa, and choose the Pokémon",
+      "avg_logprob": -0.2183
+    },
+    {
+      "start": 109.24,
+      "end": 112.48,
+      "text": "you want to use for the impending match.",
+      "avg_logprob": -0.2183
+    },
+    {
+      "start": 112.48,
+      "end": 116.38,
+      "text": "Consider which Pokémon your opponent will use.",
+      "avg_logprob": -0.2183
+    },
+    {
+      "start": 116.38,
+      "end": 129.12,
+      "text": "Then select your own Pokémon to start the battle.",
+      "avg_logprob": -0.2183
+    },
+    {
+      "start": 129.12,
+      "end": 135.6,
+      "text": "alternate turns with moves. Win by reducing the HP of all your opponent's Pokémon to zero.",
+      "avg_logprob": -0.15
+    },
+    {
+      "start": 139.44,
+      "end": 142.64,
+      "text": "If you're in a bind, you can swap one Pokémon for another.",
+      "avg_logprob": -0.15
+    },
+    {
+      "start": 146.48,
+      "end": 149.6,
+      "text": "Or use Mega Evolution to power up your Pokémon.",
+      "avg_logprob": -0.15
+    },
+    {
+      "start": 150.72,
+      "end": 153.6,
+      "text": "The decisions you make could influence the tide of battle.",
+      "avg_logprob": -0.15
+    },
+    {
+      "start": 153.6,
+      "end": 160.6,
+      "text": "With Mega Evolution, certain Pokémon will gain abilities brand new to the series.",
+      "avg_logprob": -0.2135
+    },
+    {
+      "start": 166.6,
+      "end": 172.6,
+      "text": "There are also different battle formats. Use one Pokémon at a time in single battles,",
+      "avg_logprob": -0.2135
+    },
+    {
+      "start": 172.6,
+      "end": 177.6,
+      "text": "or have Pokémon fight two-on-two in double battles.",
+      "avg_logprob": -0.2135
+    },
+    {
+      "start": 183.6,
+      "end": 187.02,
+      "text": "There are three different online battle modes.",
+      "avg_logprob": -0.2132
+    },
+    {
+      "start": 189.08,
+      "end": 192.48,
+      "text": "In Ranked Battles, test your skills against evenly matched trainers",
+      "avg_logprob": -0.2132
+    },
+    {
+      "start": 192.48,
+      "end": 197.96,
+      "text": "and aim for the highest rank.",
+      "avg_logprob": -0.2132
+    },
+    {
+      "start": 199.14,
+      "end": 204.72,
+      "text": "In Casual Battles, wins and losses aren't recorded, so you can enjoy matches however you'd like.",
+      "avg_logprob": -0.2132
+    },
+    {
+      "start": 206.06,
+      "end": 211.08,
+      "text": "And in Private Battles, create a room and battle against anyone with the room ID.",
+      "avg_logprob": -0.2132
+    },
+    {
+      "start": 211.08,
+      "end": 219.14,
+      "text": "There are also in-game online competitions in which you'll battle with preset rules that change every season.",
+      "avg_logprob": -0.1733
+    },
+    {
+      "start": 223.1,
+      "end": 226.72,
+      "text": "Engage in battles to earn victory points or VP.",
+      "avg_logprob": -0.1733
+    },
+    {
+      "start": 230.56,
+      "end": 232.24,
+      "text": "Here's how to use VP.",
+      "avg_logprob": -0.1733
+    },
+    {
+      "start": 236.38,
+      "end": 239.16,
+      "text": "You can swap the moves a Pokémon can learn.",
+      "avg_logprob": -0.1733
+    },
+    {
+      "start": 241.08,
+      "end": 243.74,
+      "text": "change its nature,",
+      "avg_logprob": -0.3937
+    },
+    {
+      "start": 246.54,
+      "end": 248.4,
+      "text": "modify its abilities,",
+      "avg_logprob": -0.3937
+    },
+    {
+      "start": 248.86,
+      "end": 250.86,
+      "text": "and more!",
+      "avg_logprob": -0.3937
+    },
+    {
+      "start": 252.2,
+      "end": 255.2,
+      "text": "The stat points of a Pokémon can also be adjusted.",
+      "avg_logprob": -0.3937
+    },
+    {
+      "start": 257.44,
+      "end": 261.9,
+      "text": "For example, you could increase attack and speed to boost offense.",
+      "avg_logprob": -0.3937
+    },
+    {
+      "start": 261.9,
+      "end": 273.22,
+      "text": "or raise HP and defense to withstand attacks.",
+      "avg_logprob": -0.3185
+    },
+    {
+      "start": 278.9,
+      "end": 281.36,
+      "text": "Pokémon can be easily trained to your liking,",
+      "avg_logprob": -0.3185
+    },
+    {
+      "start": 281.56,
+      "end": 283.44,
+      "text": "so try out different ways to battle.",
+      "avg_logprob": -0.3185
+    },
+    {
+      "start": 283.44,
+      "end": 296.28,
+      "text": "You can only recruit once per day, but by using VP, you can recruit multiple times.",
+      "avg_logprob": -0.192
+    },
+    {
+      "start": 297.24,
+      "end": 301.6,
+      "text": "Keep in mind that recruited Pokémon are only available for one week,",
+      "avg_logprob": -0.192
+    },
+    {
+      "start": 301.6,
+      "end": 306.18,
+      "text": "but with VP, any recruited Pokémon will be permanently added.",
+      "avg_logprob": -0.192
+    },
+    {
+      "start": 313.44,
+      "end": 321.68,
+      "text": "In the shop, spend VP to purchase held items or Mega Stones for your Pokémon.",
+      "avg_logprob": -0.3153
+    },
+    {
+      "start": 325.04,
+      "end": 334.94,
+      "text": "You can also get clothing and looks for your trainer, different Poké Ball throwing styles, and battle music.",
+      "avg_logprob": -0.3153
+    },
+    {
+      "start": 334.94,
+      "end": 346.62,
+      "text": "A world of fierce battles with your Pokémon awaits!",
+      "avg_logprob": -0.463
+    },
+    {
+      "start": 353.02,
+      "end": 354.92,
+      "text": "Pokémon Champions!",
+      "avg_logprob": -0.463
+    },
+    {
+      "start": 357.56,
+      "end": 361.14,
+      "text": "Available April 8th on the Nintendo Switch System!",
+      "avg_logprob": -0.463
+    }
+  ]
+}

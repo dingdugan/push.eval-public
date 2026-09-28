@@ -1,0 +1,271 @@
+{
+  "video_id": "V02",
+  "language": "en",
+  "text": "I need, I need, I need What you need, Twan? I need What you need? I need, I need I need the whole, steady in the truck Put your phone down, let's get out the front I got my eyes on the room in the front The vibe is high, feel the beat, plunk The vibe is high, let the build up B.T.O. from everywhere to Korea Erase the gun and the keyboard You're the one who cut off my life It's big in real life Don't talk and get off Hop in, come a little closer, let's get it, let's get it I need somebody to body All of your body beside me I'm touching the moon, hand in hand You and I, we on and on Sunrise, baby don't go home Somebody like you Somebody like you Somebody like Somebody like you Somebody like Somebody like you It's so tight, I mean, no eyesight I mean, we're the only one in style I mean, we livin' the life I close my eyes and it's only night My heart is burning with fever Be your body, be your body, be your body You could see your body or you read on body I need somebody to body All of your body beside me I'm getting more and more nervous You and I, we on and on yeah Somewhere before you don't go Somebody like you Everybody like you I need the whole semi-energy Put your phone down, let's get all the fun You at the side, the back at the front",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 12.0,
+      "text": "I need, I need, I need",
+      "avg_logprob": -0.3067
+    },
+    {
+      "start": 12.0,
+      "end": 13.08,
+      "text": "What you need, Twan?",
+      "avg_logprob": -0.3067
+    },
+    {
+      "start": 13.42,
+      "end": 14.04,
+      "text": "I need",
+      "avg_logprob": -0.3067
+    },
+    {
+      "start": 14.04,
+      "end": 14.96,
+      "text": "What you need?",
+      "avg_logprob": -0.3067
+    },
+    {
+      "start": 15.32,
+      "end": 17.98,
+      "text": "I need, I need",
+      "avg_logprob": -0.3067
+    },
+    {
+      "start": 17.98,
+      "end": 20.28,
+      "text": "I need the whole, steady in the truck",
+      "avg_logprob": -0.3067
+    },
+    {
+      "start": 20.28,
+      "end": 22.24,
+      "text": "Put your phone down, let's get out the front",
+      "avg_logprob": -0.3067
+    },
+    {
+      "start": 22.24,
+      "end": 24.22,
+      "text": "I got my eyes on the room in the front",
+      "avg_logprob": -0.3067
+    },
+    {
+      "start": 24.22,
+      "end": 26.24,
+      "text": "The vibe is high, feel the beat, plunk",
+      "avg_logprob": -0.3067
+    },
+    {
+      "start": 26.24,
+      "end": 28.02,
+      "text": "The vibe is high, let the build up",
+      "avg_logprob": -0.3067
+    },
+    {
+      "start": 28.02,
+      "end": 32.02,
+      "text": "B.T.O. from everywhere to Korea",
+      "avg_logprob": -0.5993
+    },
+    {
+      "start": 32.02,
+      "end": 34.02,
+      "text": "Erase the gun and the keyboard",
+      "avg_logprob": -0.5993
+    },
+    {
+      "start": 34.02,
+      "end": 36.02,
+      "text": "You're the one who cut off my life",
+      "avg_logprob": -0.5993
+    },
+    {
+      "start": 36.02,
+      "end": 38.02,
+      "text": "It's big in real life",
+      "avg_logprob": -0.5993
+    },
+    {
+      "start": 38.02,
+      "end": 40.02,
+      "text": "Don't talk and get off",
+      "avg_logprob": -0.5993
+    },
+    {
+      "start": 40.02,
+      "end": 44.02,
+      "text": "Hop in, come a little closer, let's get it, let's get it",
+      "avg_logprob": -0.5993
+    },
+    {
+      "start": 44.02,
+      "end": 48.02,
+      "text": "I need somebody to body",
+      "avg_logprob": -0.5993
+    },
+    {
+      "start": 48.02,
+      "end": 51.02,
+      "text": "All of your body beside me",
+      "avg_logprob": -0.5993
+    },
+    {
+      "start": 51.02,
+      "end": 54.02,
+      "text": "I'm touching the moon, hand in hand",
+      "avg_logprob": -0.5993
+    },
+    {
+      "start": 54.02,
+      "end": 56.02,
+      "text": "You and I, we on and on",
+      "avg_logprob": -0.5993
+    },
+    {
+      "start": 56.02,
+      "end": 58.26,
+      "text": "Sunrise, baby don't go home",
+      "avg_logprob": -0.4955
+    },
+    {
+      "start": 58.26,
+      "end": 60.34,
+      "text": "Somebody like you",
+      "avg_logprob": -0.4955
+    },
+    {
+      "start": 60.34,
+      "end": 64.62,
+      "text": "Somebody like you",
+      "avg_logprob": -0.4955
+    },
+    {
+      "start": 64.62,
+      "end": 67.74,
+      "text": "Somebody like",
+      "avg_logprob": -0.4955
+    },
+    {
+      "start": 67.74,
+      "end": 72.24,
+      "text": "Somebody like you",
+      "avg_logprob": -0.4955
+    },
+    {
+      "start": 72.24,
+      "end": 73.74,
+      "text": "Somebody like",
+      "avg_logprob": -0.4955
+    },
+    {
+      "start": 73.74,
+      "end": 76.12,
+      "text": "Somebody like you",
+      "avg_logprob": -0.4955
+    },
+    {
+      "start": 76.12,
+      "end": 83.64,
+      "text": "It's so tight, I mean, no eyesight",
+      "avg_logprob": -0.4955
+    },
+    {
+      "start": 83.64,
+      "end": 85.72,
+      "text": "I mean, we're the only one in style",
+      "avg_logprob": -0.4955
+    },
+    {
+      "start": 85.72,
+      "end": 87.72,
+      "text": "I mean, we livin' the life",
+      "avg_logprob": -0.4475
+    },
+    {
+      "start": 87.72,
+      "end": 89.72,
+      "text": "I close my eyes and it's only night",
+      "avg_logprob": -0.4475
+    },
+    {
+      "start": 89.72,
+      "end": 91.72,
+      "text": "My heart is burning with fever",
+      "avg_logprob": -0.4475
+    },
+    {
+      "start": 91.72,
+      "end": 93.72,
+      "text": "Be your body, be your body, be your body",
+      "avg_logprob": -0.4475
+    },
+    {
+      "start": 93.72,
+      "end": 95.72,
+      "text": "You could see your body or you read on body",
+      "avg_logprob": -0.4475
+    },
+    {
+      "start": 95.72,
+      "end": 99.72,
+      "text": "I need somebody to body",
+      "avg_logprob": -0.4475
+    },
+    {
+      "start": 99.72,
+      "end": 103.72,
+      "text": "All of your body beside me",
+      "avg_logprob": -0.4475
+    },
+    {
+      "start": 103.72,
+      "end": 105.72,
+      "text": "I'm getting more and more nervous",
+      "avg_logprob": -0.4475
+    },
+    {
+      "start": 105.72,
+      "end": 107.72,
+      "text": "You and I, we on and on yeah",
+      "avg_logprob": -0.4475
+    },
+    {
+      "start": 107.72,
+      "end": 109.72,
+      "text": "Somewhere before you don't go",
+      "avg_logprob": -0.4475
+    },
+    {
+      "start": 109.72,
+      "end": 111.72,
+      "text": "Somebody like you",
+      "avg_logprob": -0.4475
+    },
+    {
+      "start": 141.72,
+      "end": 144.12,
+      "text": "Everybody like you",
+      "avg_logprob": -0.852
+    },
+    {
+      "start": 174.12,
+      "end": 178.06,
+      "text": "I need the whole semi-energy",
+      "avg_logprob": -0.3839
+    },
+    {
+      "start": 178.06,
+      "end": 182.4,
+      "text": "Put your phone down, let's get all the fun",
+      "avg_logprob": -0.3839
+    },
+    {
+      "start": 182.4,
+      "end": 186.3,
+      "text": "You at the side, the back at the front",
+      "avg_logprob": -0.3839
+    }
+  ]
+}

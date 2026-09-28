@@ -1,0 +1,433 @@
+{
+  "video_id": "V18",
+  "language": "en",
+  "text": "Have you ever slipped your thumb into that tiny, tight pocket inside the front right pocket of your jeans and thought, what is this even for? Try putting your car keys in there. They won't fit. Drop a single coin in and you'll find yourself awkwardly digging it back out. Today it seems completely useless. Yet almost every single pair of jeans in the world has one. Is it just a quirky fashion statement, or does it serve a hidden, forgotten purpose? Welcome to Simple Things, Surprising Histories. Today we're traveling back to the rugged 1870s to solve a 150-year-old mystery. Why do your jeans have this little pocket? To understand this tiny pocket, we have to travel to the American West in the year 1873. A tailor named Jacob Davis and a dry goods businessman named Levi Strauss received a patent to use copper rivets to strengthen denim work pants. These early jeans, which were originally called waist overalls, were built for the toughest men of the era – miners, carpenters, and cowboys. But these workers faced a very specific problem. In the late 1800s, men didn't wear wristwatches. They relied on pocket watches. A pocket watch was an essential, expensive, and fragile piece of machinery. When you're swinging a heavy pickaxe in a mine or riding a bucking horse, a delicate glass-faced watch bouncing around in a loose, baggy pocket is a disaster waiting to happen. So Levi Strauss and Jacob Davis designed a brilliant solution. A specially fitted deep miniature pouch sitting high on the right hip. It was tight enough to keep a pocket watch perfectly secure, protecting it from getting smashed or spilling out into the dirt. It was quite literally the watch pocket. Now if you ask a fashion trivia buff about this tiny pouch, they might confidently tell you it's called the fifth pocket. But here's a surprising piece of history. That is completely false. When Levi's introduced their legendary riveted denim in 1873, the jeans only had four pockets. There were two main pockets in the front, the tiny watch pocket on the right, and just one single pocket on the back right cheek. It wasn't until 1901 that Levi's added a second back pocket to meet customer demands. So the tiny front pocket isn't the fifth pocket at all. one of the original four. The second back pocket is the true fifth pocket. And here's another fascinating historical footnote. During World War II, the U.S. government required clothing manufacturers to conserve metal for the war effort. Levi's responded by temporarily removing the copper rivets from the watch pocket to save metal. The rivets eventually returned, but the pocket never left. But wait, if this pocket was designed for a bulky, heavy pocket watch, why is it so small today? As we moved into the 20th century, wrist watches became the practical standard for men. The classic pocket watch slowly faded into obscurity. Without pocket watches to carry, the little denim pouch didn't need to be so large. Around the turn of the century, clothing makers actually shrank the pocket down from 3.5 inches to about 3 inches. Over the decades, people found new uses for the leftover space. In the 1950s, rebellious teens used it to hold Zippo lighters. Later, it became the perfect spot to stash loose coins, movie tickets, or a guitar pick. Today, even though its original purpose is dead and gone, denim manufacturers intentionally keep it exactly where it is. Why? Because it's a legendary signature of classic denim heritage. So, the next time you pull on your favorite pair of jeans and brush your hand against that tiny pocket, take a moment to appreciate it. You aren't just wearing a piece of clothing, you're wearing a time capsule, a functional tribute to the workers and cowboys who built the American West. If you enjoyed this trip through time, hit that like button, share this video with a friend who loves useless trivia, and subscribe to Simple Things Surprising Histories for more massive stories hiding in plain sight. Thanks for watching, and I'll see you in the next chapter. you",
+  "segments": [
+    {
+      "start": 0.64,
+      "end": 5.88,
+      "text": "Have you ever slipped your thumb into that tiny, tight pocket inside the front right",
+      "avg_logprob": -0.1228
+    },
+    {
+      "start": 5.88,
+      "end": 10.48,
+      "text": "pocket of your jeans and thought, what is this even for?",
+      "avg_logprob": -0.1228
+    },
+    {
+      "start": 10.48,
+      "end": 12.52,
+      "text": "Try putting your car keys in there.",
+      "avg_logprob": -0.1228
+    },
+    {
+      "start": 12.52,
+      "end": 13.8,
+      "text": "They won't fit.",
+      "avg_logprob": -0.1228
+    },
+    {
+      "start": 13.8,
+      "end": 18.76,
+      "text": "Drop a single coin in and you'll find yourself awkwardly digging it back out.",
+      "avg_logprob": -0.1228
+    },
+    {
+      "start": 18.76,
+      "end": 21.68,
+      "text": "Today it seems completely useless.",
+      "avg_logprob": -0.1228
+    },
+    {
+      "start": 21.68,
+      "end": 26.68,
+      "text": "Yet almost every single pair of jeans in the world has one.",
+      "avg_logprob": -0.1228
+    },
+    {
+      "start": 26.68,
+      "end": 33.02,
+      "text": "Is it just a quirky fashion statement, or does it serve a hidden, forgotten purpose?",
+      "avg_logprob": -0.1317
+    },
+    {
+      "start": 33.02,
+      "end": 36.2,
+      "text": "Welcome to Simple Things, Surprising Histories.",
+      "avg_logprob": -0.1317
+    },
+    {
+      "start": 36.2,
+      "end": 43.72,
+      "text": "Today we're traveling back to the rugged 1870s to solve a 150-year-old mystery.",
+      "avg_logprob": -0.1317
+    },
+    {
+      "start": 43.72,
+      "end": 54.68,
+      "text": "Why do your jeans have this little pocket?",
+      "avg_logprob": -0.1317
+    },
+    {
+      "start": 54.68,
+      "end": 61.38,
+      "text": "To understand this tiny pocket, we have to travel to the American West in the year 1873.",
+      "avg_logprob": -0.0864
+    },
+    {
+      "start": 61.38,
+      "end": 67.2,
+      "text": "A tailor named Jacob Davis and a dry goods businessman named Levi Strauss received a",
+      "avg_logprob": -0.0864
+    },
+    {
+      "start": 67.2,
+      "end": 71.68,
+      "text": "patent to use copper rivets to strengthen denim work pants.",
+      "avg_logprob": -0.0864
+    },
+    {
+      "start": 71.68,
+      "end": 77.12,
+      "text": "These early jeans, which were originally called waist overalls, were built for the toughest",
+      "avg_logprob": -0.0864
+    },
+    {
+      "start": 77.12,
+      "end": 81.36,
+      "text": "men of the era – miners, carpenters, and cowboys.",
+      "avg_logprob": -0.0864
+    },
+    {
+      "start": 81.36,
+      "end": 84.84,
+      "text": "But these workers faced a very specific problem.",
+      "avg_logprob": -0.0736
+    },
+    {
+      "start": 84.84,
+      "end": 88.6,
+      "text": "In the late 1800s, men didn't wear wristwatches.",
+      "avg_logprob": -0.0736
+    },
+    {
+      "start": 88.6,
+      "end": 90.96,
+      "text": "They relied on pocket watches.",
+      "avg_logprob": -0.0736
+    },
+    {
+      "start": 90.96,
+      "end": 96.12,
+      "text": "A pocket watch was an essential, expensive, and fragile piece of machinery.",
+      "avg_logprob": -0.0736
+    },
+    {
+      "start": 96.12,
+      "end": 101.12,
+      "text": "When you're swinging a heavy pickaxe in a mine or riding a bucking horse, a delicate",
+      "avg_logprob": -0.0736
+    },
+    {
+      "start": 101.12,
+      "end": 107.56,
+      "text": "glass-faced watch bouncing around in a loose, baggy pocket is a disaster waiting to happen.",
+      "avg_logprob": -0.0736
+    },
+    {
+      "start": 107.56,
+      "end": 112.08,
+      "text": "So Levi Strauss and Jacob Davis designed a brilliant solution.",
+      "avg_logprob": -0.1149
+    },
+    {
+      "start": 112.08,
+      "end": 116.92,
+      "text": "A specially fitted deep miniature pouch sitting high on the right hip.",
+      "avg_logprob": -0.1149
+    },
+    {
+      "start": 116.92,
+      "end": 121.34,
+      "text": "It was tight enough to keep a pocket watch perfectly secure, protecting it from getting",
+      "avg_logprob": -0.1149
+    },
+    {
+      "start": 121.34,
+      "end": 124.08,
+      "text": "smashed or spilling out into the dirt.",
+      "avg_logprob": -0.1149
+    },
+    {
+      "start": 124.08,
+      "end": 127.34,
+      "text": "It was quite literally the watch pocket.",
+      "avg_logprob": -0.1149
+    },
+    {
+      "start": 127.34,
+      "end": 132.56,
+      "text": "Now if you ask a fashion trivia buff about this tiny pouch, they might confidently tell",
+      "avg_logprob": -0.1149
+    },
+    {
+      "start": 132.56,
+      "end": 134.8,
+      "text": "you it's called the fifth pocket.",
+      "avg_logprob": -0.1149
+    },
+    {
+      "start": 134.8,
+      "end": 137.52,
+      "text": "But here's a surprising piece of history.",
+      "avg_logprob": -0.1149
+    },
+    {
+      "start": 137.52,
+      "end": 139.64,
+      "text": "That is completely false.",
+      "avg_logprob": -0.0589
+    },
+    {
+      "start": 139.64,
+      "end": 147.4,
+      "text": "When Levi's introduced their legendary riveted denim in 1873, the jeans only had four pockets.",
+      "avg_logprob": -0.0589
+    },
+    {
+      "start": 147.4,
+      "end": 152.08,
+      "text": "There were two main pockets in the front, the tiny watch pocket on the right, and just",
+      "avg_logprob": -0.0589
+    },
+    {
+      "start": 152.08,
+      "end": 155.36,
+      "text": "one single pocket on the back right cheek.",
+      "avg_logprob": -0.0589
+    },
+    {
+      "start": 155.36,
+      "end": 161.8,
+      "text": "It wasn't until 1901 that Levi's added a second back pocket to meet customer demands.",
+      "avg_logprob": -0.0589
+    },
+    {
+      "start": 161.8,
+      "end": 165.62,
+      "text": "So the tiny front pocket isn't the fifth pocket at all.",
+      "avg_logprob": -0.0589
+    },
+    {
+      "start": 165.62,
+      "end": 171.74,
+      "text": "one of the original four. The second back pocket is the true fifth pocket. And here's another",
+      "avg_logprob": -0.0628
+    },
+    {
+      "start": 171.74,
+      "end": 177.6,
+      "text": "fascinating historical footnote. During World War II, the U.S. government required clothing",
+      "avg_logprob": -0.0628
+    },
+    {
+      "start": 177.6,
+      "end": 183.66,
+      "text": "manufacturers to conserve metal for the war effort. Levi's responded by temporarily removing",
+      "avg_logprob": -0.0628
+    },
+    {
+      "start": 183.66,
+      "end": 188.5,
+      "text": "the copper rivets from the watch pocket to save metal. The rivets eventually returned,",
+      "avg_logprob": -0.0628
+    },
+    {
+      "start": 188.5,
+      "end": 195.54,
+      "text": "but the pocket never left. But wait, if this pocket was designed for a bulky, heavy pocket watch,",
+      "avg_logprob": -0.0628
+    },
+    {
+      "start": 195.62,
+      "end": 197.62,
+      "text": "why is it so small today?",
+      "avg_logprob": -0.1023
+    },
+    {
+      "start": 197.62,
+      "end": 200.62,
+      "text": "As we moved into the 20th century,",
+      "avg_logprob": -0.1023
+    },
+    {
+      "start": 200.62,
+      "end": 203.62,
+      "text": "wrist watches became the practical standard for men.",
+      "avg_logprob": -0.1023
+    },
+    {
+      "start": 203.62,
+      "end": 207.62,
+      "text": "The classic pocket watch slowly faded into obscurity.",
+      "avg_logprob": -0.1023
+    },
+    {
+      "start": 207.62,
+      "end": 209.62,
+      "text": "Without pocket watches to carry,",
+      "avg_logprob": -0.1023
+    },
+    {
+      "start": 209.62,
+      "end": 212.62,
+      "text": "the little denim pouch didn't need to be so large.",
+      "avg_logprob": -0.1023
+    },
+    {
+      "start": 212.62,
+      "end": 214.62,
+      "text": "Around the turn of the century,",
+      "avg_logprob": -0.1023
+    },
+    {
+      "start": 214.62,
+      "end": 220.62,
+      "text": "clothing makers actually shrank the pocket down from 3.5 inches to about 3 inches.",
+      "avg_logprob": -0.1023
+    },
+    {
+      "start": 220.62,
+      "end": 224.62,
+      "text": "Over the decades, people found new uses for the leftover space.",
+      "avg_logprob": -0.1023
+    },
+    {
+      "start": 224.62,
+      "end": 228.68,
+      "text": "In the 1950s, rebellious teens used it to hold Zippo lighters.",
+      "avg_logprob": -0.1155
+    },
+    {
+      "start": 229.18,
+      "end": 234.56,
+      "text": "Later, it became the perfect spot to stash loose coins, movie tickets, or a guitar pick.",
+      "avg_logprob": -0.1155
+    },
+    {
+      "start": 235.16,
+      "end": 238.44,
+      "text": "Today, even though its original purpose is dead and gone,",
+      "avg_logprob": -0.1155
+    },
+    {
+      "start": 238.92,
+      "end": 242.92,
+      "text": "denim manufacturers intentionally keep it exactly where it is.",
+      "avg_logprob": -0.1155
+    },
+    {
+      "start": 243.38,
+      "end": 243.74,
+      "text": "Why?",
+      "avg_logprob": -0.1155
+    },
+    {
+      "start": 243.74,
+      "end": 247.78,
+      "text": "Because it's a legendary signature of classic denim heritage.",
+      "avg_logprob": -0.1155
+    },
+    {
+      "start": 248.7,
+      "end": 251.88,
+      "text": "So, the next time you pull on your favorite pair of jeans",
+      "avg_logprob": -0.1155
+    },
+    {
+      "start": 251.88,
+      "end": 254.36,
+      "text": "and brush your hand against that tiny pocket,",
+      "avg_logprob": -0.1155
+    },
+    {
+      "start": 254.62,
+      "end": 256.62,
+      "text": "take a moment to appreciate it.",
+      "avg_logprob": -0.2762
+    },
+    {
+      "start": 256.66,
+      "end": 258.92,
+      "text": "You aren't just wearing a piece of clothing,",
+      "avg_logprob": -0.2762
+    },
+    {
+      "start": 258.96,
+      "end": 261.16,
+      "text": "you're wearing a time capsule,",
+      "avg_logprob": -0.2762
+    },
+    {
+      "start": 261.2,
+      "end": 264.46,
+      "text": "a functional tribute to the workers and cowboys",
+      "avg_logprob": -0.2762
+    },
+    {
+      "start": 264.5,
+      "end": 267.0,
+      "text": "who built the American West.",
+      "avg_logprob": -0.2762
+    },
+    {
+      "start": 267.04,
+      "end": 269.34,
+      "text": "If you enjoyed this trip through time,",
+      "avg_logprob": -0.2762
+    },
+    {
+      "start": 269.36,
+      "end": 270.6,
+      "text": "hit that like button,",
+      "avg_logprob": -0.2762
+    },
+    {
+      "start": 270.64,
+      "end": 273.94,
+      "text": "share this video with a friend who loves useless trivia,",
+      "avg_logprob": -0.2762
+    },
+    {
+      "start": 273.98,
+      "end": 277.34,
+      "text": "and subscribe to Simple Things Surprising Histories",
+      "avg_logprob": -0.2762
+    },
+    {
+      "start": 277.38,
+      "end": 280.98,
+      "text": "for more massive stories hiding in plain sight.",
+      "avg_logprob": -0.2762
+    },
+    {
+      "start": 281.02,
+      "end": 282.18,
+      "text": "Thanks for watching,",
+      "avg_logprob": -0.2762
+    },
+    {
+      "start": 282.22,
+      "end": 284.22,
+      "text": "and I'll see you in the next chapter.",
+      "avg_logprob": -0.2762
+    },
+    {
+      "start": 284.62,
+      "end": 285.12,
+      "text": "you",
+      "avg_logprob": -0.865
+    }
+  ]
+}

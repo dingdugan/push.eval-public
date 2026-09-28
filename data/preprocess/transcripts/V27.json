@@ -1,0 +1,457 @@
+{
+  "video_id": "V27",
+  "language": "en",
+  "text": "Chirky now, steps it up pace-wise, gets the tricks out for Bowdoin! And you have to marvel at the assist from Rea Chirky! Look at the technique and the end product. Gugna with the Rabona pass. And Daé, wonderful again. Voskályi's ball into the area, Van Hekka down, Kostiláš with the overhead kick! That is absolutely brilliant. The 18-year-old. In comes the corner. Romero was contesting. Will bounce him out. Xiao Pellinia! What a strike from Xiao Pellinia! Return to Salah. That's cheeky. That's cheeky from camera. Drops on the thigh of Kudus, the backheel for Bentancur. VOLTAMARDA! Oh, what a goal that is! Nick Voltamarda with the deftest of touches. Gibbs-White and Igor Jesus up with him. And it goes deep, Jesus down, Gibbs-White has got it in! Out of nothing! Nottingham Forest are level at the Etihad. They've barely been out of their own half in this second half, but they are level. Gallagher, Solanke, he's in the right place at the right time again. Somehow he sticks a boot out and finds that top corner. It's brilliant from Solanke. Donald Roma does his best. He gets a finger to it. He can't keep it out. Semenyo for Mamouch. He's got Bernardo Silva on the overlap. Bernardo Silva... Oh, he's scored! That is an absolute beauty from Bernardo Silva! What a moment of genius from the City man. It's a really clever finish. Hermansen just couldn't get near it. TK, Tarkovsky forward for Everton, Dewsbury Hole took it down brilliantly. What a lovely finish by Kiernan Dewsbury Hole. This is better from Leeds and it is borne out, striding away from Kukurea, turning him cleverly. Now can he set up something? And Vermo, Lomans, Martinez, what about that? For a very cool touch to get away from Bowen. In goes Gusto, Somerville, flicks it on, Bowen flicks it on, and West Ham are on the move again. Little flick to Jared Bowen, little flick back, then he's using his pace. Schalke with the darting run. Beautiful dummy, on he goes, on he goes and Haaland's there! Oh how's that for Karmus under pressure from Michael Coyote. Kai Ode. Well, that's a clever touch. Wilson, brilliant. What a piece of inspiration from Harry Wilson. Oh, beautiful from Kudus. Semenyo to ask the questions of Castagne. He's breezed away from him. Semenyo! What a goal! What a player! It's the Antoine Semenyo show again! Lovely little bit of skill. Hewitt still going. Tuxi! Oh, it's in! He showed brilliant footwork on the edge of the penalty area, just to throw the shoulder on three or four Wolves players who've all bought it. Reinders. It's Lewis, and Haaland walks it in. But we have to talk about Reinders. What a ball this is. Lovely feet, that little scooped pass there is top class. There's Yama... ...skill to get past Oje. Well, as you say, momentum taken out of it, he's proving everybody wrong. Great ball by Garner, and Barry... ...takes the chance! Well, Garner made it, Barry took it. Oh, he's absolutely taken Lewis Hall to the cleaners there, Enzo Lefebvre.",
+  "segments": [
+    {
+      "start": 0.96,
+      "end": 6.72,
+      "text": "Chirky now, steps it up pace-wise, gets the tricks out for Bowdoin!",
+      "avg_logprob": -0.2831
+    },
+    {
+      "start": 8.88,
+      "end": 15.92,
+      "text": "And you have to marvel at the assist from Rea Chirky!",
+      "avg_logprob": -0.2831
+    },
+    {
+      "start": 15.92,
+      "end": 19.12,
+      "text": "Look at the technique and the end product.",
+      "avg_logprob": -0.2831
+    },
+    {
+      "start": 19.12,
+      "end": 24.56,
+      "text": "Gugna with the Rabona pass.",
+      "avg_logprob": -0.7415
+    },
+    {
+      "start": 30.08,
+      "end": 32.32,
+      "text": "And Daé, wonderful again.",
+      "avg_logprob": -0.7415
+    },
+    {
+      "start": 38.88,
+      "end": 41.16,
+      "text": "Voskályi's ball into the area, Van Hekka down,",
+      "avg_logprob": -0.7415
+    },
+    {
+      "start": 41.16,
+      "end": 42.8,
+      "text": "Kostiláš with the overhead kick!",
+      "avg_logprob": -0.7415
+    },
+    {
+      "start": 42.8,
+      "end": 49.08,
+      "text": "That is absolutely brilliant.",
+      "avg_logprob": -0.413
+    },
+    {
+      "start": 50.94,
+      "end": 52.54,
+      "text": "The 18-year-old.",
+      "avg_logprob": -0.413
+    },
+    {
+      "start": 54.6,
+      "end": 55.9,
+      "text": "In comes the corner.",
+      "avg_logprob": -0.413
+    },
+    {
+      "start": 56.02,
+      "end": 57.22,
+      "text": "Romero was contesting.",
+      "avg_logprob": -0.413
+    },
+    {
+      "start": 57.62,
+      "end": 58.18,
+      "text": "Will bounce him out.",
+      "avg_logprob": -0.413
+    },
+    {
+      "start": 58.26,
+      "end": 59.02,
+      "text": "Xiao Pellinia!",
+      "avg_logprob": -0.413
+    },
+    {
+      "start": 59.88,
+      "end": 62.66,
+      "text": "What a strike from Xiao Pellinia!",
+      "avg_logprob": -0.413
+    },
+    {
+      "start": 63.94,
+      "end": 65.14,
+      "text": "Return to Salah.",
+      "avg_logprob": -0.413
+    },
+    {
+      "start": 67.58,
+      "end": 68.6,
+      "text": "That's cheeky.",
+      "avg_logprob": -0.413
+    },
+    {
+      "start": 69.0,
+      "end": 70.62,
+      "text": "That's cheeky from camera.",
+      "avg_logprob": -0.413
+    },
+    {
+      "start": 72.8,
+      "end": 77.64,
+      "text": "Drops on the thigh of Kudus, the backheel for Bentancur.",
+      "avg_logprob": -0.4855
+    },
+    {
+      "start": 82.2,
+      "end": 85.72,
+      "text": "VOLTAMARDA! Oh, what a goal that is!",
+      "avg_logprob": -0.4855
+    },
+    {
+      "start": 85.72,
+      "end": 89.28,
+      "text": "Nick Voltamarda with the deftest of touches.",
+      "avg_logprob": -0.4855
+    },
+    {
+      "start": 91.84,
+      "end": 94.12,
+      "text": "Gibbs-White and Igor Jesus up with him.",
+      "avg_logprob": -0.4855
+    },
+    {
+      "start": 95.8,
+      "end": 99.6,
+      "text": "And it goes deep, Jesus down, Gibbs-White has got it in!",
+      "avg_logprob": -0.4855
+    },
+    {
+      "start": 99.6,
+      "end": 102.88,
+      "text": "Out of nothing!",
+      "avg_logprob": -0.2338
+    },
+    {
+      "start": 102.88,
+      "end": 106.16,
+      "text": "Nottingham Forest are level at the Etihad.",
+      "avg_logprob": -0.2338
+    },
+    {
+      "start": 106.16,
+      "end": 110.08,
+      "text": "They've barely been out of their own half in this second half, but they are level.",
+      "avg_logprob": -0.2338
+    },
+    {
+      "start": 114.52,
+      "end": 119.32,
+      "text": "Gallagher, Solanke, he's in the right place at the right time again.",
+      "avg_logprob": -0.2338
+    },
+    {
+      "start": 119.32,
+      "end": 122.88,
+      "text": "Somehow he sticks a boot out and finds that top corner.",
+      "avg_logprob": -0.2338
+    },
+    {
+      "start": 122.88,
+      "end": 124.4,
+      "text": "It's brilliant from Solanke.",
+      "avg_logprob": -0.2338
+    },
+    {
+      "start": 124.4,
+      "end": 125.48,
+      "text": "Donald Roma does his best.",
+      "avg_logprob": -0.2338
+    },
+    {
+      "start": 125.48,
+      "end": 126.4,
+      "text": "He gets a finger to it.",
+      "avg_logprob": -0.2338
+    },
+    {
+      "start": 126.4,
+      "end": 128.36,
+      "text": "He can't keep it out.",
+      "avg_logprob": -0.2338
+    },
+    {
+      "start": 128.36,
+      "end": 129.96,
+      "text": "Semenyo for Mamouch.",
+      "avg_logprob": -0.3871
+    },
+    {
+      "start": 131.24,
+      "end": 133.0,
+      "text": "He's got Bernardo Silva on the overlap.",
+      "avg_logprob": -0.3871
+    },
+    {
+      "start": 134.24,
+      "end": 135.6,
+      "text": "Bernardo Silva...",
+      "avg_logprob": -0.3871
+    },
+    {
+      "start": 135.6,
+      "end": 137.28,
+      "text": "Oh, he's scored!",
+      "avg_logprob": -0.3871
+    },
+    {
+      "start": 137.28,
+      "end": 141.48,
+      "text": "That is an absolute beauty from Bernardo Silva!",
+      "avg_logprob": -0.3871
+    },
+    {
+      "start": 141.48,
+      "end": 145.84,
+      "text": "What a moment of genius from the City man.",
+      "avg_logprob": -0.3871
+    },
+    {
+      "start": 145.84,
+      "end": 147.56,
+      "text": "It's a really clever finish.",
+      "avg_logprob": -0.3871
+    },
+    {
+      "start": 147.56,
+      "end": 149.08,
+      "text": "Hermansen just couldn't get near it.",
+      "avg_logprob": -0.3871
+    },
+    {
+      "start": 149.08,
+      "end": 165.18,
+      "text": "TK, Tarkovsky forward for Everton, Dewsbury Hole took it down brilliantly.",
+      "avg_logprob": -0.3639
+    },
+    {
+      "start": 165.18,
+      "end": 170.24,
+      "text": "What a lovely finish by Kiernan Dewsbury Hole.",
+      "avg_logprob": -0.3639
+    },
+    {
+      "start": 179.08,
+      "end": 193.92,
+      "text": "This is better from Leeds and it is borne out, striding away from Kukurea, turning him",
+      "avg_logprob": -0.5103
+    },
+    {
+      "start": 193.92,
+      "end": 196.32,
+      "text": "cleverly. Now can he set up something?",
+      "avg_logprob": -0.5103
+    },
+    {
+      "start": 196.32,
+      "end": 204.4,
+      "text": "And Vermo, Lomans, Martinez, what about that?",
+      "avg_logprob": -0.287
+    },
+    {
+      "start": 204.9,
+      "end": 207.9,
+      "text": "For a very cool touch to get away from Bowen.",
+      "avg_logprob": -0.287
+    },
+    {
+      "start": 210.98,
+      "end": 216.4,
+      "text": "In goes Gusto, Somerville, flicks it on, Bowen flicks it on,",
+      "avg_logprob": -0.287
+    },
+    {
+      "start": 216.6,
+      "end": 217.74,
+      "text": "and West Ham are on the move again.",
+      "avg_logprob": -0.287
+    },
+    {
+      "start": 219.42,
+      "end": 223.28,
+      "text": "Little flick to Jared Bowen, little flick back, then he's using his pace.",
+      "avg_logprob": -0.287
+    },
+    {
+      "start": 223.28,
+      "end": 232.28,
+      "text": "Schalke with the darting run. Beautiful dummy, on he goes, on he goes and Haaland's there!",
+      "avg_logprob": -0.448
+    },
+    {
+      "start": 243.28,
+      "end": 246.28,
+      "text": "Oh how's that for Karmus under pressure from Michael Coyote.",
+      "avg_logprob": -0.448
+    },
+    {
+      "start": 246.28,
+      "end": 247.28,
+      "text": "Kai Ode.",
+      "avg_logprob": -0.3961
+    },
+    {
+      "start": 253.08,
+      "end": 255.36,
+      "text": "Well, that's a clever touch. Wilson, brilliant.",
+      "avg_logprob": -0.3961
+    },
+    {
+      "start": 255.36,
+      "end": 259.64,
+      "text": "What a piece of inspiration from Harry Wilson.",
+      "avg_logprob": -0.3961
+    },
+    {
+      "start": 261.84,
+      "end": 263.4,
+      "text": "Oh, beautiful from Kudus.",
+      "avg_logprob": -0.3961
+    },
+    {
+      "start": 266.56,
+      "end": 269.76,
+      "text": "Semenyo to ask the questions of Castagne.",
+      "avg_logprob": -0.3961
+    },
+    {
+      "start": 269.76,
+      "end": 273.04,
+      "text": "He's breezed away from him. Semenyo!",
+      "avg_logprob": -0.3961
+    },
+    {
+      "start": 273.04,
+      "end": 274.12,
+      "text": "What a goal!",
+      "avg_logprob": -0.3961
+    },
+    {
+      "start": 276.28,
+      "end": 283.6,
+      "text": "What a player! It's the Antoine Semenyo show again!",
+      "avg_logprob": -0.7041
+    },
+    {
+      "start": 283.6,
+      "end": 287.36,
+      "text": "Lovely little bit of skill.",
+      "avg_logprob": -0.7041
+    },
+    {
+      "start": 294.72,
+      "end": 297.68,
+      "text": "Hewitt still going.",
+      "avg_logprob": -0.7041
+    },
+    {
+      "start": 297.68,
+      "end": 301.84,
+      "text": "Tuxi! Oh, it's in!",
+      "avg_logprob": -0.7041
+    },
+    {
+      "start": 301.84,
+      "end": 306.08,
+      "text": "He showed brilliant footwork on the edge of the penalty area,",
+      "avg_logprob": -0.3328
+    },
+    {
+      "start": 306.08,
+      "end": 310.0,
+      "text": "just to throw the shoulder on three or four Wolves players who've all bought it.",
+      "avg_logprob": -0.3328
+    },
+    {
+      "start": 312.4,
+      "end": 313.4,
+      "text": "Reinders.",
+      "avg_logprob": -0.3328
+    },
+    {
+      "start": 315.16,
+      "end": 319.48,
+      "text": "It's Lewis, and Haaland walks it in.",
+      "avg_logprob": -0.3328
+    },
+    {
+      "start": 319.48,
+      "end": 322.56,
+      "text": "But we have to talk about Reinders. What a ball this is.",
+      "avg_logprob": -0.3328
+    },
+    {
+      "start": 323.56,
+      "end": 328.64,
+      "text": "Lovely feet, that little scooped pass there is top class.",
+      "avg_logprob": -0.3328
+    },
+    {
+      "start": 328.64,
+      "end": 330.88,
+      "text": "There's Yama...",
+      "avg_logprob": -0.6065
+    },
+    {
+      "start": 333.36,
+      "end": 335.12,
+      "text": "...skill to get past Oje.",
+      "avg_logprob": -0.6065
+    },
+    {
+      "start": 337.6,
+      "end": 340.96,
+      "text": "Well, as you say, momentum taken out of it, he's proving everybody wrong.",
+      "avg_logprob": -0.6065
+    },
+    {
+      "start": 340.96,
+      "end": 343.68,
+      "text": "Great ball by Garner, and Barry...",
+      "avg_logprob": -0.6065
+    },
+    {
+      "start": 345.44,
+      "end": 347.08,
+      "text": "...takes the chance!",
+      "avg_logprob": -0.6065
+    },
+    {
+      "start": 349.08,
+      "end": 351.88,
+      "text": "Well, Garner made it, Barry took it.",
+      "avg_logprob": -0.6065
+    },
+    {
+      "start": 358.64,
+      "end": 362.64,
+      "text": "Oh, he's absolutely taken Lewis Hall to the cleaners there,",
+      "avg_logprob": -0.4739
+    },
+    {
+      "start": 362.64,
+      "end": 364.64,
+      "text": "Enzo Lefebvre.",
+      "avg_logprob": -0.4739
+    }
+  ]
+}

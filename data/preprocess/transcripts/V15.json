@@ -1,0 +1,493 @@
+{
+  "video_id": "V15",
+  "language": "en",
+  "text": "Just to finish Senator Blumenthal's point, I hope you realize how ridiculous the four of you look, spouting these preposterous, canned answers in a forum in which, A, you're supposed to tell the truth, and B, you're supposed to demonstrate the judicial capacity to make independent, factual decisions in hard cases. If you can't even sit here and say that Joe Biden won that election or that the Capitol was attacked, what's left? What's left if a hard case comes your way as a judge and let's say the Trump administration is bearing down on that? Why would we ever believe that you would give the litigants a fair hearing and a fair decision if the executive branch was leaning in on you when we can't get a reasonable answer out of any of you with the executive branch leaning in on you to give these ridiculous answers today? I'm really sorry to have to go through this and that you have to go through this, but it would be nice if you could tell your executive branch handlers, for instance, Ms. Clark, I'm supported by Lindsey Graham. He's a friend of President Trump. He's the second senior person on the Republican side in the Judiciary Committee. He's likely to be the next Judiciary Committee chair. I think I'll be okay. I don't need to make myself ridiculous at your direction. It'd be great if you could have said that. It'll be great if your answers were simple and honest here today. It's really disappointing. Let me ask a different question, a legal question. A judge, you want to be judges. A judge gets a threat, a threat to the judge's life or to the judge's family. Can you imagine a scenario in which liability may attach to individuals beyond the utterer of that threat? Ms. Clark? Senator, as a prosecutor, Senator, there are instances where there's some responsibility that is assigned to someone who is not the utterer of a threat to an individual. And so to answer your question, yes, I can imagine. Correct. Do you agree? Yes, Senator. And if confirmed to the bench, I would follow all Supreme Court precedent and Ninth Circuit precedent. Mr. Rick, do you agree? Yes, Senator. I would agree with that. I don't know that I care what you think, Ms. Westercamp, because you're going to international trade and you're probably not going to see much of this, but do you agree? Yes, Senator. Yeah, and those doctrines that would provide the legal basis for investigation in those scenarios would include doctrines like, name one, Ms. Clark. Senator, doctrines that are, if someone is essentially carrying out. Solicitation, would that be one? Yes. Solicitation of a threat? Yes. Or a conspiracy out of which the threat emerged, would that be another one? Yes. Yes. How about, and it's the product of an enterprise under the racketeering statutes, would that also be another way that liability could extend beyond the utterer? That is correct, Senator. Can you think of any others, Ms. Lane, where liability extends beyond the utterer of the threat? What are some of the legal theories that would support that kind of investigation and prosecution? Senator, the doctrines you mentioned, I would agree with, and I would just look always to the federal law and federal statutes guiding that. Mr. Rickey? Senator, I would agree with that. I think you covered the major ones, conspiracy, RICO. There may be other avenues of potential legal liability, but I think you covered the three big ones in that scenario. Mr. West, do you agree? Senator, I'm not aware if there are any more with my practice before the Court of International Trade and Court of Federal Claims that doesn't touch on criminal law. So here's why I asked you these questions. I asked you these questions because right now, federal judges are under the worst shadow of physical threat in my lifetime and perhaps in in the history of this country. And in responding to those threats, we have the United States Marshals Service, which reports to the Department of Justice. And I have now over a dozen times asked the Marshals Service, will you investigate behind the utterer of a threat if the evidence justifies it? That's a super easy question. The answer is, yeah, of course we will. They won't answer that. They won't answer that. And I point this out because judges across the country need to pay attention to the fact that the Marshal Service won't confirm that it will investigate behind the utterer of a threat if the evidence supports that. And why would that be the case? That would be the case because when you get behind the utterer of a lot of these threats, You run into right-wing conspiracies. And this MAGA Department of Justice would rather not go there. And so they leave justices, judges exposed with investigations in which they aren't doing investigative 101 work that you've all identified as plausible legal theories. And we need to fix that. We need to fix that.",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.72,
+      "text": "Just to finish Senator Blumenthal's point, I hope you realize how ridiculous the four",
+      "avg_logprob": -0.1454
+    },
+    {
+      "start": 8.72,
+      "end": 17.02,
+      "text": "of you look, spouting these preposterous, canned answers in a forum in which, A, you're",
+      "avg_logprob": -0.1454
+    },
+    {
+      "start": 17.02,
+      "end": 22.52,
+      "text": "supposed to tell the truth, and B, you're supposed to demonstrate the judicial capacity",
+      "avg_logprob": -0.1454
+    },
+    {
+      "start": 22.52,
+      "end": 26.68,
+      "text": "to make independent, factual decisions in hard cases.",
+      "avg_logprob": -0.1454
+    },
+    {
+      "start": 26.68,
+      "end": 38.2,
+      "text": "If you can't even sit here and say that Joe Biden won that election or that the Capitol was attacked, what's left?",
+      "avg_logprob": -0.156
+    },
+    {
+      "start": 40.64,
+      "end": 47.94,
+      "text": "What's left if a hard case comes your way as a judge and let's say the Trump administration is bearing down on that?",
+      "avg_logprob": -0.156
+    },
+    {
+      "start": 47.94,
+      "end": 56.16,
+      "text": "Why would we ever believe that you would give the litigants a fair hearing and a fair decision",
+      "avg_logprob": -0.1137
+    },
+    {
+      "start": 56.16,
+      "end": 65.54,
+      "text": "if the executive branch was leaning in on you when we can't get a reasonable answer",
+      "avg_logprob": -0.1137
+    },
+    {
+      "start": 65.54,
+      "end": 70.62,
+      "text": "out of any of you with the executive branch leaning in on you to give these ridiculous",
+      "avg_logprob": -0.1137
+    },
+    {
+      "start": 70.62,
+      "end": 71.74,
+      "text": "answers today?",
+      "avg_logprob": -0.1137
+    },
+    {
+      "start": 71.74,
+      "end": 77.94,
+      "text": "I'm really sorry to have to go through this and that you have to go through this,",
+      "avg_logprob": -0.1236
+    },
+    {
+      "start": 78.24,
+      "end": 84.24,
+      "text": "but it would be nice if you could tell your executive branch handlers, for instance,",
+      "avg_logprob": -0.1236
+    },
+    {
+      "start": 84.5,
+      "end": 93.02,
+      "text": "Ms. Clark, I'm supported by Lindsey Graham. He's a friend of President Trump.",
+      "avg_logprob": -0.1236
+    },
+    {
+      "start": 94.14,
+      "end": 98.72,
+      "text": "He's the second senior person on the Republican side in the Judiciary Committee. He's likely to",
+      "avg_logprob": -0.1236
+    },
+    {
+      "start": 98.72,
+      "end": 106.62,
+      "text": "be the next Judiciary Committee chair. I think I'll be okay. I don't need to make myself ridiculous",
+      "avg_logprob": -0.0633
+    },
+    {
+      "start": 106.62,
+      "end": 112.62,
+      "text": "at your direction. It'd be great if you could have said that. It'll be great if your answers",
+      "avg_logprob": -0.0633
+    },
+    {
+      "start": 112.62,
+      "end": 120.18,
+      "text": "were simple and honest here today. It's really disappointing. Let me ask a different question,",
+      "avg_logprob": -0.0633
+    },
+    {
+      "start": 120.26,
+      "end": 127.48,
+      "text": "a legal question. A judge, you want to be judges. A judge gets a threat, a threat to the judge's life",
+      "avg_logprob": -0.0633
+    },
+    {
+      "start": 127.48,
+      "end": 129.54,
+      "text": "or to the judge's family.",
+      "avg_logprob": -0.3218
+    },
+    {
+      "start": 131.54,
+      "end": 139.22,
+      "text": "Can you imagine a scenario in which liability may attach",
+      "avg_logprob": -0.3218
+    },
+    {
+      "start": 139.22,
+      "end": 144.6,
+      "text": "to individuals beyond the utterer of that threat?",
+      "avg_logprob": -0.3218
+    },
+    {
+      "start": 146.16,
+      "end": 147.48,
+      "text": "Ms. Clark?",
+      "avg_logprob": -0.3218
+    },
+    {
+      "start": 150.86,
+      "end": 155.6,
+      "text": "Senator, as a prosecutor,",
+      "avg_logprob": -0.3218
+    },
+    {
+      "start": 155.6,
+      "end": 163.66,
+      "text": "Senator, there are instances where there's some responsibility that is assigned to someone",
+      "avg_logprob": -0.2032
+    },
+    {
+      "start": 163.66,
+      "end": 168.6,
+      "text": "who is not the utterer of a threat to an individual.",
+      "avg_logprob": -0.2032
+    },
+    {
+      "start": 168.6,
+      "end": 171.26,
+      "text": "And so to answer your question, yes, I can imagine.",
+      "avg_logprob": -0.2032
+    },
+    {
+      "start": 171.26,
+      "end": 172.26,
+      "text": "Correct.",
+      "avg_logprob": -0.2032
+    },
+    {
+      "start": 172.26,
+      "end": 173.26,
+      "text": "Do you agree?",
+      "avg_logprob": -0.2032
+    },
+    {
+      "start": 173.26,
+      "end": 175.56,
+      "text": "Yes, Senator.",
+      "avg_logprob": -0.2032
+    },
+    {
+      "start": 175.56,
+      "end": 179.76,
+      "text": "And if confirmed to the bench, I would follow all Supreme Court precedent and Ninth Circuit",
+      "avg_logprob": -0.2032
+    },
+    {
+      "start": 179.76,
+      "end": 180.76,
+      "text": "precedent.",
+      "avg_logprob": -0.2032
+    },
+    {
+      "start": 180.76,
+      "end": 181.76,
+      "text": "Mr. Rick, do you agree?",
+      "avg_logprob": -0.2032
+    },
+    {
+      "start": 181.76,
+      "end": 182.76,
+      "text": "Yes, Senator.",
+      "avg_logprob": -0.2032
+    },
+    {
+      "start": 182.76,
+      "end": 183.76,
+      "text": "I would agree with that.",
+      "avg_logprob": -0.2032
+    },
+    {
+      "start": 183.76,
+      "end": 189.42,
+      "text": "I don't know that I care what you think, Ms. Westercamp, because you're going to international trade and you're probably not going to see much of this, but do you agree?",
+      "avg_logprob": -0.1717
+    },
+    {
+      "start": 191.5,
+      "end": 192.18,
+      "text": "Yes, Senator.",
+      "avg_logprob": -0.1717
+    },
+    {
+      "start": 192.18,
+      "end": 205.22,
+      "text": "Yeah, and those doctrines that would provide the legal basis for investigation in those scenarios would include doctrines like, name one, Ms. Clark.",
+      "avg_logprob": -0.1717
+    },
+    {
+      "start": 205.22,
+      "end": 213.46,
+      "text": "Senator, doctrines that are, if someone is essentially carrying out.",
+      "avg_logprob": -0.2527
+    },
+    {
+      "start": 213.46,
+      "end": 218.34,
+      "text": "Solicitation, would that be one?",
+      "avg_logprob": -0.2527
+    },
+    {
+      "start": 218.34,
+      "end": 219.34,
+      "text": "Yes.",
+      "avg_logprob": -0.2527
+    },
+    {
+      "start": 219.34,
+      "end": 220.34,
+      "text": "Solicitation of a threat?",
+      "avg_logprob": -0.2527
+    },
+    {
+      "start": 220.34,
+      "end": 221.34,
+      "text": "Yes.",
+      "avg_logprob": -0.2527
+    },
+    {
+      "start": 221.34,
+      "end": 224.46,
+      "text": "Or a conspiracy out of which the threat emerged, would that be another one?",
+      "avg_logprob": -0.2527
+    },
+    {
+      "start": 224.46,
+      "end": 225.46,
+      "text": "Yes.",
+      "avg_logprob": -0.2527
+    },
+    {
+      "start": 225.46,
+      "end": 226.46,
+      "text": "Yes.",
+      "avg_logprob": -0.2527
+    },
+    {
+      "start": 226.46,
+      "end": 231.26,
+      "text": "How about, and it's the product of an enterprise under the racketeering statutes, would that",
+      "avg_logprob": -0.2527
+    },
+    {
+      "start": 231.26,
+      "end": 234.62,
+      "text": "also be another way that liability could extend beyond the utterer?",
+      "avg_logprob": -0.1446
+    },
+    {
+      "start": 234.62,
+      "end": 236.54,
+      "text": "That is correct, Senator.",
+      "avg_logprob": -0.1446
+    },
+    {
+      "start": 236.54,
+      "end": 240.14,
+      "text": "Can you think of any others, Ms. Lane, where liability extends beyond the utterer",
+      "avg_logprob": -0.1446
+    },
+    {
+      "start": 240.14,
+      "end": 243.82,
+      "text": "of the threat? What are some of the legal theories that would support that kind of",
+      "avg_logprob": -0.1446
+    },
+    {
+      "start": 243.82,
+      "end": 248.06,
+      "text": "investigation and prosecution? Senator, the doctrines you mentioned,",
+      "avg_logprob": -0.1446
+    },
+    {
+      "start": 248.06,
+      "end": 253.26,
+      "text": "I would agree with, and I would just look always to the federal law and federal statutes guiding",
+      "avg_logprob": -0.1446
+    },
+    {
+      "start": 253.26,
+      "end": 254.3,
+      "text": "that. Mr. Rickey?",
+      "avg_logprob": -0.1446
+    },
+    {
+      "start": 254.3,
+      "end": 259.26,
+      "text": "Senator, I would agree with that. I think you covered the major ones, conspiracy,",
+      "avg_logprob": -0.1446
+    },
+    {
+      "start": 259.26,
+      "end": 265.42,
+      "text": "RICO. There may be other avenues of potential legal liability, but I think you covered the",
+      "avg_logprob": -0.1845
+    },
+    {
+      "start": 265.42,
+      "end": 267.5,
+      "text": "three big ones in that scenario.",
+      "avg_logprob": -0.1845
+    },
+    {
+      "start": 268.3,
+      "end": 269.42,
+      "text": "Mr. West, do you agree?",
+      "avg_logprob": -0.1845
+    },
+    {
+      "start": 270.46,
+      "end": 273.98,
+      "text": "Senator, I'm not aware if there are any more with my practice before the",
+      "avg_logprob": -0.1845
+    },
+    {
+      "start": 273.98,
+      "end": 277.58,
+      "text": "Court of International Trade and Court of Federal Claims that doesn't touch on criminal law.",
+      "avg_logprob": -0.1845
+    },
+    {
+      "start": 277.58,
+      "end": 281.82,
+      "text": "So here's why I asked you these questions. I asked you these questions because right now,",
+      "avg_logprob": -0.1845
+    },
+    {
+      "start": 281.82,
+      "end": 288.7,
+      "text": "federal judges are under the worst shadow of physical threat in my lifetime and perhaps in",
+      "avg_logprob": -0.1845
+    },
+    {
+      "start": 288.7,
+      "end": 292.52,
+      "text": "in the history of this country.",
+      "avg_logprob": -0.1118
+    },
+    {
+      "start": 292.52,
+      "end": 296.4,
+      "text": "And in responding to those threats, we have the United States Marshals Service, which",
+      "avg_logprob": -0.1118
+    },
+    {
+      "start": 296.4,
+      "end": 299.58,
+      "text": "reports to the Department of Justice.",
+      "avg_logprob": -0.1118
+    },
+    {
+      "start": 299.58,
+      "end": 306.92,
+      "text": "And I have now over a dozen times asked the Marshals Service, will you investigate behind",
+      "avg_logprob": -0.1118
+    },
+    {
+      "start": 306.92,
+      "end": 314.1,
+      "text": "the utterer of a threat if the evidence justifies it?",
+      "avg_logprob": -0.1118
+    },
+    {
+      "start": 314.1,
+      "end": 315.38,
+      "text": "That's a super easy question.",
+      "avg_logprob": -0.1118
+    },
+    {
+      "start": 315.38,
+      "end": 317.34,
+      "text": "The answer is, yeah, of course we will.",
+      "avg_logprob": -0.1118
+    },
+    {
+      "start": 317.34,
+      "end": 318.96,
+      "text": "They won't answer that.",
+      "avg_logprob": -0.0847
+    },
+    {
+      "start": 318.96,
+      "end": 323.16,
+      "text": "They won't answer that.",
+      "avg_logprob": -0.0847
+    },
+    {
+      "start": 323.16,
+      "end": 328.34,
+      "text": "And I point this out because judges across the country need to pay attention to the fact",
+      "avg_logprob": -0.0847
+    },
+    {
+      "start": 328.34,
+      "end": 335.8,
+      "text": "that the Marshal Service won't confirm that it will investigate behind the utterer of",
+      "avg_logprob": -0.0847
+    },
+    {
+      "start": 335.8,
+      "end": 340.48,
+      "text": "a threat if the evidence supports that.",
+      "avg_logprob": -0.0847
+    },
+    {
+      "start": 340.48,
+      "end": 341.74,
+      "text": "And why would that be the case?",
+      "avg_logprob": -0.0847
+    },
+    {
+      "start": 341.74,
+      "end": 346.68,
+      "text": "That would be the case because when you get behind the utterer of a lot of these threats,",
+      "avg_logprob": -0.0847
+    },
+    {
+      "start": 346.68,
+      "end": 353.3,
+      "text": "You run into right-wing conspiracies.",
+      "avg_logprob": -0.128
+    },
+    {
+      "start": 353.3,
+      "end": 357.74,
+      "text": "And this MAGA Department of Justice would rather not go there.",
+      "avg_logprob": -0.128
+    },
+    {
+      "start": 357.74,
+      "end": 365.98,
+      "text": "And so they leave justices, judges exposed with investigations in which they aren't",
+      "avg_logprob": -0.128
+    },
+    {
+      "start": 365.98,
+      "end": 376.62,
+      "text": "doing investigative 101 work that you've all identified as plausible legal theories.",
+      "avg_logprob": -0.128
+    },
+    {
+      "start": 376.62,
+      "end": 379.68,
+      "text": "And we need to fix that.",
+      "avg_logprob": -0.158
+    },
+    {
+      "start": 379.68,
+      "end": 381.7,
+      "text": "We need to fix that.",
+      "avg_logprob": -0.158
+    }
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "video_id": "V32",
+  "language": "en",
+  "text": "In this video, I will show you how to use Cloud Projects step-by-step. Cloud Projects lets you create a custom AI workspace where you can upload files, add instructions, and keep related chats together. If you use AI chat a lot, you probably end up with lots of different conversations, some related and some not. Projects helps you organize everything in one place. I'm Kevin, and let's dive in. Here I am on the main chat screen of Cloud To create a new project, over on the left-hand side, let's click on the Projects icon. This brings us to the Projects home screen, and you'll see all of your recent projects. In the top right-hand corner, let's click on New Project. Here, we can type in a name for the project. In my case, I'll create a project for launching a new round butter salted caramel cookie for my small business, the Kevin Cookie Company. Hopefully, this one becomes a bestseller. Now, down below, you can also add a description to explain the purpose of the project. I will leave that blank for now. Keep in mind, you can always change these later. In general, it's a good idea to create separate projects for different types of work so everything stays organized. For example, you might have one project for marketing, another for research, and another for coding or schoolwork. Once you're done, right down here, let's click on Create Project. This drops us into the new project, the beginning of something great, hopefully a very profitable cookie launch. I can keep everything related to this launch right here in one place, including all of my files, any instructions, and chats with Claude. If I ever want to go back and edit the project name or description, right over here, I can click on these three dots, and I have the option to edit all of these details. Now, this project is a top priority for me, so I want to be able to get back to it quickly. Up here, I'll click on the star icon. Now, over on the left-hand side, if I open up the sidebar here, you can see the project under starred. That way I could very quickly get back to it. Let's now close the sidebar. Next, let's add project instructions. Project instructions help Claude understand how you want it to respond across all chats within the project. Over on the right-hand side, let's click on the plus icon next to instructions. To make this really obvious, let's start with a simple instruction. I'll tell Claude to start every response with a cookie emoji. Of course, in the real world, you'd probably use instructions for things like tone, formatting, branding, or workflow guidance, but this makes it really easy to see that instructions are working. Once you're all done, in the bottom right-hand corner, let's click on Save. Let's try a quick chat. Right up here, I'll ask it to write a tagline for our new brown butter salted caramel cookie, and then let's run that. There we go. Now, that tagline looks great, and you'll notice the cookie emoji appears at the beginning of the response, just like we specified in the instructions. That means you don't have to repeat yourself every time you start a new conversation. Claude already understands the context and instructions for this project. Up above, let's click back into the main project view. Now click here. One of the most powerful features in Claude Projects is the ability to upload files. Claude can then reference those files across all chats within this project. Over on the right-hand side, you'll see the files category. Let's click on the plus icon. You can upload files from your device. You can also add text content, or you could even reference a GitHub repository, which is typically used for coding and programming projects. Now, alternatively, you can also drag and drop files directly into the project. And this is my preferred method. Now, I have three files that I want to upload. One contains customer survey results, another is a product pricing spreadsheet, and the last contains branding notes for the launch. Clearly, we're running a very sophisticated cookie operation over here you can upload many different file types including documents spreadsheets images pdfs and more now if you ever want to remove a file you can simply click on this x icon now that the files have finished uploading claude can use this information right here as context in future chats within this project now let's see it in action so right up here i'll ask it to summarize the customer feedback if you recall one of my files includes a customer survey which has feedback on these new cookies right up here let's run that right up here we start with that cookie emoji we're off to a good start now here claude reviews all the different uploaded files and pulls out the most common feedback themes from the survey data now instead of repeatedly uploading these files every time that i start a new chat claude already has access to this information within the project now personally i think that makes it a lot easier to keep all of your work organized in one place Now, you can also upload files directly within an individual chat. Just keep in mind, those files are only available within this conversation and won't automatically become part of the overall project knowledge. Let's now go back to the main project screen. Up here, I'll click on the project. You'll notice that all my chats now stay organized within this project. Now, I can quickly jump back to any previous conversation related to this cookie launch. Let's go back. If I no longer want a chat to be part of this project, I can click on the three dots, and here I can remove it from the project, or I can even change it to a different project. And if you already have an existing chat elsewhere in Claude, over here, I open the sidebar, and here I see all my different conversations. On any one of these, I can click on the three dots, and here I can add it to a project, and that way that conversation will now become part of this project. Now, I recommend avoiding unrelated chats in the same project, so that way Claude stays focused on the right context. Right over here, let's now click back into the main project's view. I'll click over there and then let's close the sidebar. Once you finish working on a project, you can archive it to help keep things organized and reduce clutter. Now, maybe our brown butter salted caramel cookie becomes so successful that we no longer need to actively manage the launch. Of course, that'd be a nice problem to have. Over here, I can click on the three dots and here I have the option to archive. And let's click on archive. Now, if I ever want to get back to an archive project, I can simply click on archive right up here and there I see the project. Hopefully our brown butter salted caramel cookie becomes a huge success. That's a mouthful, just like the cookie is. In the meantime, feel free to check out more claw tutorials right up here. Thanks for watching and I'll see you in the next video",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.36,
+      "text": "In this video, I will show you how to use",
+      "avg_logprob": -0.1325
+    },
+    {
+      "start": 2.36,
+      "end": 5.0,
+      "text": "Cloud Projects step-by-step.",
+      "avg_logprob": -0.1325
+    },
+    {
+      "start": 5.6,
+      "end": 8.62,
+      "text": "Cloud Projects lets you create a custom AI workspace",
+      "avg_logprob": -0.1325
+    },
+    {
+      "start": 8.62,
+      "end": 11.56,
+      "text": "where you can upload files, add instructions,",
+      "avg_logprob": -0.1325
+    },
+    {
+      "start": 11.84,
+      "end": 13.34,
+      "text": "and keep related chats together.",
+      "avg_logprob": -0.1325
+    },
+    {
+      "start": 13.86,
+      "end": 15.5,
+      "text": "If you use AI chat a lot,",
+      "avg_logprob": -0.1325
+    },
+    {
+      "start": 15.72,
+      "end": 18.26,
+      "text": "you probably end up with lots of different conversations,",
+      "avg_logprob": -0.1325
+    },
+    {
+      "start": 18.84,
+      "end": 20.52,
+      "text": "some related and some not.",
+      "avg_logprob": -0.1325
+    },
+    {
+      "start": 21.26,
+      "end": 24.08,
+      "text": "Projects helps you organize everything in one place.",
+      "avg_logprob": -0.1325
+    },
+    {
+      "start": 24.64,
+      "end": 26.68,
+      "text": "I'm Kevin, and let's dive in.",
+      "avg_logprob": -0.1325
+    },
+    {
+      "start": 26.8,
+      "end": 29.28,
+      "text": "Here I am on the main chat screen of Cloud",
+      "avg_logprob": -0.1325
+    },
+    {
+      "start": 29.28,
+      "end": 34.18,
+      "text": "To create a new project, over on the left-hand side, let's click on the Projects icon.",
+      "avg_logprob": -0.1117
+    },
+    {
+      "start": 34.5,
+      "end": 38.66,
+      "text": "This brings us to the Projects home screen, and you'll see all of your recent projects.",
+      "avg_logprob": -0.1117
+    },
+    {
+      "start": 39.14,
+      "end": 41.36,
+      "text": "In the top right-hand corner, let's click on New Project.",
+      "avg_logprob": -0.1117
+    },
+    {
+      "start": 41.72,
+      "end": 44.28,
+      "text": "Here, we can type in a name for the project.",
+      "avg_logprob": -0.1117
+    },
+    {
+      "start": 44.74,
+      "end": 49.34,
+      "text": "In my case, I'll create a project for launching a new round butter salted caramel cookie",
+      "avg_logprob": -0.1117
+    },
+    {
+      "start": 49.34,
+      "end": 51.68,
+      "text": "for my small business, the Kevin Cookie Company.",
+      "avg_logprob": -0.1117
+    },
+    {
+      "start": 52.2,
+      "end": 53.72,
+      "text": "Hopefully, this one becomes a bestseller.",
+      "avg_logprob": -0.1117
+    },
+    {
+      "start": 54.26,
+      "end": 58.8,
+      "text": "Now, down below, you can also add a description to explain the purpose of the project.",
+      "avg_logprob": -0.1117
+    },
+    {
+      "start": 58.8,
+      "end": 60.42,
+      "text": "I will leave that blank for now.",
+      "avg_logprob": -0.1452
+    },
+    {
+      "start": 60.8,
+      "end": 62.96,
+      "text": "Keep in mind, you can always change these later.",
+      "avg_logprob": -0.1452
+    },
+    {
+      "start": 63.34,
+      "end": 66.62,
+      "text": "In general, it's a good idea to create separate projects",
+      "avg_logprob": -0.1452
+    },
+    {
+      "start": 66.62,
+      "end": 69.2,
+      "text": "for different types of work so everything stays organized.",
+      "avg_logprob": -0.1452
+    },
+    {
+      "start": 69.84,
+      "end": 72.76,
+      "text": "For example, you might have one project for marketing,",
+      "avg_logprob": -0.1452
+    },
+    {
+      "start": 73.22,
+      "end": 76.34,
+      "text": "another for research, and another for coding or schoolwork.",
+      "avg_logprob": -0.1452
+    },
+    {
+      "start": 76.6,
+      "end": 77.88,
+      "text": "Once you're done, right down here,",
+      "avg_logprob": -0.1452
+    },
+    {
+      "start": 78.02,
+      "end": 79.36,
+      "text": "let's click on Create Project.",
+      "avg_logprob": -0.1452
+    },
+    {
+      "start": 79.62,
+      "end": 82.0,
+      "text": "This drops us into the new project,",
+      "avg_logprob": -0.1452
+    },
+    {
+      "start": 82.26,
+      "end": 83.48,
+      "text": "the beginning of something great,",
+      "avg_logprob": -0.1452
+    },
+    {
+      "start": 83.74,
+      "end": 85.58,
+      "text": "hopefully a very profitable cookie launch.",
+      "avg_logprob": -0.1452
+    },
+    {
+      "start": 85.68,
+      "end": 88.36,
+      "text": "I can keep everything related to this launch",
+      "avg_logprob": -0.1452
+    },
+    {
+      "start": 88.36,
+      "end": 95.0,
+      "text": "right here in one place, including all of my files, any instructions, and chats with Claude.",
+      "avg_logprob": -0.0494
+    },
+    {
+      "start": 95.36,
+      "end": 99.48,
+      "text": "If I ever want to go back and edit the project name or description, right over here, I can click",
+      "avg_logprob": -0.0494
+    },
+    {
+      "start": 99.48,
+      "end": 104.9,
+      "text": "on these three dots, and I have the option to edit all of these details. Now, this project is a top",
+      "avg_logprob": -0.0494
+    },
+    {
+      "start": 104.9,
+      "end": 109.56,
+      "text": "priority for me, so I want to be able to get back to it quickly. Up here, I'll click on the star",
+      "avg_logprob": -0.0494
+    },
+    {
+      "start": 109.56,
+      "end": 115.12,
+      "text": "icon. Now, over on the left-hand side, if I open up the sidebar here, you can see the project under",
+      "avg_logprob": -0.0494
+    },
+    {
+      "start": 115.12,
+      "end": 119.84,
+      "text": "starred. That way I could very quickly get back to it. Let's now close the sidebar. Next, let's add",
+      "avg_logprob": -0.0391
+    },
+    {
+      "start": 119.84,
+      "end": 125.98,
+      "text": "project instructions. Project instructions help Claude understand how you want it to respond",
+      "avg_logprob": -0.0391
+    },
+    {
+      "start": 125.98,
+      "end": 131.76,
+      "text": "across all chats within the project. Over on the right-hand side, let's click on the plus icon next",
+      "avg_logprob": -0.0391
+    },
+    {
+      "start": 131.76,
+      "end": 137.84,
+      "text": "to instructions. To make this really obvious, let's start with a simple instruction. I'll tell",
+      "avg_logprob": -0.0391
+    },
+    {
+      "start": 137.84,
+      "end": 143.78,
+      "text": "Claude to start every response with a cookie emoji. Of course, in the real world, you'd probably use",
+      "avg_logprob": -0.0391
+    },
+    {
+      "start": 143.78,
+      "end": 148.88,
+      "text": "instructions for things like tone, formatting, branding, or workflow guidance, but this makes",
+      "avg_logprob": -0.0647
+    },
+    {
+      "start": 148.88,
+      "end": 152.72,
+      "text": "it really easy to see that instructions are working. Once you're all done, in the bottom",
+      "avg_logprob": -0.0647
+    },
+    {
+      "start": 152.72,
+      "end": 157.42,
+      "text": "right-hand corner, let's click on Save. Let's try a quick chat. Right up here, I'll ask it to write",
+      "avg_logprob": -0.0647
+    },
+    {
+      "start": 157.42,
+      "end": 162.82,
+      "text": "a tagline for our new brown butter salted caramel cookie, and then let's run that. There we go. Now,",
+      "avg_logprob": -0.0647
+    },
+    {
+      "start": 162.98,
+      "end": 168.24,
+      "text": "that tagline looks great, and you'll notice the cookie emoji appears at the beginning of the",
+      "avg_logprob": -0.0647
+    },
+    {
+      "start": 168.24,
+      "end": 173.32,
+      "text": "response, just like we specified in the instructions. That means you don't have to repeat yourself",
+      "avg_logprob": -0.0647
+    },
+    {
+      "start": 173.32,
+      "end": 175.26,
+      "text": "every time you start a new conversation.",
+      "avg_logprob": -0.1756
+    },
+    {
+      "start": 175.8,
+      "end": 177.88,
+      "text": "Claude already understands the context",
+      "avg_logprob": -0.1756
+    },
+    {
+      "start": 177.88,
+      "end": 180.32,
+      "text": "and instructions for this project.",
+      "avg_logprob": -0.1756
+    },
+    {
+      "start": 180.72,
+      "end": 183.24,
+      "text": "Up above, let's click back into the main project view.",
+      "avg_logprob": -0.1756
+    },
+    {
+      "start": 183.5,
+      "end": 184.0,
+      "text": "Now click here.",
+      "avg_logprob": -0.1756
+    },
+    {
+      "start": 184.32,
+      "end": 187.32,
+      "text": "One of the most powerful features in Claude Projects",
+      "avg_logprob": -0.1756
+    },
+    {
+      "start": 187.32,
+      "end": 189.28,
+      "text": "is the ability to upload files.",
+      "avg_logprob": -0.1756
+    },
+    {
+      "start": 190.0,
+      "end": 191.54,
+      "text": "Claude can then reference those files",
+      "avg_logprob": -0.1756
+    },
+    {
+      "start": 191.54,
+      "end": 194.02,
+      "text": "across all chats within this project.",
+      "avg_logprob": -0.1756
+    },
+    {
+      "start": 194.26,
+      "end": 196.02,
+      "text": "Over on the right-hand side,",
+      "avg_logprob": -0.1756
+    },
+    {
+      "start": 196.08,
+      "end": 197.54,
+      "text": "you'll see the files category.",
+      "avg_logprob": -0.1756
+    },
+    {
+      "start": 197.86,
+      "end": 199.38,
+      "text": "Let's click on the plus icon.",
+      "avg_logprob": -0.1756
+    },
+    {
+      "start": 199.9,
+      "end": 201.88,
+      "text": "You can upload files from your device.",
+      "avg_logprob": -0.1756
+    },
+    {
+      "start": 201.88,
+      "end": 207.48,
+      "text": "You can also add text content, or you could even reference a GitHub repository, which is typically",
+      "avg_logprob": -0.0909
+    },
+    {
+      "start": 207.48,
+      "end": 213.4,
+      "text": "used for coding and programming projects. Now, alternatively, you can also drag and drop files",
+      "avg_logprob": -0.0909
+    },
+    {
+      "start": 213.4,
+      "end": 218.28,
+      "text": "directly into the project. And this is my preferred method. Now, I have three files that I",
+      "avg_logprob": -0.0909
+    },
+    {
+      "start": 218.28,
+      "end": 223.96,
+      "text": "want to upload. One contains customer survey results, another is a product pricing spreadsheet,",
+      "avg_logprob": -0.0909
+    },
+    {
+      "start": 223.96,
+      "end": 229.24,
+      "text": "and the last contains branding notes for the launch. Clearly, we're running a very sophisticated",
+      "avg_logprob": -0.0909
+    },
+    {
+      "start": 229.24,
+      "end": 234.44,
+      "text": "cookie operation over here you can upload many different file types including documents spreadsheets",
+      "avg_logprob": -0.0414
+    },
+    {
+      "start": 234.44,
+      "end": 241.08,
+      "text": "images pdfs and more now if you ever want to remove a file you can simply click on this x icon",
+      "avg_logprob": -0.0414
+    },
+    {
+      "start": 241.08,
+      "end": 246.92,
+      "text": "now that the files have finished uploading claude can use this information right here as context in",
+      "avg_logprob": -0.0414
+    },
+    {
+      "start": 246.92,
+      "end": 252.92,
+      "text": "future chats within this project now let's see it in action so right up here i'll ask it to summarize",
+      "avg_logprob": -0.0414
+    },
+    {
+      "start": 252.92,
+      "end": 259.16,
+      "text": "the customer feedback if you recall one of my files includes a customer survey which has feedback on",
+      "avg_logprob": -0.0414
+    },
+    {
+      "start": 259.16,
+      "end": 264.28,
+      "text": "these new cookies right up here let's run that right up here we start with that cookie emoji",
+      "avg_logprob": -0.0349
+    },
+    {
+      "start": 264.28,
+      "end": 269.48,
+      "text": "we're off to a good start now here claude reviews all the different uploaded files and pulls out the",
+      "avg_logprob": -0.0349
+    },
+    {
+      "start": 269.48,
+      "end": 275.32,
+      "text": "most common feedback themes from the survey data now instead of repeatedly uploading these files",
+      "avg_logprob": -0.0349
+    },
+    {
+      "start": 275.32,
+      "end": 280.6,
+      "text": "every time that i start a new chat claude already has access to this information within the project",
+      "avg_logprob": -0.0349
+    },
+    {
+      "start": 280.6,
+      "end": 286.28,
+      "text": "now personally i think that makes it a lot easier to keep all of your work organized in one place",
+      "avg_logprob": -0.0349
+    },
+    {
+      "start": 286.28,
+      "end": 290.12,
+      "text": "Now, you can also upload files directly within an individual chat.",
+      "avg_logprob": -0.1498
+    },
+    {
+      "start": 290.6,
+      "end": 294.38,
+      "text": "Just keep in mind, those files are only available within this conversation",
+      "avg_logprob": -0.1498
+    },
+    {
+      "start": 294.38,
+      "end": 298.28,
+      "text": "and won't automatically become part of the overall project knowledge.",
+      "avg_logprob": -0.1498
+    },
+    {
+      "start": 298.88,
+      "end": 300.82,
+      "text": "Let's now go back to the main project screen.",
+      "avg_logprob": -0.1498
+    },
+    {
+      "start": 300.96,
+      "end": 302.2,
+      "text": "Up here, I'll click on the project.",
+      "avg_logprob": -0.1498
+    },
+    {
+      "start": 302.64,
+      "end": 306.14,
+      "text": "You'll notice that all my chats now stay organized within this project.",
+      "avg_logprob": -0.1498
+    },
+    {
+      "start": 306.6,
+      "end": 310.98,
+      "text": "Now, I can quickly jump back to any previous conversation related to this cookie launch.",
+      "avg_logprob": -0.1498
+    },
+    {
+      "start": 311.3,
+      "end": 312.12,
+      "text": "Let's go back.",
+      "avg_logprob": -0.1498
+    },
+    {
+      "start": 312.38,
+      "end": 315.34,
+      "text": "If I no longer want a chat to be part of this project,",
+      "avg_logprob": -0.1498
+    },
+    {
+      "start": 315.34,
+      "end": 320.04,
+      "text": "I can click on the three dots, and here I can remove it from the project, or I can even change",
+      "avg_logprob": -0.0607
+    },
+    {
+      "start": 320.04,
+      "end": 325.76,
+      "text": "it to a different project. And if you already have an existing chat elsewhere in Claude, over here,",
+      "avg_logprob": -0.0607
+    },
+    {
+      "start": 325.88,
+      "end": 329.86,
+      "text": "I open the sidebar, and here I see all my different conversations. On any one of these,",
+      "avg_logprob": -0.0607
+    },
+    {
+      "start": 329.98,
+      "end": 334.48,
+      "text": "I can click on the three dots, and here I can add it to a project, and that way that conversation",
+      "avg_logprob": -0.0607
+    },
+    {
+      "start": 334.48,
+      "end": 339.66,
+      "text": "will now become part of this project. Now, I recommend avoiding unrelated chats in the same",
+      "avg_logprob": -0.0607
+    },
+    {
+      "start": 339.66,
+      "end": 344.84,
+      "text": "project, so that way Claude stays focused on the right context. Right over here, let's now click",
+      "avg_logprob": -0.0607
+    },
+    {
+      "start": 344.84,
+      "end": 348.38,
+      "text": "back into the main project's view. I'll click over there and then let's close the sidebar.",
+      "avg_logprob": -0.0673
+    },
+    {
+      "start": 348.64,
+      "end": 353.02,
+      "text": "Once you finish working on a project, you can archive it to help keep things organized and",
+      "avg_logprob": -0.0673
+    },
+    {
+      "start": 353.02,
+      "end": 358.72,
+      "text": "reduce clutter. Now, maybe our brown butter salted caramel cookie becomes so successful that we no",
+      "avg_logprob": -0.0673
+    },
+    {
+      "start": 358.72,
+      "end": 362.92,
+      "text": "longer need to actively manage the launch. Of course, that'd be a nice problem to have. Over",
+      "avg_logprob": -0.0673
+    },
+    {
+      "start": 362.92,
+      "end": 367.64,
+      "text": "here, I can click on the three dots and here I have the option to archive. And let's click on",
+      "avg_logprob": -0.0673
+    },
+    {
+      "start": 367.64,
+      "end": 373.1,
+      "text": "archive. Now, if I ever want to get back to an archive project, I can simply click on archive",
+      "avg_logprob": -0.0673
+    },
+    {
+      "start": 373.1,
+      "end": 378.78,
+      "text": "right up here and there I see the project. Hopefully our brown butter salted caramel",
+      "avg_logprob": -0.1217
+    },
+    {
+      "start": 378.78,
+      "end": 387.42,
+      "text": "cookie becomes a huge success. That's a mouthful, just like the cookie is. In the meantime, feel free",
+      "avg_logprob": -0.1217
+    },
+    {
+      "start": 387.42,
+      "end": 393.58,
+      "text": "to check out more claw tutorials right up here. Thanks for watching and I'll see you in the next",
+      "avg_logprob": -0.1217
+    },
+    {
+      "start": 393.58,
+      "end": 395.98,
+      "text": "video",
+      "avg_logprob": -0.9969
+    }
+  ]
+}

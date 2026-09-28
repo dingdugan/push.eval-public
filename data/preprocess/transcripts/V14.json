@@ -1,0 +1,301 @@
+{
+  "video_id": "V14",
+  "language": "en",
+  "text": "This just in, it's big, a U.S. official telling Fox thousands of Iraqi Kurds have launched a ground defensive in Iran. Decimated, destroyed, defeated, all words the Pentagon used to describe Iran's various military forces on day five of Operation Epic Fury. Moments ago, President Trump touting its success. So we're in a very strong position now, and their leadership is just rapidly going. Everybody that seems to want to be a leader, they end up dead. And it's an amazing, amazing thing that's taking place. Their missiles are being wiped out rapidly. Their launchers are being wiped out. They're attacking their neighbors. They're attacking their, in some cases, allies or not so long ago allies. And, you know, it's really a nation that was out of control and they would have used it on us if we let them. The secretary of war says it's just the beginning. We are just getting started. We are accelerating, not decelerating. Iran's capabilities are evaporating by the hour, while American strength grows fiercer, smarter and utterly dominant. dominant. More bombers and more fighters are arriving just today. We can sustain this fight easily for as long as we need to. The White House reporting more than 17,000 Americans have returned home safely from the Middle East and repeating the president's motivation for the operation. This is a rogue terrorist regime that has been threatening the United States, our allies and our people for 47 years. This is a president who has been remarkably consistent on this issue, that Iran can never obtain a nuclear weapon. And the president tried peace through diplomacy exhaustively and extensively. He and his team gave it their best go. And the president ultimately came to the determination of that peace was not a pursuable path. The Iranian regime, they want death. They want destruction. They want to kill Americans. And that's unacceptable to this president. It's intolerable to him as commander in chief. Here's the conflict by the numbers so far. The U.S. has hit over 2,000 Iranian targets and destroyed more than 20 Iranian naval vessels. Iran has fired more than 500 ballistic missiles and over 2,000 drones. Reuters reports that defense executives are planning to visit the White House to talk about accelerating weapons production amid fears of diminishing stockpiles. But that is a fear that today was dismissed by General Kane. GEN. JOHN BARRASSO, U.S. The throttle is coming up, as the secretary said, as opposed to ramping down. This will allow us to maintain consistent pressure on the adversary over the coming days, disrupt their launch timelines, and impose costs every day around the clock. I know there have been a lot of questions about munitions. We have sufficient precision munitions for the task at hand, both on the offense and defense. Meantime, Israel's air force has struck in Iran with over 5,000 munitions since the start of the operation. The impact on Iran's stockpile is already tangible. Its ballistic missile launches down 88% since day one and down 23% in just the last 24 hours. One-way attack drone shots are down 73%, a key objective in this conflict for President Trump, wiping out Iran's Navy. Today it appears he is closer to that goal after an American submarine sunk Iran's prized ship with a torpedo. It's one of the few instances of a sub doing so since World War II. Hey, it's Will Cain. Click here to subscribe to the Fox News channel on YouTube. It's the best way to get our latest interviews and highlights. And click to subscribe to the Will Cain podcast for full episodes right now.",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.76,
+      "text": "This just in, it's big, a U.S. official telling Fox thousands of Iraqi Kurds have launched a ground defensive in Iran.",
+      "avg_logprob": -0.1282
+    },
+    {
+      "start": 9.92,
+      "end": 20.48,
+      "text": "Decimated, destroyed, defeated, all words the Pentagon used to describe Iran's various military forces on day five of Operation Epic Fury.",
+      "avg_logprob": -0.1282
+    },
+    {
+      "start": 20.64,
+      "end": 23.32,
+      "text": "Moments ago, President Trump touting its success.",
+      "avg_logprob": -0.1282
+    },
+    {
+      "start": 23.32,
+      "end": 31.86,
+      "text": "So we're in a very strong position now, and their leadership is just rapidly going.",
+      "avg_logprob": -0.1685
+    },
+    {
+      "start": 32.02,
+      "end": 36.1,
+      "text": "Everybody that seems to want to be a leader, they end up dead.",
+      "avg_logprob": -0.1685
+    },
+    {
+      "start": 37.36,
+      "end": 42.04,
+      "text": "And it's an amazing, amazing thing that's taking place.",
+      "avg_logprob": -0.1685
+    },
+    {
+      "start": 42.26,
+      "end": 44.84,
+      "text": "Their missiles are being wiped out rapidly.",
+      "avg_logprob": -0.1685
+    },
+    {
+      "start": 45.0,
+      "end": 46.74,
+      "text": "Their launchers are being wiped out.",
+      "avg_logprob": -0.1685
+    },
+    {
+      "start": 47.14,
+      "end": 48.8,
+      "text": "They're attacking their neighbors.",
+      "avg_logprob": -0.1685
+    },
+    {
+      "start": 48.8,
+      "end": 53.84,
+      "text": "They're attacking their, in some cases, allies or not so long ago allies.",
+      "avg_logprob": -0.1667
+    },
+    {
+      "start": 54.84,
+      "end": 60.2,
+      "text": "And, you know, it's really a nation that was out of control and they would have used it on us if we let them.",
+      "avg_logprob": -0.1667
+    },
+    {
+      "start": 61.36,
+      "end": 64.1,
+      "text": "The secretary of war says it's just the beginning.",
+      "avg_logprob": -0.1667
+    },
+    {
+      "start": 65.38,
+      "end": 66.8,
+      "text": "We are just getting started.",
+      "avg_logprob": -0.1667
+    },
+    {
+      "start": 67.84,
+      "end": 69.8,
+      "text": "We are accelerating, not decelerating.",
+      "avg_logprob": -0.1667
+    },
+    {
+      "start": 71.14,
+      "end": 76.8,
+      "text": "Iran's capabilities are evaporating by the hour, while American strength grows fiercer, smarter and utterly dominant.",
+      "avg_logprob": -0.1667
+    },
+    {
+      "start": 76.8,
+      "end": 83.24,
+      "text": "dominant. More bombers and more fighters are arriving just today. We can sustain this fight",
+      "avg_logprob": -0.0568
+    },
+    {
+      "start": 83.24,
+      "end": 90.06,
+      "text": "easily for as long as we need to. The White House reporting more than 17,000 Americans have",
+      "avg_logprob": -0.0568
+    },
+    {
+      "start": 90.06,
+      "end": 94.72,
+      "text": "returned home safely from the Middle East and repeating the president's motivation for the",
+      "avg_logprob": -0.0568
+    },
+    {
+      "start": 94.72,
+      "end": 100.24,
+      "text": "operation. This is a rogue terrorist regime that has been threatening the United States,",
+      "avg_logprob": -0.0568
+    },
+    {
+      "start": 100.24,
+      "end": 106.26,
+      "text": "our allies and our people for 47 years. This is a president who has been remarkably",
+      "avg_logprob": -0.0568
+    },
+    {
+      "start": 106.26,
+      "end": 111.8,
+      "text": "consistent on this issue, that Iran can never obtain a nuclear weapon. And the president",
+      "avg_logprob": -0.0858
+    },
+    {
+      "start": 111.8,
+      "end": 117.04,
+      "text": "tried peace through diplomacy exhaustively and extensively. He and his team gave it their best",
+      "avg_logprob": -0.0858
+    },
+    {
+      "start": 117.04,
+      "end": 121.74,
+      "text": "go. And the president ultimately came to the determination of that peace was not a pursuable",
+      "avg_logprob": -0.0858
+    },
+    {
+      "start": 121.74,
+      "end": 125.88,
+      "text": "path. The Iranian regime, they want death. They want destruction. They want to kill",
+      "avg_logprob": -0.0858
+    },
+    {
+      "start": 125.88,
+      "end": 130.48,
+      "text": "Americans. And that's unacceptable to this president. It's intolerable to him as commander",
+      "avg_logprob": -0.0858
+    },
+    {
+      "start": 130.48,
+      "end": 136.56,
+      "text": "in chief. Here's the conflict by the numbers so far. The U.S. has hit over 2,000 Iranian targets",
+      "avg_logprob": -0.0975
+    },
+    {
+      "start": 136.56,
+      "end": 142.76,
+      "text": "and destroyed more than 20 Iranian naval vessels. Iran has fired more than 500 ballistic missiles",
+      "avg_logprob": -0.0975
+    },
+    {
+      "start": 142.76,
+      "end": 148.2,
+      "text": "and over 2,000 drones. Reuters reports that defense executives are planning to visit the",
+      "avg_logprob": -0.0975
+    },
+    {
+      "start": 148.2,
+      "end": 153.0,
+      "text": "White House to talk about accelerating weapons production amid fears of diminishing stockpiles.",
+      "avg_logprob": -0.0975
+    },
+    {
+      "start": 153.0,
+      "end": 156.68,
+      "text": "But that is a fear that today was dismissed by General Kane.",
+      "avg_logprob": -0.0975
+    },
+    {
+      "start": 156.68,
+      "end": 157.68,
+      "text": "GEN.",
+      "avg_logprob": -0.2299
+    },
+    {
+      "start": 157.68,
+      "end": 161.46,
+      "text": "JOHN BARRASSO, U.S. The throttle is coming up, as the secretary said, as opposed",
+      "avg_logprob": -0.2299
+    },
+    {
+      "start": 161.46,
+      "end": 163.66,
+      "text": "to ramping down.",
+      "avg_logprob": -0.2299
+    },
+    {
+      "start": 163.66,
+      "end": 168.12,
+      "text": "This will allow us to maintain consistent pressure on the adversary over the coming",
+      "avg_logprob": -0.2299
+    },
+    {
+      "start": 168.12,
+      "end": 173.38,
+      "text": "days, disrupt their launch timelines, and impose costs every day around the clock.",
+      "avg_logprob": -0.2299
+    },
+    {
+      "start": 173.38,
+      "end": 177.0,
+      "text": "I know there have been a lot of questions about munitions.",
+      "avg_logprob": -0.2299
+    },
+    {
+      "start": 177.0,
+      "end": 182.4,
+      "text": "We have sufficient precision munitions for the task at hand, both on the offense and",
+      "avg_logprob": -0.2299
+    },
+    {
+      "start": 182.4,
+      "end": 183.4,
+      "text": "defense.",
+      "avg_logprob": -0.2299
+    },
+    {
+      "start": 183.4,
+      "end": 188.94,
+      "text": "Meantime, Israel's air force has struck in Iran with over 5,000 munitions since the start",
+      "avg_logprob": -0.1305
+    },
+    {
+      "start": 188.94,
+      "end": 190.34,
+      "text": "of the operation.",
+      "avg_logprob": -0.1305
+    },
+    {
+      "start": 190.34,
+      "end": 193.5,
+      "text": "The impact on Iran's stockpile is already tangible.",
+      "avg_logprob": -0.1305
+    },
+    {
+      "start": 193.5,
+      "end": 202.72,
+      "text": "Its ballistic missile launches down 88% since day one and down 23% in just the last 24 hours.",
+      "avg_logprob": -0.1305
+    },
+    {
+      "start": 202.72,
+      "end": 208.62,
+      "text": "One-way attack drone shots are down 73%, a key objective in this conflict for President",
+      "avg_logprob": -0.1305
+    },
+    {
+      "start": 208.62,
+      "end": 211.48,
+      "text": "Trump, wiping out Iran's Navy.",
+      "avg_logprob": -0.1305
+    },
+    {
+      "start": 211.48,
+      "end": 217.84,
+      "text": "Today it appears he is closer to that goal after an American submarine sunk Iran's prized ship with a torpedo.",
+      "avg_logprob": -0.14
+    },
+    {
+      "start": 218.02,
+      "end": 221.9,
+      "text": "It's one of the few instances of a sub doing so since World War II.",
+      "avg_logprob": -0.14
+    },
+    {
+      "start": 222.06,
+      "end": 226.86,
+      "text": "Hey, it's Will Cain. Click here to subscribe to the Fox News channel on YouTube.",
+      "avg_logprob": -0.14
+    },
+    {
+      "start": 227.04,
+      "end": 230.36,
+      "text": "It's the best way to get our latest interviews and highlights.",
+      "avg_logprob": -0.14
+    },
+    {
+      "start": 230.76,
+      "end": 235.08,
+      "text": "And click to subscribe to the Will Cain podcast for full episodes right now.",
+      "avg_logprob": -0.14
+    }
+  ]
+}

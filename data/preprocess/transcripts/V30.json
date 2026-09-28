@@ -1,0 +1,355 @@
+{
+  "video_id": "V30",
+  "language": "en",
+  "text": "This September, things are changing in a big way. iPhone 18 Pro, iPhone 18 Pro Max, and iPhone Ultra. Those will be your only options. Anything else comes later. iPhone Ultra is the premium iPhone for the year, and regardless of rumors speculating that it won't be ready in time for September or even this year, behind the scenes, the schedule doesn't look quite as rocky. The crease depth on this foldable iPhone, God, crease depth. What even? I hate this job. The crease depth is looking to be somewhere around 0.15 millimeters. That doesn't sound like they've defeated science to me, but it is impressive. Not quite invisible, but impressive. Also impressive is that liquid metal hinge design. Durable, functional, but most importantly, exactly what's contributing to the illusion of no crease. The hinge is said to be using 3D printed parts to make this all possible. Which might sound new, but it ain't. Apple has been using 3D printed components for iPhone Air parts and Apple Watch cases, so not new, but impressive. Something that has changed since we last chatted about this foldable monstrosity is in the camera department. On the back, expect a main lens and an ultra-wide lens, both at 48 megapixels. No telephoto here, though, because where would you put it? Of course, a front-facing camera on the outside of the phone, like when it's folded and looks like a phone. Where things have changed, though, perhaps, the camera that you'll find on the inside of the display once the device is open, you might not find it at all. Apple has versions of this thing where the camera is behind the display and not immediately visible. Once again, not new, but impressive. And we're not done with impressive yet. The most impressive feature is still to come after today's sponsor. Surfshark is the only VPN I've ever tried that never feels like a VPN. With Surfshark, it's so seamless and so frictionless, you won't even remember you've got a VPN on. And that is when a VPN is at its best, when it's invisible. Which is also one of its flagship features, keeping you invisible. Hide your IP address, access geo-restricted content, be protected on public Wi-Fi, use unlimited devices, desktop, phone, tablet, no logs are stored, and they have amazing 24-7 customer service with 4,500 servers across 100 countries. And there are other services like Surfshark Search that avoids ads and tracking. It's just a great bonus. Even greater is getting an extra four months for free at surfshark.com slash FPT with code FPT at checkout. All VPNs claim to be the best. Surfshark is. Link in the description below. While we're talking impressive, Apple is doing some trickery with the battery inside this thing. Even though the device itself is stupidly thin, they've also reduced the size of the display driver. And less display means more battery. They're physically able to stuff more battery in there, and Apple plans to ship using some high-density battery cells. Expect something around the 5,800 milliamp hour range. That's the highest of any iPhone, and I would hope so, because this is just like taking two iPhones and sticking them together with liquid metal and good vibes. Since we're already near the battery, I guess it's important to tell you that it will ship with 12 gigabytes of RAM, and the new A20 Pro chip. Also, the new C2 modem made in-house by Apple, which greatly aids in efficiency to save battery life. Okay, so we've been talking about how thin this thing is, but I don't think we've said just how thin it is. When it's closed, expect something like nine and a half millimeters when folded up. But unfolded, we could be looking at a 4.5 millimeter thin phone. For those of you keeping track and playing along at home, that's thinner than the iPhone Air by like a substantial amount. Unfortunately though, that thin means that iPhone Ultra will not have Face ID. You see, Face ID takes up more space inside an iPhone than I think you realize. And so for the first time in a long time, Touch ID will be present on an iPhone, right in the power button. Maybe for some of you that's not a sacrifice, but for me, Face ID consistently feels like magic. You never notice it's there. It is invisible most of the time. And now it's time for the absolute standout feature this year for iPhone Ultra. Just like with iPhone 18 Pro, because this phone will be shipping with Apple's in-house C2 modem, it allows for something very important. That's right. With Apple's flagship set of phones this year, they're pushing a flagship feature, And they want you to believe that space is real.",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.46,
+      "text": "This September, things are changing in a big way.",
+      "avg_logprob": -0.159
+    },
+    {
+      "start": 8.22,
+      "end": 17.26,
+      "text": "iPhone 18 Pro, iPhone 18 Pro Max, and iPhone Ultra. Those will be your only options.",
+      "avg_logprob": -0.159
+    },
+    {
+      "start": 17.64,
+      "end": 22.92,
+      "text": "Anything else comes later. iPhone Ultra is the premium iPhone for the year,",
+      "avg_logprob": -0.159
+    },
+    {
+      "start": 23.24,
+      "end": 28.54,
+      "text": "and regardless of rumors speculating that it won't be ready in time for September or even this year,",
+      "avg_logprob": -0.159
+    },
+    {
+      "start": 28.54,
+      "end": 35.68,
+      "text": "behind the scenes, the schedule doesn't look quite as rocky. The crease depth on this foldable iPhone,",
+      "avg_logprob": -0.1202
+    },
+    {
+      "start": 35.96,
+      "end": 44.6,
+      "text": "God, crease depth. What even? I hate this job. The crease depth is looking to be somewhere around",
+      "avg_logprob": -0.1202
+    },
+    {
+      "start": 44.6,
+      "end": 51.06,
+      "text": "0.15 millimeters. That doesn't sound like they've defeated science to me, but it is impressive.",
+      "avg_logprob": -0.1202
+    },
+    {
+      "start": 51.06,
+      "end": 55.02,
+      "text": "Not quite invisible, but impressive.",
+      "avg_logprob": -0.1138
+    },
+    {
+      "start": 55.48,
+      "end": 58.96,
+      "text": "Also impressive is that liquid metal hinge design.",
+      "avg_logprob": -0.1138
+    },
+    {
+      "start": 59.14,
+      "end": 65.92,
+      "text": "Durable, functional, but most importantly, exactly what's contributing to the illusion of no crease.",
+      "avg_logprob": -0.1138
+    },
+    {
+      "start": 66.14,
+      "end": 70.6,
+      "text": "The hinge is said to be using 3D printed parts to make this all possible.",
+      "avg_logprob": -0.1138
+    },
+    {
+      "start": 70.84,
+      "end": 73.58,
+      "text": "Which might sound new, but it ain't.",
+      "avg_logprob": -0.1138
+    },
+    {
+      "start": 73.76,
+      "end": 78.84,
+      "text": "Apple has been using 3D printed components for iPhone Air parts and Apple Watch cases,",
+      "avg_logprob": -0.1138
+    },
+    {
+      "start": 78.84,
+      "end": 85.54,
+      "text": "so not new, but impressive. Something that has changed since we last chatted about this foldable",
+      "avg_logprob": -0.0674
+    },
+    {
+      "start": 85.54,
+      "end": 91.46,
+      "text": "monstrosity is in the camera department. On the back, expect a main lens and an ultra-wide lens,",
+      "avg_logprob": -0.0674
+    },
+    {
+      "start": 91.58,
+      "end": 98.34,
+      "text": "both at 48 megapixels. No telephoto here, though, because where would you put it? Of course,",
+      "avg_logprob": -0.0674
+    },
+    {
+      "start": 98.46,
+      "end": 103.5,
+      "text": "a front-facing camera on the outside of the phone, like when it's folded and looks like a phone.",
+      "avg_logprob": -0.0674
+    },
+    {
+      "start": 103.5,
+      "end": 108.66,
+      "text": "Where things have changed, though, perhaps, the camera that you'll find on the inside of",
+      "avg_logprob": -0.0674
+    },
+    {
+      "start": 108.66,
+      "end": 114.2,
+      "text": "the display once the device is open, you might not find it at all. Apple has versions of this",
+      "avg_logprob": -0.0751
+    },
+    {
+      "start": 114.2,
+      "end": 120.44,
+      "text": "thing where the camera is behind the display and not immediately visible. Once again, not new,",
+      "avg_logprob": -0.0751
+    },
+    {
+      "start": 120.84,
+      "end": 125.98,
+      "text": "but impressive. And we're not done with impressive yet. The most impressive feature",
+      "avg_logprob": -0.0751
+    },
+    {
+      "start": 125.98,
+      "end": 134.02,
+      "text": "is still to come after today's sponsor. Surfshark is the only VPN I've ever tried that never feels",
+      "avg_logprob": -0.0751
+    },
+    {
+      "start": 134.02,
+      "end": 139.8,
+      "text": "like a VPN. With Surfshark, it's so seamless and so frictionless, you won't even remember you've",
+      "avg_logprob": -0.0524
+    },
+    {
+      "start": 139.8,
+      "end": 145.68,
+      "text": "got a VPN on. And that is when a VPN is at its best, when it's invisible. Which is also one of",
+      "avg_logprob": -0.0524
+    },
+    {
+      "start": 145.68,
+      "end": 150.82,
+      "text": "its flagship features, keeping you invisible. Hide your IP address, access geo-restricted content,",
+      "avg_logprob": -0.0524
+    },
+    {
+      "start": 151.22,
+      "end": 157.12,
+      "text": "be protected on public Wi-Fi, use unlimited devices, desktop, phone, tablet, no logs are",
+      "avg_logprob": -0.0524
+    },
+    {
+      "start": 157.12,
+      "end": 163.3,
+      "text": "stored, and they have amazing 24-7 customer service with 4,500 servers across 100 countries.",
+      "avg_logprob": -0.0524
+    },
+    {
+      "start": 163.3,
+      "end": 167.62,
+      "text": "And there are other services like Surfshark Search that avoids ads and tracking.",
+      "avg_logprob": -0.1286
+    },
+    {
+      "start": 168.18,
+      "end": 169.08,
+      "text": "It's just a great bonus.",
+      "avg_logprob": -0.1286
+    },
+    {
+      "start": 169.22,
+      "end": 175.92,
+      "text": "Even greater is getting an extra four months for free at surfshark.com slash FPT with code FPT at checkout.",
+      "avg_logprob": -0.1286
+    },
+    {
+      "start": 176.14,
+      "end": 177.78,
+      "text": "All VPNs claim to be the best.",
+      "avg_logprob": -0.1286
+    },
+    {
+      "start": 178.18,
+      "end": 179.24,
+      "text": "Surfshark is.",
+      "avg_logprob": -0.1286
+    },
+    {
+      "start": 179.52,
+      "end": 180.74,
+      "text": "Link in the description below.",
+      "avg_logprob": -0.1286
+    },
+    {
+      "start": 181.18,
+      "end": 186.5,
+      "text": "While we're talking impressive, Apple is doing some trickery with the battery inside this thing.",
+      "avg_logprob": -0.1286
+    },
+    {
+      "start": 186.5,
+      "end": 193.04,
+      "text": "Even though the device itself is stupidly thin, they've also reduced the size of the display driver.",
+      "avg_logprob": -0.1286
+    },
+    {
+      "start": 193.04,
+      "end": 195.36,
+      "text": "And less display means more battery.",
+      "avg_logprob": -0.1101
+    },
+    {
+      "start": 195.66,
+      "end": 198.16,
+      "text": "They're physically able to stuff more battery in there,",
+      "avg_logprob": -0.1101
+    },
+    {
+      "start": 198.26,
+      "end": 202.48,
+      "text": "and Apple plans to ship using some high-density battery cells.",
+      "avg_logprob": -0.1101
+    },
+    {
+      "start": 202.66,
+      "end": 207.34,
+      "text": "Expect something around the 5,800 milliamp hour range.",
+      "avg_logprob": -0.1101
+    },
+    {
+      "start": 207.48,
+      "end": 211.14,
+      "text": "That's the highest of any iPhone, and I would hope so,",
+      "avg_logprob": -0.1101
+    },
+    {
+      "start": 211.22,
+      "end": 216.2,
+      "text": "because this is just like taking two iPhones and sticking them together with liquid metal and good vibes.",
+      "avg_logprob": -0.1101
+    },
+    {
+      "start": 216.36,
+      "end": 222.14,
+      "text": "Since we're already near the battery, I guess it's important to tell you that it will ship with 12 gigabytes of RAM,",
+      "avg_logprob": -0.1101
+    },
+    {
+      "start": 222.14,
+      "end": 231.0,
+      "text": "and the new A20 Pro chip. Also, the new C2 modem made in-house by Apple, which greatly aids in",
+      "avg_logprob": -0.0568
+    },
+    {
+      "start": 231.0,
+      "end": 236.12,
+      "text": "efficiency to save battery life. Okay, so we've been talking about how thin this thing is,",
+      "avg_logprob": -0.0568
+    },
+    {
+      "start": 236.18,
+      "end": 243.7,
+      "text": "but I don't think we've said just how thin it is. When it's closed, expect something like",
+      "avg_logprob": -0.0568
+    },
+    {
+      "start": 243.7,
+      "end": 251.26,
+      "text": "nine and a half millimeters when folded up. But unfolded, we could be looking at a 4.5 millimeter",
+      "avg_logprob": -0.0568
+    },
+    {
+      "start": 251.26,
+      "end": 257.88,
+      "text": "thin phone. For those of you keeping track and playing along at home, that's thinner than the",
+      "avg_logprob": -0.0674
+    },
+    {
+      "start": 257.88,
+      "end": 265.56,
+      "text": "iPhone Air by like a substantial amount. Unfortunately though, that thin means that",
+      "avg_logprob": -0.0674
+    },
+    {
+      "start": 265.56,
+      "end": 273.54,
+      "text": "iPhone Ultra will not have Face ID. You see, Face ID takes up more space inside an iPhone than I",
+      "avg_logprob": -0.0674
+    },
+    {
+      "start": 273.54,
+      "end": 280.68,
+      "text": "think you realize. And so for the first time in a long time, Touch ID will be present on an iPhone,",
+      "avg_logprob": -0.0674
+    },
+    {
+      "start": 280.68,
+      "end": 286.96,
+      "text": "right in the power button. Maybe for some of you that's not a sacrifice, but for me,",
+      "avg_logprob": -0.0939
+    },
+    {
+      "start": 287.56,
+      "end": 292.44,
+      "text": "Face ID consistently feels like magic. You never notice it's there. It is invisible",
+      "avg_logprob": -0.0939
+    },
+    {
+      "start": 292.44,
+      "end": 298.7,
+      "text": "most of the time. And now it's time for the absolute standout feature this year for iPhone",
+      "avg_logprob": -0.0939
+    },
+    {
+      "start": 298.7,
+      "end": 305.12,
+      "text": "Ultra. Just like with iPhone 18 Pro, because this phone will be shipping with Apple's in-house C2",
+      "avg_logprob": -0.0939
+    },
+    {
+      "start": 305.12,
+      "end": 308.62,
+      "text": "modem, it allows for something very important.",
+      "avg_logprob": -0.0939
+    },
+    {
+      "start": 310.68,
+      "end": 329.82,
+      "text": "That's right.",
+      "avg_logprob": -0.3489
+    },
+    {
+      "start": 329.82,
+      "end": 334.54,
+      "text": "With Apple's flagship set of phones this year, they're pushing a flagship feature,",
+      "avg_logprob": -0.3489
+    },
+    {
+      "start": 334.54,
+      "end": 341.1,
+      "text": "And they want you to believe that space is real.",
+      "avg_logprob": -0.1083
+    }
+  ]
+}

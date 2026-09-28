@@ -1,0 +1,49 @@
+{
+  "video_id": "V11",
+  "language": "nn",
+  "text": "Tip movie Top oil Top oil Refr knead Kjell, du har en løs? Kjell, du har en løs? Kjell, du har en løs?",
+  "segments": [
+    {
+      "start": 0.36,
+      "end": 2.24,
+      "text": "Tip movie",
+      "avg_logprob": -6.1749
+    },
+    {
+      "start": 10.52,
+      "end": 12.64,
+      "text": "Top oil",
+      "avg_logprob": -6.1749
+    },
+    {
+      "start": 15.96,
+      "end": 17.44,
+      "text": "Top oil",
+      "avg_logprob": -6.1749
+    },
+    {
+      "start": 21.6,
+      "end": 23.92,
+      "text": "Refr knead",
+      "avg_logprob": -6.1749
+    },
+    {
+      "start": 30.0,
+      "end": 32.04,
+      "text": "Kjell, du har en løs?",
+      "avg_logprob": -0.9519
+    },
+    {
+      "start": 32.8,
+      "end": 33.58,
+      "text": "Kjell, du har en løs?",
+      "avg_logprob": -0.9519
+    },
+    {
+      "start": 33.58,
+      "end": 34.8,
+      "text": "Kjell, du har en løs?",
+      "avg_logprob": -0.9519
+    }
+  ]
+}

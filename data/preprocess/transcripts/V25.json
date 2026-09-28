@@ -1,0 +1,325 @@
+{
+  "video_id": "V25",
+  "language": "en",
+  "text": "The flag is up, it will be checked. Does really well to win it back. Goes for it. Oh, he's not in near pause. La Minamala the double. They have to rely on a 16-year-old to get back on level terms. And they do. Barcelona look for a third. Dani Olmo teeing it up. Oh, how about that? Lamin Yamal in spectacular fashion and he now has 100 goals significant goal. Foul play for Suleiman Omus Naby find the gap. SENSATIONAL 1 1 There is a very big argument that he is the best player on the planet. It'll be kept in though. And it's Laminia Mar. And still. He fancies this. Oh, what a goal! What a player, what a moment in the Champions League. The whole stadium rises to that. created the opportunity for himself, had a little look and it was precisely placed out of reach of the... La Minamal Nice curl Oh I say what an unbelievable goal The 16 year old La Minamal That is absolutely astonishing He becomes the youngest player ever to score in the European Championship De La Fuente sees him more as a midfielder than a winger Yeah the mouth oh it's so so special as it so often is the 18 year old with the world at his feet as the Ducat crowd on their feet Thanks And Dumfries with a very good finish. Jamal, wiggling his way through. Oh, it's simply sensational. But it was a doubt before kick-off, having picked up what clearly was an injury in the warm-up. He shrugged it off and that's what he can do. What a game you have here for you. Barcelona 1, Inter Milan 2. just watch the skill here to go past Bikitarian on the edge of the box when he picks up the ball there's so many players in front of him, there's a slight mix up as you mentioned",
+  "segments": [
+    {
+      "start": 30.0,
+      "end": 31.96,
+      "text": "The flag is up, it will be checked.",
+      "avg_logprob": -0.3502
+    },
+    {
+      "start": 32.72,
+      "end": 34.14,
+      "text": "Does really well to win it back.",
+      "avg_logprob": -0.3502
+    },
+    {
+      "start": 34.5,
+      "end": 35.08,
+      "text": "Goes for it.",
+      "avg_logprob": -0.3502
+    },
+    {
+      "start": 35.32,
+      "end": 36.7,
+      "text": "Oh, he's not in near pause.",
+      "avg_logprob": -0.3502
+    },
+    {
+      "start": 37.34,
+      "end": 38.76,
+      "text": "La Minamala the double.",
+      "avg_logprob": -0.3502
+    },
+    {
+      "start": 39.16,
+      "end": 43.58,
+      "text": "They have to rely on a 16-year-old to get back on level terms.",
+      "avg_logprob": -0.3502
+    },
+    {
+      "start": 43.88,
+      "end": 44.76,
+      "text": "And they do.",
+      "avg_logprob": -0.3502
+    },
+    {
+      "start": 51.76,
+      "end": 54.04,
+      "text": "Barcelona look for a third.",
+      "avg_logprob": -0.3502
+    },
+    {
+      "start": 54.2,
+      "end": 55.82,
+      "text": "Dani Olmo teeing it up.",
+      "avg_logprob": -0.3502
+    },
+    {
+      "start": 55.92,
+      "end": 57.76,
+      "text": "Oh, how about that?",
+      "avg_logprob": -0.3502
+    },
+    {
+      "start": 60.0,
+      "end": 67.8,
+      "text": "Lamin Yamal in spectacular fashion and he now has 100 goals",
+      "avg_logprob": -0.3953
+    },
+    {
+      "start": 90.0,
+      "end": 95.8,
+      "text": "significant goal.",
+      "avg_logprob": -3.262
+    },
+    {
+      "start": 95.8,
+      "end": 100.66,
+      "text": "Foul play for Suleiman",
+      "avg_logprob": -3.262
+    },
+    {
+      "start": 100.66,
+      "end": 108.62,
+      "text": "Omus",
+      "avg_logprob": -3.262
+    },
+    {
+      "start": 108.62,
+      "end": 111.16,
+      "text": "Naby find",
+      "avg_logprob": -3.262
+    },
+    {
+      "start": 111.16,
+      "end": 113.88,
+      "text": "the gap.",
+      "avg_logprob": -3.262
+    },
+    {
+      "start": 113.88,
+      "end": 114.9,
+      "text": "SENSATIONAL",
+      "avg_logprob": -3.262
+    },
+    {
+      "start": 114.9,
+      "end": 118.7,
+      "text": "1 1",
+      "avg_logprob": -3.262
+    },
+    {
+      "start": 118.7,
+      "end": 124.42,
+      "text": "There is a very big argument that he is the best player on the planet.",
+      "avg_logprob": -0.3609
+    },
+    {
+      "start": 129.62,
+      "end": 130.98,
+      "text": "It'll be kept in though.",
+      "avg_logprob": -0.3609
+    },
+    {
+      "start": 132.3,
+      "end": 133.34,
+      "text": "And it's Laminia Mar.",
+      "avg_logprob": -0.3609
+    },
+    {
+      "start": 134.92,
+      "end": 135.88,
+      "text": "And still.",
+      "avg_logprob": -0.3609
+    },
+    {
+      "start": 136.62,
+      "end": 137.58,
+      "text": "He fancies this.",
+      "avg_logprob": -0.3609
+    },
+    {
+      "start": 137.82,
+      "end": 138.98,
+      "text": "Oh, what a goal!",
+      "avg_logprob": -0.3609
+    },
+    {
+      "start": 140.62,
+      "end": 143.96,
+      "text": "What a player, what a moment in the Champions League.",
+      "avg_logprob": -0.3609
+    },
+    {
+      "start": 144.92,
+      "end": 147.06,
+      "text": "The whole stadium rises to that.",
+      "avg_logprob": -0.3609
+    },
+    {
+      "start": 147.06,
+      "end": 159.06,
+      "text": "created the opportunity for himself, had a little look and it was precisely placed out of reach of the...",
+      "avg_logprob": -0.4544
+    },
+    {
+      "start": 159.06,
+      "end": 166.06,
+      "text": "La Minamal",
+      "avg_logprob": -0.3306
+    },
+    {
+      "start": 166.06,
+      "end": 169.52,
+      "text": "Nice curl",
+      "avg_logprob": -0.3306
+    },
+    {
+      "start": 169.52,
+      "end": 171.88,
+      "text": "Oh I say what an unbelievable goal",
+      "avg_logprob": -0.3306
+    },
+    {
+      "start": 171.88,
+      "end": 174.64,
+      "text": "The 16 year old",
+      "avg_logprob": -0.3306
+    },
+    {
+      "start": 174.64,
+      "end": 176.36,
+      "text": "La Minamal",
+      "avg_logprob": -0.3306
+    },
+    {
+      "start": 176.36,
+      "end": 182.06,
+      "text": "That is absolutely astonishing",
+      "avg_logprob": -0.3306
+    },
+    {
+      "start": 182.06,
+      "end": 187.54,
+      "text": "He becomes the youngest player ever to score",
+      "avg_logprob": -0.3306
+    },
+    {
+      "start": 187.54,
+      "end": 189.54,
+      "text": "in the European Championship",
+      "avg_logprob": -0.7073
+    },
+    {
+      "start": 208.42,
+      "end": 211.86,
+      "text": "De La Fuente sees him more as a midfielder than a winger",
+      "avg_logprob": -0.7073
+    },
+    {
+      "start": 211.86,
+      "end": 212.86,
+      "text": "Yeah",
+      "avg_logprob": -0.7073
+    },
+    {
+      "start": 212.86,
+      "end": 224.64,
+      "text": "the mouth oh it's so so special as it so often is the 18 year old with the world",
+      "avg_logprob": -0.599
+    },
+    {
+      "start": 224.64,
+      "end": 227.28,
+      "text": "at his feet",
+      "avg_logprob": -0.599
+    },
+    {
+      "start": 227.58,
+      "end": 232.56,
+      "text": "as the Ducat crowd on their feet",
+      "avg_logprob": -0.599
+    },
+    {
+      "start": 233.88,
+      "end": 236.54,
+      "text": "Thanks",
+      "avg_logprob": -0.599
+    },
+    {
+      "start": 236.54,
+      "end": 242.3,
+      "text": "And Dumfries with a very good finish.",
+      "avg_logprob": -0.2841
+    },
+    {
+      "start": 248.12,
+      "end": 251.16,
+      "text": "Jamal, wiggling his way through.",
+      "avg_logprob": -0.2841
+    },
+    {
+      "start": 251.34,
+      "end": 252.58,
+      "text": "Oh, it's simply sensational.",
+      "avg_logprob": -0.2841
+    },
+    {
+      "start": 253.04,
+      "end": 257.74,
+      "text": "But it was a doubt before kick-off, having picked up what clearly was an injury in the warm-up.",
+      "avg_logprob": -0.2841
+    },
+    {
+      "start": 257.96,
+      "end": 259.8,
+      "text": "He shrugged it off and that's what he can do.",
+      "avg_logprob": -0.2841
+    },
+    {
+      "start": 260.14,
+      "end": 261.42,
+      "text": "What a game you have here for you.",
+      "avg_logprob": -0.2841
+    },
+    {
+      "start": 261.52,
+      "end": 262.94,
+      "text": "Barcelona 1, Inter Milan 2.",
+      "avg_logprob": -0.2841
+    },
+    {
+      "start": 262.94,
+      "end": 266.0,
+      "text": "just watch the skill here to go past",
+      "avg_logprob": -0.1719
+    },
+    {
+      "start": 266.0,
+      "end": 267.82,
+      "text": "Bikitarian on the edge of the box",
+      "avg_logprob": -0.1719
+    },
+    {
+      "start": 267.82,
+      "end": 269.98,
+      "text": "when he picks up the ball there's so many",
+      "avg_logprob": -0.1719
+    },
+    {
+      "start": 269.98,
+      "end": 272.06,
+      "text": "players in front of him, there's a slight mix up",
+      "avg_logprob": -0.1719
+    },
+    {
+      "start": 272.06,
+      "end": 272.7,
+      "text": "as you mentioned",
+      "avg_logprob": -0.1719
+    }
+  ]
+}

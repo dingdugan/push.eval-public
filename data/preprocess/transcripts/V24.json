@@ -1,0 +1,31 @@
+{
+  "video_id": "V24",
+  "language": "nn",
+  "text": "1 tbsp. demerara peper 1 tbsp. demerara peper 1 tbsp. demerara peper Thank you for watching!",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "text": "1 tbsp. demerara peper",
+      "avg_logprob": -0.8314
+    },
+    {
+      "start": 10.0,
+      "end": 12.0,
+      "text": "1 tbsp. demerara peper",
+      "avg_logprob": -0.8314
+    },
+    {
+      "start": 20.0,
+      "end": 22.0,
+      "text": "1 tbsp. demerara peper",
+      "avg_logprob": -0.8314
+    },
+    {
+      "start": 270.0,
+      "end": 277.6,
+      "text": "Thank you for watching!",
+      "avg_logprob": -0.774
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "video_id": "V19",
+  "language": "en",
+  "text": "Have you ever visited a new website only to be immediately blocked by a giant banner begging you to accept all cookies? If you're like 90% of people on the internet, you probably just sigh, click accept, and move on. It's an automatic reflex just to get the box out of the way. But what actually happens the exact moment you click that button? Did you just give away your deepest, darkest secrets to a tech giant? Or are you just helping a website remember your password? Welcome to SimpleThings Surprising Histories. Today we are looking at the digital crumb trail that follows you everywhere online. We're going to uncover what cookies really are, the surprising reason they were invented, and exactly what happens to your data when you blindly click Accept All. To understand what cookies are, we have to travel back to 1994. The early internet had a major problem. It had severe amnesia. Every time you clicked a new link or loaded a new page, the website completely forgot who you were. Imagine trying to buy something online. You put a pair of shoes in your digital shopping cart, but when you click checkout, the cart is totally empty because the website forgot you even existed. Enter a 23-year-old programmer named Lou Montulli, who was working for Netscape. He urgently needed a way for websites to have a memory. Drawing inspiration from an old, obscure computer science term called a magic cookie, which was just a tiny packet of data that programs passed back and forth, he created the HTTP cookie. Lou's invention was brilliant, and its purpose was entirely innocent, to give users a seamless, frustration-free experience. Without his simple invention, modern e-commerce simply wouldn't exist. So, how does this digital memory actually work? Think of a cookie like a coat check ticket in a museum. When you arrive and hand over your coat, the attendant gives you a small numbered ticket. The ticket doesn't know your name, your address, or your life story. It just connects you to your coat. When you visit a website, the site hands your browser a tiny text file. That's the cookie. When you navigate to the next page, your browser essentially shows its ticket, and the website says, ah, I remember you, you're still logged in, or I remember you prefer dark mode. These are called first-party cookies. They're created directly by the site you are visiting, and generally they are the good guys. They're the essential tools that make the internet usable. But here's where the story takes a turn, and that annoying pop-up banner comes in. When you click Accept All, you aren't just taking a coat check ticket from the museum. You're also agreeing to accept tickets from dozens, sometimes hundreds, of invisible strangers standing in the lobby. These are called third-party cookies. They are placed there not by the website you are reading, but by advertisers, social media platforms, and data brokers hidden in the website's code. When you click Accept All, you are giving these third parties legal permission to track you, not just on that website, but across the entire internet. Have you ever looked at a watch or a vacation rental online, and suddenly that exact watch is following you on Instagram, news sites, and YouTube? That's a third-party cookie at work. Clicking Accept All allows a vast, hidden network to build a highly detailed profile of your habits, your location, and your interests, which is then sold to advertisers in milliseconds. Lou Montali never intended for his invention to become a tool for global surveillance. It was just a clever way to make a digital shopping cart work. The good news is, the internet is changing. Browsers are actively phasing out third-party cookies, and those annoying banners now give you a choice. Taking three extra seconds to click Reject Non-Essential instead of Accept All can instantly protect your privacy, and the website will still work just fine. The next time you see that banner, you'll know exactly what's happening behind the scenes. If you enjoyed this digital deep dive, please hit the like button, share this video with a friend who always clicks accept, and subscribe to Simple Things Surprising Histories for more fascinating stories behind our everyday world. Thanks for watching, and see you next time.",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.16,
+      "text": "Have you ever visited a new website only to be immediately blocked by a giant banner begging you to accept all cookies?",
+      "avg_logprob": -0.0894
+    },
+    {
+      "start": 8.48,
+      "end": 14.64,
+      "text": "If you're like 90% of people on the internet, you probably just sigh, click accept, and move on.",
+      "avg_logprob": -0.0894
+    },
+    {
+      "start": 14.98,
+      "end": 18.0,
+      "text": "It's an automatic reflex just to get the box out of the way.",
+      "avg_logprob": -0.0894
+    },
+    {
+      "start": 18.48,
+      "end": 21.96,
+      "text": "But what actually happens the exact moment you click that button?",
+      "avg_logprob": -0.0894
+    },
+    {
+      "start": 22.46,
+      "end": 26.36,
+      "text": "Did you just give away your deepest, darkest secrets to a tech giant?",
+      "avg_logprob": -0.0894
+    },
+    {
+      "start": 26.36,
+      "end": 29.42,
+      "text": "Or are you just helping a website remember your password?",
+      "avg_logprob": -0.0894
+    },
+    {
+      "start": 30.0,
+      "end": 35.84,
+      "text": "Welcome to SimpleThings Surprising Histories. Today we are looking at the digital crumb trail",
+      "avg_logprob": -0.1168
+    },
+    {
+      "start": 35.84,
+      "end": 40.64,
+      "text": "that follows you everywhere online. We're going to uncover what cookies really are,",
+      "avg_logprob": -0.1168
+    },
+    {
+      "start": 40.8,
+      "end": 45.76,
+      "text": "the surprising reason they were invented, and exactly what happens to your data when you",
+      "avg_logprob": -0.1168
+    },
+    {
+      "start": 45.76,
+      "end": 59.48,
+      "text": "blindly click Accept All. To understand what cookies are, we have to travel back to 1994.",
+      "avg_logprob": -0.1168
+    },
+    {
+      "start": 60.0,
+      "end": 64.58,
+      "text": "The early internet had a major problem. It had severe amnesia.",
+      "avg_logprob": -0.0972
+    },
+    {
+      "start": 65.12,
+      "end": 70.76,
+      "text": "Every time you clicked a new link or loaded a new page, the website completely forgot who you were.",
+      "avg_logprob": -0.0972
+    },
+    {
+      "start": 71.24,
+      "end": 76.06,
+      "text": "Imagine trying to buy something online. You put a pair of shoes in your digital shopping cart,",
+      "avg_logprob": -0.0972
+    },
+    {
+      "start": 76.36,
+      "end": 82.08,
+      "text": "but when you click checkout, the cart is totally empty because the website forgot you even existed.",
+      "avg_logprob": -0.0972
+    },
+    {
+      "start": 82.72,
+      "end": 88.02,
+      "text": "Enter a 23-year-old programmer named Lou Montulli, who was working for Netscape.",
+      "avg_logprob": -0.0972
+    },
+    {
+      "start": 88.02,
+      "end": 91.64,
+      "text": "He urgently needed a way for websites to have a memory.",
+      "avg_logprob": -0.128
+    },
+    {
+      "start": 92.18,
+      "end": 96.64,
+      "text": "Drawing inspiration from an old, obscure computer science term called a magic cookie,",
+      "avg_logprob": -0.128
+    },
+    {
+      "start": 97.04,
+      "end": 100.84,
+      "text": "which was just a tiny packet of data that programs passed back and forth,",
+      "avg_logprob": -0.128
+    },
+    {
+      "start": 101.14,
+      "end": 103.6,
+      "text": "he created the HTTP cookie.",
+      "avg_logprob": -0.128
+    },
+    {
+      "start": 104.3,
+      "end": 108.24,
+      "text": "Lou's invention was brilliant, and its purpose was entirely innocent,",
+      "avg_logprob": -0.128
+    },
+    {
+      "start": 108.62,
+      "end": 112.04,
+      "text": "to give users a seamless, frustration-free experience.",
+      "avg_logprob": -0.128
+    },
+    {
+      "start": 112.46,
+      "end": 116.88,
+      "text": "Without his simple invention, modern e-commerce simply wouldn't exist.",
+      "avg_logprob": -0.128
+    },
+    {
+      "start": 117.48,
+      "end": 120.32,
+      "text": "So, how does this digital memory actually work?",
+      "avg_logprob": -0.1458
+    },
+    {
+      "start": 120.74,
+      "end": 123.96,
+      "text": "Think of a cookie like a coat check ticket in a museum.",
+      "avg_logprob": -0.1458
+    },
+    {
+      "start": 124.4,
+      "end": 128.82,
+      "text": "When you arrive and hand over your coat, the attendant gives you a small numbered ticket.",
+      "avg_logprob": -0.1458
+    },
+    {
+      "start": 129.28,
+      "end": 132.76,
+      "text": "The ticket doesn't know your name, your address, or your life story.",
+      "avg_logprob": -0.1458
+    },
+    {
+      "start": 132.96,
+      "end": 134.9,
+      "text": "It just connects you to your coat.",
+      "avg_logprob": -0.1458
+    },
+    {
+      "start": 135.4,
+      "end": 139.5,
+      "text": "When you visit a website, the site hands your browser a tiny text file.",
+      "avg_logprob": -0.1458
+    },
+    {
+      "start": 139.74,
+      "end": 140.56,
+      "text": "That's the cookie.",
+      "avg_logprob": -0.1458
+    },
+    {
+      "start": 140.56,
+      "end": 145.0,
+      "text": "When you navigate to the next page, your browser essentially shows its ticket,",
+      "avg_logprob": -0.1458
+    },
+    {
+      "start": 145.0,
+      "end": 151.6,
+      "text": "and the website says, ah, I remember you, you're still logged in, or I remember you prefer dark mode.",
+      "avg_logprob": -0.1021
+    },
+    {
+      "start": 152.04,
+      "end": 154.24,
+      "text": "These are called first-party cookies.",
+      "avg_logprob": -0.1021
+    },
+    {
+      "start": 154.7,
+      "end": 158.9,
+      "text": "They're created directly by the site you are visiting, and generally they are the good guys.",
+      "avg_logprob": -0.1021
+    },
+    {
+      "start": 159.24,
+      "end": 161.84,
+      "text": "They're the essential tools that make the internet usable.",
+      "avg_logprob": -0.1021
+    },
+    {
+      "start": 162.38,
+      "end": 167.3,
+      "text": "But here's where the story takes a turn, and that annoying pop-up banner comes in.",
+      "avg_logprob": -0.1021
+    },
+    {
+      "start": 167.76,
+      "end": 172.54,
+      "text": "When you click Accept All, you aren't just taking a coat check ticket from the museum.",
+      "avg_logprob": -0.1021
+    },
+    {
+      "start": 172.54,
+      "end": 179.66,
+      "text": "You're also agreeing to accept tickets from dozens, sometimes hundreds, of invisible strangers standing in the lobby.",
+      "avg_logprob": -0.0964
+    },
+    {
+      "start": 180.18,
+      "end": 182.36,
+      "text": "These are called third-party cookies.",
+      "avg_logprob": -0.0964
+    },
+    {
+      "start": 182.78,
+      "end": 191.18,
+      "text": "They are placed there not by the website you are reading, but by advertisers, social media platforms, and data brokers hidden in the website's code.",
+      "avg_logprob": -0.0964
+    },
+    {
+      "start": 191.64,
+      "end": 200.3,
+      "text": "When you click Accept All, you are giving these third parties legal permission to track you, not just on that website, but across the entire internet.",
+      "avg_logprob": -0.0964
+    },
+    {
+      "start": 200.3,
+      "end": 209.6,
+      "text": "Have you ever looked at a watch or a vacation rental online, and suddenly that exact watch is following you on Instagram, news sites, and YouTube?",
+      "avg_logprob": -0.0667
+    },
+    {
+      "start": 210.08,
+      "end": 212.44,
+      "text": "That's a third-party cookie at work.",
+      "avg_logprob": -0.0667
+    },
+    {
+      "start": 212.86,
+      "end": 224.22,
+      "text": "Clicking Accept All allows a vast, hidden network to build a highly detailed profile of your habits, your location, and your interests, which is then sold to advertisers in milliseconds.",
+      "avg_logprob": -0.0667
+    },
+    {
+      "start": 225.04,
+      "end": 229.38,
+      "text": "Lou Montali never intended for his invention to become a tool for global surveillance.",
+      "avg_logprob": -0.0667
+    },
+    {
+      "start": 229.38,
+      "end": 232.7,
+      "text": "It was just a clever way to make a digital shopping cart work.",
+      "avg_logprob": -0.0916
+    },
+    {
+      "start": 233.14,
+      "end": 235.5,
+      "text": "The good news is, the internet is changing.",
+      "avg_logprob": -0.0916
+    },
+    {
+      "start": 235.96,
+      "end": 238.82,
+      "text": "Browsers are actively phasing out third-party cookies,",
+      "avg_logprob": -0.0916
+    },
+    {
+      "start": 239.18,
+      "end": 241.56,
+      "text": "and those annoying banners now give you a choice.",
+      "avg_logprob": -0.0916
+    },
+    {
+      "start": 241.96,
+      "end": 247.24,
+      "text": "Taking three extra seconds to click Reject Non-Essential instead of Accept All",
+      "avg_logprob": -0.0916
+    },
+    {
+      "start": 247.24,
+      "end": 251.56,
+      "text": "can instantly protect your privacy, and the website will still work just fine.",
+      "avg_logprob": -0.0916
+    },
+    {
+      "start": 251.96,
+      "end": 256.2,
+      "text": "The next time you see that banner, you'll know exactly what's happening behind the scenes.",
+      "avg_logprob": -0.0916
+    },
+    {
+      "start": 256.2,
+      "end": 270.24,
+      "text": "If you enjoyed this digital deep dive, please hit the like button, share this video with a friend who always clicks accept, and subscribe to Simple Things Surprising Histories for more fascinating stories behind our everyday world.",
+      "avg_logprob": -0.0767
+    },
+    {
+      "start": 270.62,
+      "end": 272.42,
+      "text": "Thanks for watching, and see you next time.",
+      "avg_logprob": -0.0767
+    }
+  ]
+}

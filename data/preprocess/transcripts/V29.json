@@ -1,0 +1,343 @@
+{
+  "video_id": "V29",
+  "language": "en",
+  "text": ". Hi, I'm Reid from the Flow team at Google, and I'm going to give a quick walkthrough of what Flow is and how it works. Flow is your AI creative studio where you can generate and refine images and videos in whatever style you can dream up. Designed to support your entire creative journey, Flow helps creatives explore what's possible, from pre-visualization or proof of concept to a final creation. Under the hood, it's powered by a combination of Google DeepMind's most advanced models — Veo, NanoBanana, and Gemini. So let's jump right in. When you enter Flow, you land on your Projects page, where you can scroll and look through everything that you're working on. Here you can start a new project or click on an existing one, where you'll see all of your assets appear in a grid. This grid was designed to help simplify the way you manage your assets. As your project grows, you can group assets into custom collections, search, and filter. This makes it easier to organize images and videos as you build out your story. Now let's focus on the prompt bar. Just type a prompt in and Flow will generate an image. To help you stay organized, you can also name your image generations, just like you would with your working files. If you'd like to refine your image, you can simply prompt for a new version. Or use one of the editing options like the Lasso tool for more precision. Just outline the area you want to change, add a prompt, and Flow updates that specific spot while keeping the rest of your image the same. In the prompt bar, you'll also find a model selector. This is where you can switch between generating images and videos and adjust various settings like orientation, output quantity, or model. Let's choose video. Ready to bring your ideas to life? You can use images you've created or upload your own as ingredients for your video. Just drag them into the prompt bar, use the at tag to pull in a named asset, or mix and match both. Prompt how they should be used together and hit generate. Now let's explore frames to video. When using frames to video, you'll see these little chips that give you the option to use the first frame, a last frame, or both. You can generate a frame with Nano Banana Pro directly in Flow. upload new frames from your device, or simply drop frames in from your grid. You'll also notice a few buttons pop up below the prompt bar. These features help you refine your clips after you generate them to get them just right. For example, with the insert feature, you're able to add elements to your clip without generating an entirely new one. You can also shift the perspective of your clip by using camera control, without needing to describe it in your prompt. And if you like where your clip was going and you'd like to continue the story, you can extend the length of your clip. That's a quick look at how to get started with Flow. We can't wait to see what you create.",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.76,
+      "text": ".",
+      "avg_logprob": -0.1951
+    },
+    {
+      "start": 5.76,
+      "end": 8.32,
+      "text": "Hi, I'm Reid from the Flow team at Google,",
+      "avg_logprob": -0.1951
+    },
+    {
+      "start": 8.32,
+      "end": 12.08,
+      "text": "and I'm going to give a quick walkthrough of what Flow is and how it works.",
+      "avg_logprob": -0.1951
+    },
+    {
+      "start": 12.08,
+      "end": 15.28,
+      "text": "Flow is your AI creative studio where you can generate and",
+      "avg_logprob": -0.1951
+    },
+    {
+      "start": 15.28,
+      "end": 19.0,
+      "text": "refine images and videos in whatever style you can dream up.",
+      "avg_logprob": -0.1951
+    },
+    {
+      "start": 19.0,
+      "end": 21.64,
+      "text": "Designed to support your entire creative journey,",
+      "avg_logprob": -0.1951
+    },
+    {
+      "start": 21.64,
+      "end": 24.16,
+      "text": "Flow helps creatives explore what's possible,",
+      "avg_logprob": -0.1951
+    },
+    {
+      "start": 24.16,
+      "end": 29.08,
+      "text": "from pre-visualization or proof of concept to a final creation.",
+      "avg_logprob": -0.1951
+    },
+    {
+      "start": 29.08,
+      "end": 34.08,
+      "text": "Under the hood, it's powered by a combination of Google DeepMind's most advanced models",
+      "avg_logprob": -0.1195
+    },
+    {
+      "start": 34.08,
+      "end": 37.08,
+      "text": "— Veo, NanoBanana, and Gemini.",
+      "avg_logprob": -0.1195
+    },
+    {
+      "start": 37.08,
+      "end": 38.08,
+      "text": "So let's jump right in.",
+      "avg_logprob": -0.1195
+    },
+    {
+      "start": 38.08,
+      "end": 41.08,
+      "text": "When you enter Flow, you land on your Projects page,",
+      "avg_logprob": -0.1195
+    },
+    {
+      "start": 41.08,
+      "end": 44.08,
+      "text": "where you can scroll and look through everything that you're working on.",
+      "avg_logprob": -0.1195
+    },
+    {
+      "start": 45.08,
+      "end": 48.08,
+      "text": "Here you can start a new project or click on an existing one,",
+      "avg_logprob": -0.1195
+    },
+    {
+      "start": 48.08,
+      "end": 51.08,
+      "text": "where you'll see all of your assets appear in a grid.",
+      "avg_logprob": -0.1195
+    },
+    {
+      "start": 53.08,
+      "end": 56.08,
+      "text": "This grid was designed to help simplify the way you manage your assets.",
+      "avg_logprob": -0.1195
+    },
+    {
+      "start": 56.08,
+      "end": 62.8,
+      "text": "As your project grows, you can group assets into custom collections, search, and filter.",
+      "avg_logprob": -0.1258
+    },
+    {
+      "start": 62.8,
+      "end": 68.26,
+      "text": "This makes it easier to organize images and videos as you build out your story.",
+      "avg_logprob": -0.1258
+    },
+    {
+      "start": 68.26,
+      "end": 70.5,
+      "text": "Now let's focus on the prompt bar.",
+      "avg_logprob": -0.1258
+    },
+    {
+      "start": 70.5,
+      "end": 73.66,
+      "text": "Just type a prompt in and Flow will generate an image.",
+      "avg_logprob": -0.1258
+    },
+    {
+      "start": 73.66,
+      "end": 77.32,
+      "text": "To help you stay organized, you can also name your image generations, just like you would",
+      "avg_logprob": -0.1258
+    },
+    {
+      "start": 77.32,
+      "end": 80.28,
+      "text": "with your working files.",
+      "avg_logprob": -0.1258
+    },
+    {
+      "start": 80.28,
+      "end": 83.98,
+      "text": "If you'd like to refine your image, you can simply prompt for a new version.",
+      "avg_logprob": -0.1258
+    },
+    {
+      "start": 83.98,
+      "end": 88.74,
+      "text": "Or use one of the editing options like the Lasso tool for more precision.",
+      "avg_logprob": -0.1344
+    },
+    {
+      "start": 88.74,
+      "end": 92.84,
+      "text": "Just outline the area you want to change, add a prompt, and Flow updates that specific",
+      "avg_logprob": -0.1344
+    },
+    {
+      "start": 92.84,
+      "end": 96.74,
+      "text": "spot while keeping the rest of your image the same.",
+      "avg_logprob": -0.1344
+    },
+    {
+      "start": 96.74,
+      "end": 100.1,
+      "text": "In the prompt bar, you'll also find a model selector.",
+      "avg_logprob": -0.1344
+    },
+    {
+      "start": 100.1,
+      "end": 103.78,
+      "text": "This is where you can switch between generating images and videos and adjust various settings",
+      "avg_logprob": -0.1344
+    },
+    {
+      "start": 103.78,
+      "end": 106.9,
+      "text": "like orientation, output quantity, or model.",
+      "avg_logprob": -0.1344
+    },
+    {
+      "start": 106.9,
+      "end": 108.56,
+      "text": "Let's choose video.",
+      "avg_logprob": -0.1344
+    },
+    {
+      "start": 108.56,
+      "end": 110.36,
+      "text": "Ready to bring your ideas to life?",
+      "avg_logprob": -0.1344
+    },
+    {
+      "start": 110.36,
+      "end": 114.18,
+      "text": "You can use images you've created or upload your own as ingredients for your video.",
+      "avg_logprob": -0.1495
+    },
+    {
+      "start": 114.18,
+      "end": 118.82,
+      "text": "Just drag them into the prompt bar, use the at tag to pull in a named asset, or mix and",
+      "avg_logprob": -0.1495
+    },
+    {
+      "start": 118.82,
+      "end": 121.32,
+      "text": "match both.",
+      "avg_logprob": -0.1495
+    },
+    {
+      "start": 121.32,
+      "end": 127.48,
+      "text": "Prompt how they should be used together and hit generate.",
+      "avg_logprob": -0.1495
+    },
+    {
+      "start": 127.48,
+      "end": 129.68,
+      "text": "Now let's explore frames to video.",
+      "avg_logprob": -0.1495
+    },
+    {
+      "start": 129.68,
+      "end": 133.12,
+      "text": "When using frames to video, you'll see these little chips that give you the option to use",
+      "avg_logprob": -0.1495
+    },
+    {
+      "start": 133.12,
+      "end": 136.7,
+      "text": "the first frame, a last frame, or both.",
+      "avg_logprob": -0.1495
+    },
+    {
+      "start": 136.7,
+      "end": 140.08,
+      "text": "You can generate a frame with Nano Banana Pro directly in Flow.",
+      "avg_logprob": -0.1495
+    },
+    {
+      "start": 140.08,
+      "end": 142.08,
+      "text": "upload new frames from your device,",
+      "avg_logprob": -0.138
+    },
+    {
+      "start": 142.08,
+      "end": 144.08,
+      "text": "or simply drop frames in from your grid.",
+      "avg_logprob": -0.138
+    },
+    {
+      "start": 150.92,
+      "end": 152.48,
+      "text": "You'll also notice a few buttons pop up",
+      "avg_logprob": -0.138
+    },
+    {
+      "start": 152.48,
+      "end": 153.76,
+      "text": "below the prompt bar.",
+      "avg_logprob": -0.138
+    },
+    {
+      "start": 153.76,
+      "end": 155.44,
+      "text": "These features help you refine your clips",
+      "avg_logprob": -0.138
+    },
+    {
+      "start": 155.44,
+      "end": 158.3,
+      "text": "after you generate them to get them just right.",
+      "avg_logprob": -0.138
+    },
+    {
+      "start": 158.3,
+      "end": 160.16,
+      "text": "For example, with the insert feature,",
+      "avg_logprob": -0.138
+    },
+    {
+      "start": 160.16,
+      "end": 161.66,
+      "text": "you're able to add elements to your clip",
+      "avg_logprob": -0.138
+    },
+    {
+      "start": 161.66,
+      "end": 163.56,
+      "text": "without generating an entirely new one.",
+      "avg_logprob": -0.138
+    },
+    {
+      "start": 167.04,
+      "end": 168.74,
+      "text": "You can also shift the perspective of your clip",
+      "avg_logprob": -0.138
+    },
+    {
+      "start": 168.74,
+      "end": 169.98,
+      "text": "by using camera control,",
+      "avg_logprob": -0.138
+    },
+    {
+      "start": 169.98,
+      "end": 172.08,
+      "text": "without needing to describe it in your prompt.",
+      "avg_logprob": -0.1668
+    },
+    {
+      "start": 173.42,
+      "end": 174.76,
+      "text": "And if you like where your clip was going",
+      "avg_logprob": -0.1668
+    },
+    {
+      "start": 174.76,
+      "end": 176.68,
+      "text": "and you'd like to continue the story,",
+      "avg_logprob": -0.1668
+    },
+    {
+      "start": 176.68,
+      "end": 178.58,
+      "text": "you can extend the length of your clip.",
+      "avg_logprob": -0.1668
+    },
+    {
+      "start": 180.34,
+      "end": 183.6,
+      "text": "That's a quick look at how to get started with Flow.",
+      "avg_logprob": -0.1668
+    },
+    {
+      "start": 183.6,
+      "end": 185.4,
+      "text": "We can't wait to see what you create.",
+      "avg_logprob": -0.1668
+    }
+  ]
+}

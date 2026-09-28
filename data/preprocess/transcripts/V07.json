@@ -1,0 +1,601 @@
+{
+  "video_id": "V07",
+  "language": "en",
+  "text": "You still throwing a temper tantrum? Okay, let me know when you're done. Bobby. Oh. Oh, okay. Yeah, this happens a lot. Welcome to Cairo's official list of grievances for today. Dinner was three minutes late, Mom went into the kitten room without him, and someone, somewhere, said the word no. But honestly, that's just the warm-up, Because there's one specific thing that turns this dog from mildly offended into a dog who acts like his whole world just fell apart. Cairo is a pit bull. The kind of dog people sometimes judge before they know him. The face, the muscles, the whole look. Everything about him says serious dog. And with Cairo, the tough guy image kind of fits too, just not in the way you'd expect. He doesn't bite when he's mad. He doesn't bark. he sulks like this. Cairo has the most expressive face you'll ever see on a dog. And when you hurt his feelings, he looks at you like a five-year-old whose toy just got taken away and who is suddenly rethinking your role in his life. This dog turns everything into drama. He wears pajamas. He has a favorite blanket he refuses to leave the house without. He's obsessed with foster kittens and seems to think he's their personal bodyguard. And he asks Katrina, his mom, dresses him like that on purpose. She says people judge bully breeds by the way they look until they see one in pajamas. But don't let any of this fool you. Because underneath the softness, the pajamas, and the kitten cuddles, there's a dog who runs this entire house. And his rules are not up for discussion. The word no does not exist in Cairo's vocabulary. Sometimes it's okay to hear the word no. It's not a bad word. Okay, papas? And honestly, this house does not run like a normal house. It's not Cairo living by Katrina's rules. It's Katrina trying to survive Cairo's. It's not scary. Look, it's like a Pappuccino. It's like at Starbucks. Look. It's like Starbucks, try it Told you Take dinner Dinner is serious business for him If Katrina is even a couple minutes late He treats it like a personal offense Then there are the kittens Cairo adores them So when Katrina goes into the kitten room without him He takes it very personally He doesn't scratch He doesn't whine He just sits by the door in total silence, waiting for someone to realize they made a terrible mistake. And then there's the blanket. Cairo refuses to leave the house without his favorite blanket. If anyone tries to stop him, he is absolutely ready to stand his ground. And that's when he gets back up. Willow, who is usually calm and quiet, suddenly jumps in like this has become a team operation. So we can go outside, but you can't bring your blankie. In this house, Cairo never has to fight his battles alone. But dinner, kittens, the blanket, that's just everyday drama. Because there's one place that matters more than anything. And when Cairo can't go there, he takes it harder than anyone expects. That place is Grandma and Grandpa's house. Grandma's around. And for Cairo, going there is one of the biggest events in his life. The second Katrina says, do you want to go to Grandma's? Cairo is gone. One moment he's on the couch, lazy and comfortable, the next he's at the door, making it very clear We're going right now. In the car He spends the whole ride on edge because he just can't fully relax until they get there and once they arrive Cairo immediately starts his routine First it's couch cuddles with grandma and grandpa, non-negotiable. Then comes his favorite part. Grandma's trying to get things done. She's got work She's got plans, but Cairo has already decided that grandma's schedule belongs to him now. As far as he's concerned her entire day should revolve around him. And somehow, every single time, he makes sure she gets absolutely nothing done. Everything would be perfect, except for one thing. Sometimes, Grandma can't have him over. Her other dogs aren't always up for company. And when Cairo realizes he's staying home, he goes into full sulk mode. He sits silently by the door, gives Katrina that look, and his whole body says exactly one thing. You have betrayed me. And, you know, from the outside, yeah, it looks ridiculous. A grown pitbull sitting by the door like his whole life is falling apart just because he's not going to grandma's today. But if you take the comedy out of it, the truth is actually pretty simple. He reacts like this because being with the people he loves really matters to him now. People see the muscles, the heavy jaw, that stare. They don't see the dog who finally has a family that feels like his. They don't see the dog who waits by the kitten room because he wants to be included. They don't see the dog who carries his blanket like it's part of him. And they don't see why one small mill can hit him so hard. Because to Cairo, Grandma's house isn't just a place. It's his people, his routine, his happiness. And when he can be part of it, he doesn't know how to hide what he feels. And Cairo isn't the only animal people got completely wrong. Some of the best stories start with one look, and then turn into something nobody expected. This next one is exactly that.",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.84,
+      "text": "You still throwing a temper tantrum?",
+      "avg_logprob": -0.1759
+    },
+    {
+      "start": 3.64,
+      "end": 5.44,
+      "text": "Okay, let me know when you're done.",
+      "avg_logprob": -0.1759
+    },
+    {
+      "start": 6.92,
+      "end": 7.48,
+      "text": "Bobby.",
+      "avg_logprob": -0.1759
+    },
+    {
+      "start": 10.36,
+      "end": 10.94,
+      "text": "Oh.",
+      "avg_logprob": -0.1759
+    },
+    {
+      "start": 12.18,
+      "end": 13.48,
+      "text": "Oh, okay.",
+      "avg_logprob": -0.1759
+    },
+    {
+      "start": 13.8,
+      "end": 15.76,
+      "text": "Yeah, this happens a lot.",
+      "avg_logprob": -0.1759
+    },
+    {
+      "start": 16.06,
+      "end": 18.74,
+      "text": "Welcome to Cairo's official list of grievances for today.",
+      "avg_logprob": -0.1759
+    },
+    {
+      "start": 19.18,
+      "end": 20.48,
+      "text": "Dinner was three minutes late,",
+      "avg_logprob": -0.1759
+    },
+    {
+      "start": 20.98,
+      "end": 22.66,
+      "text": "Mom went into the kitten room without him,",
+      "avg_logprob": -0.1759
+    },
+    {
+      "start": 22.78,
+      "end": 25.78,
+      "text": "and someone, somewhere, said the word no.",
+      "avg_logprob": -0.1759
+    },
+    {
+      "start": 26.26,
+      "end": 28.46,
+      "text": "But honestly, that's just the warm-up,",
+      "avg_logprob": -0.1759
+    },
+    {
+      "start": 28.46,
+      "end": 32.58,
+      "text": "Because there's one specific thing that turns this dog from mildly offended",
+      "avg_logprob": -0.1471
+    },
+    {
+      "start": 32.58,
+      "end": 36.28,
+      "text": "into a dog who acts like his whole world just fell apart.",
+      "avg_logprob": -0.1471
+    },
+    {
+      "start": 36.62,
+      "end": 37.76,
+      "text": "Cairo is a pit bull.",
+      "avg_logprob": -0.1471
+    },
+    {
+      "start": 37.76,
+      "end": 41.08,
+      "text": "The kind of dog people sometimes judge before they know him.",
+      "avg_logprob": -0.1471
+    },
+    {
+      "start": 41.84,
+      "end": 44.34,
+      "text": "The face, the muscles, the whole look.",
+      "avg_logprob": -0.1471
+    },
+    {
+      "start": 45.14,
+      "end": 47.44,
+      "text": "Everything about him says serious dog.",
+      "avg_logprob": -0.1471
+    },
+    {
+      "start": 48.16,
+      "end": 51.1,
+      "text": "And with Cairo, the tough guy image kind of fits too,",
+      "avg_logprob": -0.1471
+    },
+    {
+      "start": 51.46,
+      "end": 52.96,
+      "text": "just not in the way you'd expect.",
+      "avg_logprob": -0.1471
+    },
+    {
+      "start": 53.5,
+      "end": 54.68,
+      "text": "He doesn't bite when he's mad.",
+      "avg_logprob": -0.1471
+    },
+    {
+      "start": 55.08,
+      "end": 55.82,
+      "text": "He doesn't bark.",
+      "avg_logprob": -0.1471
+    },
+    {
+      "start": 55.82,
+      "end": 63.52,
+      "text": "he sulks like this. Cairo has the most expressive face you'll ever see on a dog.",
+      "avg_logprob": -0.1785
+    },
+    {
+      "start": 64.22,
+      "end": 69.22,
+      "text": "And when you hurt his feelings, he looks at you like a five-year-old whose toy just got taken away",
+      "avg_logprob": -0.1785
+    },
+    {
+      "start": 69.22,
+      "end": 75.6,
+      "text": "and who is suddenly rethinking your role in his life. This dog turns everything into drama.",
+      "avg_logprob": -0.1785
+    },
+    {
+      "start": 76.84,
+      "end": 83.92,
+      "text": "He wears pajamas. He has a favorite blanket he refuses to leave the house without.",
+      "avg_logprob": -0.1785
+    },
+    {
+      "start": 83.92,
+      "end": 89.56,
+      "text": "He's obsessed with foster kittens and seems to think he's their personal bodyguard.",
+      "avg_logprob": -0.155
+    },
+    {
+      "start": 89.56,
+      "end": 93.34,
+      "text": "And he asks Katrina, his mom, dresses him like that on purpose.",
+      "avg_logprob": -0.155
+    },
+    {
+      "start": 93.34,
+      "end": 98.8,
+      "text": "She says people judge bully breeds by the way they look until they see one in pajamas.",
+      "avg_logprob": -0.155
+    },
+    {
+      "start": 98.8,
+      "end": 101.2,
+      "text": "But don't let any of this fool you.",
+      "avg_logprob": -0.155
+    },
+    {
+      "start": 101.2,
+      "end": 106.1,
+      "text": "Because underneath the softness, the pajamas, and the kitten cuddles,",
+      "avg_logprob": -0.155
+    },
+    {
+      "start": 106.1,
+      "end": 109.48,
+      "text": "there's a dog who runs this entire house.",
+      "avg_logprob": -0.155
+    },
+    {
+      "start": 109.48,
+      "end": 112.78,
+      "text": "And his rules are not up for discussion.",
+      "avg_logprob": -0.155
+    },
+    {
+      "start": 112.78,
+      "end": 117.46,
+      "text": "The word no does not exist in Cairo's vocabulary.",
+      "avg_logprob": -0.2244
+    },
+    {
+      "start": 117.8,
+      "end": 121.34,
+      "text": "Sometimes it's okay to hear the word no. It's not a bad word.",
+      "avg_logprob": -0.2244
+    },
+    {
+      "start": 122.58,
+      "end": 123.5,
+      "text": "Okay, papas?",
+      "avg_logprob": -0.2244
+    },
+    {
+      "start": 123.8,
+      "end": 127.32,
+      "text": "And honestly, this house does not run like a normal house.",
+      "avg_logprob": -0.2244
+    },
+    {
+      "start": 127.84,
+      "end": 130.02,
+      "text": "It's not Cairo living by Katrina's rules.",
+      "avg_logprob": -0.2244
+    },
+    {
+      "start": 130.6,
+      "end": 133.1,
+      "text": "It's Katrina trying to survive Cairo's.",
+      "avg_logprob": -0.2244
+    },
+    {
+      "start": 133.66,
+      "end": 136.38,
+      "text": "It's not scary. Look, it's like a Pappuccino.",
+      "avg_logprob": -0.2244
+    },
+    {
+      "start": 136.84,
+      "end": 139.46,
+      "text": "It's like at Starbucks. Look.",
+      "avg_logprob": -0.2244
+    },
+    {
+      "start": 139.46,
+      "end": 143.28,
+      "text": "It's like Starbucks, try it",
+      "avg_logprob": -0.1278
+    },
+    {
+      "start": 143.28,
+      "end": 145.08,
+      "text": "Told you",
+      "avg_logprob": -0.1278
+    },
+    {
+      "start": 145.08,
+      "end": 146.4,
+      "text": "Take dinner",
+      "avg_logprob": -0.1278
+    },
+    {
+      "start": 146.4,
+      "end": 148.62,
+      "text": "Dinner is serious business for him",
+      "avg_logprob": -0.1278
+    },
+    {
+      "start": 148.62,
+      "end": 151.24,
+      "text": "If Katrina is even a couple minutes late",
+      "avg_logprob": -0.1278
+    },
+    {
+      "start": 151.24,
+      "end": 153.4,
+      "text": "He treats it like a personal offense",
+      "avg_logprob": -0.1278
+    },
+    {
+      "start": 153.4,
+      "end": 155.94,
+      "text": "Then there are the kittens",
+      "avg_logprob": -0.1278
+    },
+    {
+      "start": 155.94,
+      "end": 158.02,
+      "text": "Cairo adores them",
+      "avg_logprob": -0.1278
+    },
+    {
+      "start": 158.02,
+      "end": 161.36,
+      "text": "So when Katrina goes into the kitten room without him",
+      "avg_logprob": -0.1278
+    },
+    {
+      "start": 161.36,
+      "end": 163.86,
+      "text": "He takes it very personally",
+      "avg_logprob": -0.1278
+    },
+    {
+      "start": 163.86,
+      "end": 165.78,
+      "text": "He doesn't scratch",
+      "avg_logprob": -0.1278
+    },
+    {
+      "start": 165.78,
+      "end": 167.16,
+      "text": "He doesn't whine",
+      "avg_logprob": -0.1278
+    },
+    {
+      "start": 167.88,
+      "end": 171.04,
+      "text": "He just sits by the door in total silence,",
+      "avg_logprob": -0.1528
+    },
+    {
+      "start": 171.92,
+      "end": 175.14,
+      "text": "waiting for someone to realize they made a terrible mistake.",
+      "avg_logprob": -0.1528
+    },
+    {
+      "start": 175.62,
+      "end": 176.72,
+      "text": "And then there's the blanket.",
+      "avg_logprob": -0.1528
+    },
+    {
+      "start": 177.32,
+      "end": 179.9,
+      "text": "Cairo refuses to leave the house without his favorite blanket.",
+      "avg_logprob": -0.1528
+    },
+    {
+      "start": 180.56,
+      "end": 184.34,
+      "text": "If anyone tries to stop him, he is absolutely ready to stand his ground.",
+      "avg_logprob": -0.1528
+    },
+    {
+      "start": 184.86,
+      "end": 186.7,
+      "text": "And that's when he gets back up.",
+      "avg_logprob": -0.1528
+    },
+    {
+      "start": 187.22,
+      "end": 189.44,
+      "text": "Willow, who is usually calm and quiet,",
+      "avg_logprob": -0.1528
+    },
+    {
+      "start": 189.74,
+      "end": 192.48,
+      "text": "suddenly jumps in like this has become a team operation.",
+      "avg_logprob": -0.1528
+    },
+    {
+      "start": 192.48,
+      "end": 196.94,
+      "text": "So we can go outside, but you can't bring your blankie.",
+      "avg_logprob": -0.1528
+    },
+    {
+      "start": 197.16,
+      "end": 202.62,
+      "text": "In this house, Cairo never has to fight his battles alone.",
+      "avg_logprob": -0.1831
+    },
+    {
+      "start": 203.22,
+      "end": 207.32,
+      "text": "But dinner, kittens, the blanket, that's just everyday drama.",
+      "avg_logprob": -0.1831
+    },
+    {
+      "start": 207.88,
+      "end": 211.24,
+      "text": "Because there's one place that matters more than anything.",
+      "avg_logprob": -0.1831
+    },
+    {
+      "start": 212.1,
+      "end": 217.02,
+      "text": "And when Cairo can't go there, he takes it harder than anyone expects.",
+      "avg_logprob": -0.1831
+    },
+    {
+      "start": 217.4,
+      "end": 219.18,
+      "text": "That place is Grandma and Grandpa's house.",
+      "avg_logprob": -0.1831
+    },
+    {
+      "start": 219.18,
+      "end": 220.58,
+      "text": "Grandma's around.",
+      "avg_logprob": -0.1831
+    },
+    {
+      "start": 221.48,
+      "end": 224.34,
+      "text": "And for Cairo, going there is one of the biggest events in his life.",
+      "avg_logprob": -0.1831
+    },
+    {
+      "start": 224.7,
+      "end": 226.94,
+      "text": "The second Katrina says, do you want to go to Grandma's?",
+      "avg_logprob": -0.1831
+    },
+    {
+      "start": 227.16,
+      "end": 233.92,
+      "text": "Cairo is gone. One moment he's on the couch, lazy and comfortable, the next he's at the door, making it very clear",
+      "avg_logprob": -0.1892
+    },
+    {
+      "start": 233.98,
+      "end": 236.54,
+      "text": "We're going right now. In the car",
+      "avg_logprob": -0.1892
+    },
+    {
+      "start": 236.54,
+      "end": 243.52,
+      "text": "He spends the whole ride on edge because he just can't fully relax until they get there and once they arrive Cairo immediately starts his routine",
+      "avg_logprob": -0.1892
+    },
+    {
+      "start": 243.96,
+      "end": 250.52,
+      "text": "First it's couch cuddles with grandma and grandpa, non-negotiable. Then comes his favorite part. Grandma's trying to get things done. She's got work",
+      "avg_logprob": -0.1892
+    },
+    {
+      "start": 250.52,
+      "end": 256.42,
+      "text": "She's got plans, but Cairo has already decided that grandma's schedule belongs to him now. As far as he's concerned",
+      "avg_logprob": -0.1892
+    },
+    {
+      "start": 256.42,
+      "end": 258.96,
+      "text": "her entire day should revolve around him.",
+      "avg_logprob": -0.1457
+    },
+    {
+      "start": 259.78,
+      "end": 263.98,
+      "text": "And somehow, every single time, he makes sure she gets absolutely nothing done.",
+      "avg_logprob": -0.1457
+    },
+    {
+      "start": 264.72,
+      "end": 268.14,
+      "text": "Everything would be perfect, except for one thing.",
+      "avg_logprob": -0.1457
+    },
+    {
+      "start": 268.92,
+      "end": 270.9,
+      "text": "Sometimes, Grandma can't have him over.",
+      "avg_logprob": -0.1457
+    },
+    {
+      "start": 271.58,
+      "end": 273.54,
+      "text": "Her other dogs aren't always up for company.",
+      "avg_logprob": -0.1457
+    },
+    {
+      "start": 274.38,
+      "end": 279.24,
+      "text": "And when Cairo realizes he's staying home, he goes into full sulk mode.",
+      "avg_logprob": -0.1457
+    },
+    {
+      "start": 279.76,
+      "end": 283.52,
+      "text": "He sits silently by the door, gives Katrina that look,",
+      "avg_logprob": -0.1457
+    },
+    {
+      "start": 283.52,
+      "end": 286.6,
+      "text": "and his whole body says exactly one thing.",
+      "avg_logprob": -0.1601
+    },
+    {
+      "start": 287.28,
+      "end": 289.52,
+      "text": "You have betrayed me.",
+      "avg_logprob": -0.1601
+    },
+    {
+      "start": 291.34,
+      "end": 294.36,
+      "text": "And, you know, from the outside, yeah, it looks ridiculous.",
+      "avg_logprob": -0.1601
+    },
+    {
+      "start": 294.72,
+      "end": 297.94,
+      "text": "A grown pitbull sitting by the door like his whole life is falling apart",
+      "avg_logprob": -0.1601
+    },
+    {
+      "start": 297.94,
+      "end": 299.92,
+      "text": "just because he's not going to grandma's today.",
+      "avg_logprob": -0.1601
+    },
+    {
+      "start": 300.18,
+      "end": 303.58,
+      "text": "But if you take the comedy out of it, the truth is actually pretty simple.",
+      "avg_logprob": -0.1601
+    },
+    {
+      "start": 304.14,
+      "end": 308.22,
+      "text": "He reacts like this because being with the people he loves really matters to him now.",
+      "avg_logprob": -0.1601
+    },
+    {
+      "start": 308.54,
+      "end": 311.26,
+      "text": "People see the muscles, the heavy jaw, that stare.",
+      "avg_logprob": -0.1601
+    },
+    {
+      "start": 311.26,
+      "end": 315.26,
+      "text": "They don't see the dog who finally has a family that feels like his.",
+      "avg_logprob": -0.0674
+    },
+    {
+      "start": 315.26,
+      "end": 319.26,
+      "text": "They don't see the dog who waits by the kitten room because he wants to be included.",
+      "avg_logprob": -0.0674
+    },
+    {
+      "start": 319.26,
+      "end": 322.26,
+      "text": "They don't see the dog who carries his blanket like it's part of him.",
+      "avg_logprob": -0.0674
+    },
+    {
+      "start": 322.26,
+      "end": 326.26,
+      "text": "And they don't see why one small mill can hit him so hard.",
+      "avg_logprob": -0.0674
+    },
+    {
+      "start": 326.26,
+      "end": 329.26,
+      "text": "Because to Cairo, Grandma's house isn't just a place.",
+      "avg_logprob": -0.0674
+    },
+    {
+      "start": 329.26,
+      "end": 332.26,
+      "text": "It's his people, his routine, his happiness.",
+      "avg_logprob": -0.0674
+    },
+    {
+      "start": 332.26,
+      "end": 335.26,
+      "text": "And when he can be part of it, he doesn't know how to hide what he feels.",
+      "avg_logprob": -0.0674
+    },
+    {
+      "start": 335.26,
+      "end": 339.26,
+      "text": "And Cairo isn't the only animal people got completely wrong.",
+      "avg_logprob": -0.0674
+    },
+    {
+      "start": 339.26,
+      "end": 343.94,
+      "text": "Some of the best stories start with one look, and then turn into something nobody expected.",
+      "avg_logprob": -0.1634
+    },
+    {
+      "start": 344.4,
+      "end": 346.28,
+      "text": "This next one is exactly that.",
+      "avg_logprob": -0.1634
+    }
+  ]
+}
