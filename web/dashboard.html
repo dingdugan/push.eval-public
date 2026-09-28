@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="zh-CN" id="html">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>push.eval — Results Dashboard</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --card:#fff; --line:#e3e6ea; --ink:#1a202c; --mut:#64748b;
+    --gpt:#6d28d9; --kimi:#0e7490; --gemini:#2563eb; --deepseek:#d97706;
+    --pos:#0a7d52; --neg:#c2410c; --star:#b45309;
+  }
+  *{box-sizing:border-box; margin:0; padding:0}
+  body{background:var(--bg); color:var(--ink); font:14px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB",sans-serif; padding:28px 20px 80px}
+  .wrap{max-width:1100px; margin:0 auto}
+  header{margin-bottom:26px}
+  h1{font-size:22px; letter-spacing:.2px}
+  h1 small{color:var(--mut); font-weight:400; font-size:13px; margin-left:10px}
+  .meta{color:var(--mut); font-size:12.5px; margin-top:6px}
+  .meta a{color:#2563eb; text-decoration:none}
+  h2{font-size:16px; margin:34px 0 12px; display:flex; align-items:center; gap:8px}
+  h2 .tag{font-size:11px; font-weight:600; color:#fff; background:#334155; border-radius:4px; padding:1px 7px}
+  .cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:12px}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px 18px}
+  .card h3{font-size:13px; color:var(--mut); font-weight:600; margin-bottom:6px}
+  .card .big{font-size:15.5px; font-weight:650; line-height:1.5}
+  .card .sub{font-size:12.5px; color:var(--mut); margin-top:6px}
+  .panel{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:18px; overflow-x:auto}
+  .grid2{display:grid; grid-template-columns:repeat(auto-fit,minmax(430px,1fr)); gap:12px}
+  table{border-collapse:collapse; width:100%; font-size:12.8px}
+  th,td{padding:6px 10px; text-align:right; border-bottom:1px solid var(--line); white-space:nowrap}
+  th:first-child,td:first-child{text-align:left}
+  th{color:var(--mut); font-weight:600; font-size:12px}
+  .sig{color:var(--pos); font-weight:650} .ns{color:var(--mut)}
+  .neg{color:var(--neg)} .pos{color:var(--pos)}
+  .foot{color:var(--mut); font-size:12px; margin-top:10px; line-height:1.7}
+  .pill{display:inline-block; border-radius:99px; padding:0 8px; font-size:11.5px; font-weight:600}
+  select{font:inherit; padding:5px 10px; border:1px solid var(--line); border-radius:7px; background:#fff}
+  .exgrid{display:grid; grid-template-columns:repeat(auto-fit,minmax(430px,1fr)); gap:12px; margin-top:12px}
+  .ex{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px}
+  .ex .k{font-size:11.5px; font-weight:700; letter-spacing:.4px}
+  .ex .vt{color:var(--mut); font-size:12px; margin:4px 0 10px}
+  .push{background:#f1f5f9; border-radius:8px; padding:10px 12px; margin-bottom:10px}
+  .push .t{font-weight:650; font-size:13.5px}
+  .push .b{font-size:13px; margin-top:2px}
+  .chips{display:flex; flex-wrap:wrap; gap:5px; margin-bottom:8px}
+  .chip{font-size:11px; border-radius:5px; padding:1px 7px; background:#eef2f7; color:#334155}
+  .chip b{margin-left:3px}
+  details{font-size:12.5px} summary{cursor:pointer; color:#2563eb; font-weight:600}
+  details dl{margin-top:8px} details dt{font-weight:650; margin-top:7px} details dd{color:#475569}
+  .banner{border:1px dashed #cbd5e1; border-radius:10px; padding:16px 18px; color:var(--mut); background:#fbfcfe; font-size:13px}
+  svg text{font:11px -apple-system,"PingFang SC",sans-serif; fill:#475569}
+  svg .lab{font-weight:650; fill:#1a202c}
+  .langbtn{position:fixed; top:14px; right:16px; z-index:99; font:600 12px/1 -apple-system,sans-serif;
+    padding:7px 12px; border:1px solid var(--line); border-radius:7px; background:#fff; color:var(--mut); cursor:pointer}
+  .langbtn:hover{border-color:#94a3b8; color:var(--ink)}
+</style>
+</head>
+<body>
+<button class="langbtn" id="langBtn"></button>
+<div class="wrap">
+<header>
+  <h1><span data-en="push.eval — Results Dashboard">push.eval — L1 结果 Dashboard</span> <small><span data-en="LLM-generated personalized push copy · model capability × modality ablation">LLM 个性化 push 文案 · 模型能力 × 模态消融</span></small></h1>
+  <div class="meta" id="meta"></div>
+</header>
+
+<section>
+  <h2><span data-en="Headline findings">核心结论</span></h2>
+  <div class="cards" id="takeaways"></div>
+</section>
+
+<section>
+  <h2><span class="tag"><span data-en="Question ①">研究问题 ①</span></span><span data-en="Model capability ranking">模型能力排名</span> <small style="color:var(--mut);font-weight:400">paired Wilcoxon · Bonferroni×6 · n=416 case</small></h2>
+  <div class="grid2" id="ranking"></div>
+</section>
+
+<section>
+  <h2><span class="tag"><span data-en="Question ②">研究问题 ②</span></span><span data-en="Modality ablation: A metadata → B +keyframes → C +audio transcript → D full video">模态消融：A metadata → B +关键帧 → C +音轨转写 → D 完整视频</span></h2>
+  <div class="panel" id="ladders"></div>
+  <div class="grid2" style="margin-top:12px" id="cd"></div>
+</section>
+
+<section>
+  <h2><span data-en="Pareto: quality × cost × latency">Pareto：效果 × 成本 × 耗时</span> <small style="color:var(--mut);font-weight:400"><span data-en="only arms that clear the safety gate (strict-cell pass rate ≥95%)">仅合规门(严格 cell 通过率≥95%)通过的 arm</span></small></h2>
+  <div class="grid2">
+    <div class="panel" id="pareto"></div>
+    <div class="panel" id="gate"></div>
+  </div>
+</section>
+
+<section>
+  <h2><span data-en="§5 decision rules: three-layer funnel → deployment recommendation">§5 决策规则：三层漏斗 → 上线推荐</span> <small style="color:var(--mut);font-weight:400"><span data-en="thresholds taken verbatim from the design doc · src/decision_rules.py">阈值取自设计文档明文 · src/decision_rules.py</span></small></h2>
+  <div id="decision"></div>
+</section>
+
+<section>
+  <h2><span data-en="LLM vs baselines (B0 conventional template / B1 rule-based heuristic)">LLM vs Baseline（B0 现状 / B1 规则启发式）</span></h2>
+  <div id="baseline"></div>
+</section>
+
+<section>
+  <h2><span data-en="Drill-down: highest / lowest scoring case per arm (judge&#x27;s per-dimension rationale)">下钻：每个 arm 的最高 / 最低分 case（judge 逐维理由）</span>
+    <select id="armSel" style="margin-left:8px"></select></h2>
+  <div class="exgrid" id="examples"></div>
+</section>
+
+<section>
+  <h2><span data-en="Definitions &amp; limitations">口径与限制</span></h2>
+  <div class="panel foot" id="notes" style="margin-top:0"></div>
+</section>
+</div>
+
+<script src="data_results.js"></script>
+<script>
+const D = window.RESULTS_DATA;
+// 语言: ?lang= 优先 (可直接分享指定语言的链接), 否则用上次选择
+let LANG = (() => {
+  const q = new URLSearchParams(location.search).get('lang');
+  if (q === 'en' || q === 'zh') return q;
+  try { return localStorage.getItem('pe_lang') === 'en' ? 'en' : 'zh'; } catch(_) { return 'zh'; }
+})();
+const EN = () => LANG === 'en';
+// i18n 表: key -> [中文, English]
+const T = {
+  meta_judged:      ['judge 全量 {0} 条', '{0} judge scorings'],
+  meta_videos:      ['{0} 视频 × {1} persona', '{0} videos × {1} personas'],
+  meta_models:      ['{0} 模型 × 4 模态', '{0} models × 4 modalities'],
+  meta_cost:        ['judge 成本 ${0}', 'judge cost ${0}'],
+  meta_updated:     ['更新 {0}', 'updated {0}'],
+  link_biz:         ['业务版（无需背景知识）→', 'Business version (no context needed) →'],
+  link_console:     ['人工评测台 →', 'Human rating console →'],
+
+  tk1_h:   ['① 模型排名（4 模态一致）', '① Model ranking (consistent across all 4 modalities)'],
+  tk1_sub: ['gpt 对三家全显著；但分差绝对值小（4.16–4.30），gpt-vs-kimi 在 var C 贴边（bootstrap CI 含 0）。gpt 另碾压项：长度合规 100%、安全通过 100%。',
+            'gpt beats all three significantly, but the absolute spread is small (4.16–4.30) and gpt-vs-kimi is marginal on var C (bootstrap CI includes 0). Where gpt is decisive: 100% length compliance, 100% safety pass.'],
+  tk2_h:   ['② 模态边际：音轨是甜点，完整视频负边际', '② Modality margin: audio is the sweet spot, full video is negative'],
+  tk2_big: ['A→B→C 步步显著为正；C→D 为负（kimi −0.042 显著）', 'A→B→C each significantly positive; C→D negative (kimi −0.042, significant)'],
+  tk2_sub: ['维度分解：喂完整视频后内容维持平甚至涨，但语气/预期/persona 维掉 → 视频 token 挤占指令遵循注意力。',
+            'Per-dimension: with full video the content dimensions hold or even rise, but tone / expectation / persona dimensions drop — video tokens crowd out attention to instruction-following.'],
+  tk3_h:   ['部署推荐（§5 决策规则三层漏斗）', 'Deployment recommendation (§5 three-layer funnel)'],
+  tk3_big: ['{0}（纯 metadata）', '{0} (metadata only)'],
+  tk3_sub: ['长度合规 ≥90% 这道硬 filter 刷掉 {0}/13 个 arm —— <b>全部死于指令遵循、无一死于安全或质量</b>。候选池内模态增益 ≤0.03 « 最小可检出增量 0.2，故取成本最低者。',
+            'The ≥90% length-compliance filter eliminates {0}/13 arms — <b>all of them on instruction-following, none on safety or quality</b>. Inside the candidate pool the modality gain is ≤0.03 « the 0.2 minimum detectable increment, so the cheapest one wins.'],
+
+  dot_title: ['var {0}（{1}）', 'var {0} ({1})'],
+  var_lab_A: ['纯文本 metadata', 'text metadata only'],
+  var_lab_C: ['metadata + 音轨转写', 'metadata + audio transcript'],
+  dot_foot:  ['● 9 维效果分（合规 cells）｜○ 8 维（去 readability 天花板）— 排序两口径一致；轴 4.05–4.40 放大显示',
+              '● 9-dim quality score (compliant cells) ｜ ○ 8-dim (readability ceiling removed) — ranking identical under both; axis zoomed to 4.05–4.40'],
+  lad_foot:  ['Δ = paired 均值差（Bonferroni 校正后显著即标数值，ⁿˢ=不显著）。kimi C→D <b class="neg">−0.042 显著且 video-cluster bootstrap 稳健</b>（CI [−.066, −.018]）；gemini C→D −0.011 不显著。四模型 A→C 均显著为正。',
+              'Δ = paired mean difference (value shown when significant after Bonferroni; ⁿˢ = not significant). kimi C→D <b class="neg">−0.042, significant and robust under video-cluster bootstrap</b> (CI [−.066, −.018]); gemini C→D −0.011, not significant. A→C is significantly positive for all four models.'],
+  cd_title:  ['{0}：C→D 每维变化', '{0}: per-dimension change, C→D'],
+  cd_foot:   ['实心=Bonferroni×9 后显著（✓）。', 'Solid = significant after Bonferroni×9 (✓).'],
+
+  par_title: ['效果（9 维, 合规 cells）× 成本（$/条, log 轴）', 'Quality (9-dim, compliant cells) × cost ($/generation, log axis)'],
+  par_foot:  ['★ = 非支配（效果↑成本↓p95↓ 三轴）：<b>gpt|C</b>（效果冠军）、<b>kimi|C</b>（甜点）、<b>kimi|A</b>（成本地板）。空心 = 被支配。',
+              '★ = non-dominated on all three axes (quality↑ cost↓ p95↓): <b>gpt|C</b> (quality leader), <b>kimi|C</b> (sweet spot), <b>kimi|A</b> (cost floor). Hollow = dominated.'],
+  gate_title:['合规门 + 生产口径指标（全 outputs）', 'Safety gate + production-basis metrics (all outputs)'],
+  th_strict: ['严格通过率', 'strict pass rate'],
+  th_lenok:  ['长度合规', 'length OK'],
+  th_cost:   ['$/条', '$/gen'],
+  th_p95:    ['p95 耗时', 'p95 latency'],
+  cell_pass: ['过', 'pass'],
+  cell_empty:['空{0}', 'empty {0}'],
+
+  dec_none:  ['决策判定未跑 — 执行 <code>src/decision_rules.py</code> 后重跑 gen_dashboard_data.py',
+              'Decision rules not yet run — execute <code>src/decision_rules.py</code>, then re-run gen_dashboard_data.py'],
+  f1_k:   ['5.1 方向判断', '5.1 Direction'],
+  f1_c:   ['合规门 ≥{0}% AND vs B0 显著 AND Δ ≥ {1}', 'safety gate ≥{0}% AND significant vs B0 AND Δ ≥ {1}'],
+  f1_o:   ['✅ 推进', '✅ Proceed'],
+  f2_k:   ['5.2 候选筛选', '5.2 Candidate filter'],
+  f2_c:   ['上述 + 长度合规 ≥{0}% + vs B1 Δ ≥ {1}', 'the above + length compliance ≥{0}% + vs B1 Δ ≥ {1}'],
+  f3_k:   ['5.3 推荐选型', '5.3 Selection'],
+  f3_c:   ['候选池内「效果差 < {0}」取成本最低', 'within the pool, among arms less than {0} apart in quality, take the cheapest'],
+  dec_funnel:['三层漏斗', 'Three-layer funnel'],
+  th_layer: ['层 / 条件', 'Layer / condition'],
+  th_pass:  ['通过', 'Passed'],
+  th_out:   ['结果', 'Outcome'],
+  dec_foot: ['被刷掉的 {0} 个 arm 中，<b class="neg">{1} 个因长度合规 &lt; {2}%</b>；安全门与 vs B0/B1 全部 13/13 通过 —— <b>淘汰发生在指令遵循，不在文案质量</b>。',
+             'Of the {0} eliminated arms, <b class="neg">{1} fell on length compliance &lt; {2}%</b>; the safety gate and both baseline comparisons pass 13/13 — <b>elimination happens at instruction-following, not at copy quality</b>.'],
+  dec_e9:   ['9 维效果分', '9-dim quality score'],
+  dec_vs:   ['vs B0 现状 / B1 规则', 'vs B0 template / B1 rule-based'],
+  dec_cost: ['成本', 'cost'],
+  dec_costu:['${0} / 条', '${0} / gen'],
+  dec_safe: ['严格 cell 安全率', 'strict-cell safety rate'],
+  dec_len:  ['长度合规', 'length compliance'],
+  dec_lat:  ['耗时 (p95)', 'latency (p95)'],
+  dec_foot2:['Premium / Budget candidate 均为<b>无</b>：候选池内效果差距全部 &lt; {0}，且 Primary 已是池内成本最低。<br>⚠️ 落选但值得回炉：<b>kimi-k2.6|C</b> 在「效果 × 成本」二维上 Pareto 最优（{1} @ ${2}），唯一卡点是长度合规 {3}%。长度是 prompt 层可干预项 → v0.2 优先做长度约束强化重测。',
+             'Premium / Budget candidates are both <b>none</b>: quality gaps inside the pool are all &lt; {0}, and Primary is already the cheapest in the pool.<br>⚠️ Eliminated but worth revisiting: <b>kimi-k2.6|C</b> is Pareto-optimal on quality × cost alone ({1} @ ${2}); its only blocker is length compliance at {3}%. Length is a prompt-layer lever → a length-constraint hardening retest is the top v0.2 priority.'],
+
+  bl_none:  ['⏳ <b>待跑</b> — baseline 底表已就绪（832 条 = 416 case × B0/B1，<code>results/baseline_rows.jsonl</code>）。跑完主评后重新执行 <code>gen_dashboard_data.py</code>，此处自动填充 LLM-vs-baseline paired 对比。',
+             '⏳ <b>Pending</b> — the baseline table is ready (832 rows = 416 cases × B0/B1, <code>results/baseline_rows.jsonl</code>). Once judged, re-run <code>gen_dashboard_data.py</code> and the paired LLM-vs-baseline comparison fills in here.'],
+  bl_lv:    ['baseline 水平', 'Baseline levels'],
+  bl_th_lv: ['层', 'level'],
+  bl_th_e9: ['效果9维', '9-dim quality'],
+  bl_th_pr: ['通过率', 'pass rate'],
+  bl_cmp:   ['每 arm vs baseline（paired）', 'Each arm vs baseline (paired)'],
+  bl_th_sig:['显著性', 'significance'],
+
+  ex_best:  ['▲ 最高分', '▲ Highest'],
+  ex_worst: ['▼ 最低分', '▼ Lowest'],
+  ex_e9:    ['cell · 效果 {0}', 'cell · quality {0}'],
+  ex_why:   ['judge 逐维理由', "Judge's per-dimension rationale"],
+  ex_viol:  ['违规', 'violation'],
+  ex_ok:    ['合规', 'clean'],
+
+  notes_stat:['统计: paired Wilcoxon 符号秩(正态近似+结平校正) + Bonferroni; 关键对比另做 video-cluster bootstrap(按 32 视频重采样×2000)防同视频 case 相关性虚增显著。',
+              'Statistics: paired Wilcoxon signed-rank (normal approximation + tie correction) + Bonferroni; key comparisons additionally get a video-cluster bootstrap (resampling the 32 videos ×2000) so that within-video case correlation cannot inflate significance.'],
+};
+const t = (k, ...a) => {
+  let s = (T[k] || [k, k])[EN() ? 1 : 0];
+  a.forEach((v, i) => { s = s.split('{' + i + '}').join(v); });
+  return s;
+};
+const DIM = {
+  readability:['可读性','Readability'], video_relevance:['视频相关','Video relevance'],
+  content_fidelity:['内容忠实','Content fidelity'], expressiveness:['表现力','Expressiveness'],
+  naturalness:['自然度','Naturalness'], expectation_alignment:['预期一致','Expectation alignment'],
+  preference_match:['偏好匹配','Preference match'], tone_fit:['语气契合','Tone fit'],
+  push_value:['打扰价值','Push value'], misleading:['误导','Misleading'],
+  manipulative:['操纵','Manipulative'], harmful:['有害','Harmful'], privacy:['隐私','Privacy'],
+};
+const dim = d => (DIM[d] || [d, d])[EN() ? 1 : 0];
+// data_results.js 里的字段可能是纯字符串(旧版)或 {zh,en}(双语版), 两种都兼容
+const pick = v => (v && typeof v === 'object' && ('zh' in v)) ? (v[EN() ? 'en' : 'zh'] ?? v.zh) : v;
+
+const COLOR = {'gpt-5.5':'var(--gpt)','kimi-k2.6':'var(--kimi)','gemini-2.5-flash':'var(--gemini)','deepseek-v4-pro':'var(--deepseek)'};
+const HEX = {'gpt-5.5':'#6d28d9','kimi-k2.6':'#0e7490','gemini-2.5-flash':'#2563eb','deepseek-v4-pro':'#d97706'};
+const SHORT = {'gpt-5.5':'gpt-5.5','kimi-k2.6':'kimi-k2.6','gemini-2.5-flash':'gemini-2.5f','deepseek-v4-pro':'deepseek-v4p'};
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+const arm=(m,v)=>D.arms.find(a=>a.model===m&&a.var===v);
+const fmtP=p=>p<0.001?'p<0.001':'p='+p;
+
+// ── 静态 HTML 文案切换 ──
+function renderStatics(){
+  document.querySelectorAll('[data-en]').forEach(e=>{
+    if(e.dataset.zh===undefined) e.dataset.zh=e.innerHTML;
+    e.innerHTML = EN() ? e.dataset.en : e.dataset.zh;
+  });
+  document.getElementById('html').lang = EN() ? 'en' : 'zh-CN';
+  document.title = EN() ? 'push.eval — Results Dashboard' : 'push.eval — L1 结果 Dashboard';
+  document.getElementById('langBtn').textContent = EN() ? '中文' : 'EN';
+}
+
+function renderMeta(){
+  document.getElementById('meta').innerHTML =
+    [t('meta_judged', D.totals.n_judged.toLocaleString()) + ` (${esc(pick(D.totals.judge))})`,
+     t('meta_videos', D.totals.n_videos, D.totals.n_personas),
+     t('meta_models', D.totals.n_models),
+     t('meta_cost', D.totals.judge_cost),
+     t('meta_updated', D.generated_at),
+     `<a href="dashboard_biz.html">${t('link_biz')}</a>`,
+     `<a href="index.html">${t('link_console')}</a>`].join(' · ');
+}
+
+function renderTakeaways(){
+  document.getElementById('takeaways').innerHTML = `
+    <div class="card"><h3>${t('tk1_h')}</h3>
+      <div class="big">gpt-5.5 &gt; kimi ≈ deepseek &gt; gemini</div>
+      <div class="sub">${t('tk1_sub')}</div></div>
+    <div class="card"><h3>${t('tk2_h')}</h3>
+      <div class="big">${t('tk2_big')}</div>
+      <div class="sub">${t('tk2_sub')}</div></div>
+    <div class="card"><h3>${t('tk3_h')}</h3>
+      <div class="big">${t('tk3_big', D.decision ? D.decision.primary_5_3.replace('|',' | ') : 'gpt-5.5 | A')}</div>
+      <div class="sub">${t('tk3_sub', D.decision ? 13 - D.decision.pool_5_2.length : 10)}</div></div>`;
+}
+
+// ── ranking dot plots ──
+function dotPlot(varName){
+  const r=D.rankings[varName]; const lo=4.05, hi=4.40, W=430, X0=118, XW=W-X0-46;
+  const x=v=>X0+(v-lo)/(hi-lo)*XW;
+  let rows=r.order.map((m,i)=>{
+    const a=arm(m,varName), y=34+i*30;
+    return `<circle cx="${x(a.e9)}" cy="${y}" r="6" fill="${HEX[m]}"/>
+      <circle cx="${x(a.e8)}" cy="${y}" r="4" fill="none" stroke="${HEX[m]}" stroke-width="1.4"/>
+      <text x="8" y="${y+4}" class="lab">${i+1}. ${SHORT[m]}</text>
+      <text x="${x(a.e9)+10}" y="${y+4}">${a.e9.toFixed(3)}</text>`;
+  }).join('');
+  let axis=''; for(let v=4.1;v<=4.35001;v+=0.05){axis+=`<line x1="${x(v)}" y1="22" x2="${x(v)}" y2="${34+r.order.length*30-14}" stroke="#eef1f4"/><text x="${x(v)-11}" y="${34+r.order.length*30}">${v.toFixed(2)}</text>`;}
+  const pairs=r.pairs.map(p=>`<tr><td>${SHORT[p.a]} vs ${SHORT[p.b]}</td><td class="${p.delta>0?'pos':'neg'}">${p.delta>0?'+':''}${p.delta.toFixed(3)}</td><td class="${p.sig?'sig':'ns'}">${p.sig?'✅ ':'✗ '}${fmtP(p.p_adj)}</td></tr>`).join('');
+  return `<div class="panel"><b style="font-size:13.5px">${t('dot_title', varName, t('var_lab_'+varName))}</b>
+    <svg width="${W}" height="${34+r.order.length*30+8}" style="margin-top:6px">${axis}${rows}</svg>
+    <div class="foot" style="margin:2px 0 8px">${t('dot_foot')}</div>
+    <table><tr><th>pairwise</th><th>Δ</th><th>Bonferroni×6</th></tr>${pairs}</table></div>`;
+}
+function renderRanking(){ document.getElementById('ranking').innerHTML = dotPlot('A')+dotPlot('C'); }
+
+// ── modal ladders ──
+function renderLadders(){
+  const models=Object.keys(D.ladders); const W=250,H=170,X0=34,Y0=14,XW=W-X0-14,YH=H-Y0-36;
+  const lo=4.13,hi=4.33; const y=v=>Y0+(hi-v)/(hi-lo)*YH;
+  const panels=models.map(m=>{
+    const lad=D.ladders[m]; const xs=i=>X0+ (lad.length===1?0:i/(lad.length-1))*XW;
+    let grid=''; for(let v=4.15;v<=4.32;v+=0.05){grid+=`<line x1="${X0}" y1="${y(v)}" x2="${W-10}" y2="${y(v)}" stroke="#eef1f4"/><text x="2" y="${y(v)+4}">${v.toFixed(2)}</text>`;}
+    let path=lad.map((s,i)=>`${i?'L':'M'}${xs(i)},${y(s.e9)}`).join(' ');
+    let pts=lad.map((s,i)=>{
+      let seg='';
+      if(i>0&&s.delta!==undefined){
+        const cls=s.delta<0?'var(--neg)':'var(--pos)';
+        seg=`<text x="${(xs(i)+xs(i-1))/2-16}" y="${Math.min(y(s.e9),y(lad[i-1].e9))-8}" style="fill:${cls};font-weight:650">${s.delta>0?'+':''}${s.delta.toFixed(3)}${s.sig?'':'ⁿˢ'}</text>`;
+      }
+      return seg+`<circle cx="${xs(i)}" cy="${y(s.e9)}" r="4.5" fill="${HEX[m]}"/><text x="${xs(i)-4}" y="${H-8}" class="lab">${s.var}</text>`;
+    }).join('');
+    return `<div style="display:inline-block;margin-right:6px"><b style="font-size:13px;color:${HEX[m]}">${SHORT[m]}</b><br>
+      <svg width="${W}" height="${H}">${grid}<path d="${path}" fill="none" stroke="${HEX[m]}" stroke-width="2"/>${pts}</svg></div>`;
+  }).join('');
+  document.getElementById('ladders').innerHTML = panels + `<div class="foot">${t('lad_foot')}</div>`;
+}
+
+// ── C→D decomposition ──
+function renderCD(){
+  document.getElementById('cd').innerHTML = Object.entries(D.cd_decomp).map(([m,rows])=>{
+    const W=470, X0=150, XW=W-X0-60, mid=X0+XW/2, sc=0.16;
+    const x=v=>mid+v/sc*(XW/2);
+    const bars=rows.map((r,i)=>{
+      const y=26+i*26, x1=Math.min(mid,x(r.delta)), w=Math.abs(x(r.delta)-mid);
+      const c=r.delta<0?'#c2410c':'#0a7d52';
+      return `<text x="4" y="${y+12}" class="lab">${dim(r.dim)}</text>
+        <rect x="${x1}" y="${y}" width="${Math.max(w,1)}" height="15" rx="2" fill="${c}" opacity="${r.sig?0.95:0.35}"/>
+        <text x="${r.delta<0?x1-52:x1+w+6}" y="${y+12}" style="fill:${c}">${r.delta>0?'+':''}${r.delta.toFixed(3)}${r.sig?' ✓':''}</text>`;
+    }).join('');
+    return `<div class="panel"><b style="font-size:13.5px;color:${HEX[m]}">${t('cd_title', SHORT[m])}</b>
+      <svg width="${W}" height="${26+rows.length*26+6}" style="margin-top:6px">
+        <line x1="${mid}" y1="20" x2="${mid}" y2="${26+rows.length*26-4}" stroke="#cbd5e1"/>${bars}</svg>
+      <div class="foot">${t('cd_foot')}</div></div>`;
+  }).join('');
+}
+
+// ── pareto + gate ──
+function renderPareto(){
+  const pts=D.arms.filter(a=>a.pass_rate>=D.gate);
+  const W=470,H=300,X0=54,Y0=14,XW=W-X0-20,YH=H-Y0-46;
+  const lx=c=>Math.log10(c), lo=lx(0.0006), hi=lx(0.05);
+  const x=c=>X0+(lx(c)-lo)/(hi-lo)*XW;
+  const ylo=4.15,yhi=4.32, y=v=>Y0+(yhi-v)/(yhi-ylo)*YH;
+  let grid='';
+  [0.001,0.003,0.01,0.03].forEach(c=>{grid+=`<line x1="${x(c)}" y1="${Y0}" x2="${x(c)}" y2="${Y0+YH}" stroke="#eef1f4"/><text x="${x(c)-14}" y="${Y0+YH+16}">$${c}</text>`;});
+  for(let v=4.16;v<=4.31;v+=0.04){grid+=`<line x1="${X0}" y1="${y(v)}" x2="${X0+XW}" y2="${y(v)}" stroke="#eef1f4"/><text x="${4}" y="${y(v)+4}">${v.toFixed(2)}</text>`;}
+  const dots=pts.map(a=>{
+    const k=`${SHORT[a.model]}|${a.var}`;
+    if(a.nondom) return `<circle cx="${x(a.cost)}" cy="${y(a.e9)}" r="7" fill="${HEX[a.model]}"/><text x="${x(a.cost)+10}" y="${y(a.e9)+4}" class="lab">★ ${k}</text>`;
+    return `<circle cx="${x(a.cost)}" cy="${y(a.e9)}" r="5" fill="none" stroke="${HEX[a.model]}" stroke-width="1.6" opacity=".65"/><text x="${x(a.cost)+8}" y="${y(a.e9)+4}" opacity=".62">${a.var}</text>`;
+  }).join('');
+  document.getElementById('pareto').innerHTML=`<b style="font-size:13.5px">${t('par_title')}</b>
+    <svg width="${W}" height="${H}" style="margin-top:6px">${grid}${dots}</svg>
+    <div class="foot">${t('par_foot')}</div>`;
+  const rows=D.arms.map(a=>{
+    const p95ok=a.pass_rate>=0.98;
+    return `<tr><td>${SHORT[a.model]}|${a.var}</td><td>${(a.pass_rate*100).toFixed(1)}%</td><td>${a.pass_rate>=0.95?t('cell_pass'):'<span class=neg>❌</span>'}</td><td>${p95ok?t('cell_pass'):'<span class=neg>❌</span>'}</td><td>${(a.len_ok*100).toFixed(0)}%</td><td>$${a.cost}</td><td>${a.lat_p95}s${a.empty?` <span class=neg>[${t('cell_empty',a.empty)}]</span>`:''}</td></tr>`;
+  }).join('');
+  document.getElementById('gate').innerHTML=`<b style="font-size:13.5px">${t('gate_title')}</b>
+    <table style="margin-top:8px"><tr><th>arm</th><th>${t('th_strict')}</th><th>@95%</th><th>@98%</th><th>${t('th_lenok')}</th><th>${t('th_cost')}</th><th>${t('th_p95')}</th></tr>${rows}</table>`;
+}
+
+// ── §5 决策漏斗 ──
+function renderDecision(){
+  const el=document.getElementById('decision');
+  if(!D.decision){ el.innerHTML=`<div class="banner">${t('dec_none')}</div>`; return; }
+  const dc=D.decision, th=dc.thresholds, A=dc.arms;
+  const n=Object.keys(A).length, pool=dc.pool_5_2, prim=dc.primary_5_3;
+  const funnel=[
+    {k:t('f1_k'), cond:t('f1_c',(th.gate*100).toFixed(0),th.min_detect), pass:dc.qualified_5_1.length, tot:n, out:t('f1_o')},
+    {k:t('f2_k'), cond:t('f2_c',(th.len_gate*100).toFixed(0),th.b1_min), pass:pool.length, tot:n, out:pool.join(' · ')},
+    {k:t('f3_k'), cond:t('f3_c',th.near_opt), pass:1, tot:pool.length, out:'★ '+prim},
+  ];
+  const rows=funnel.map(f=>`<tr><td><b>${f.k}</b><div class="foot" style="margin:0">${f.cond}</div></td><td style="font-size:15px"><b>${f.pass}</b> / ${f.tot}</td><td>${esc(f.out)}</td></tr>`).join('');
+  const killed=Object.entries(A).filter(([k])=>!pool.includes(k));
+  const byLen=killed.filter(([,a])=>a.len_ok<th.len_gate).length;
+  const p=A[prim], kc=A['kimi-k2.6|C'];
+  el.innerHTML=`<div class="grid2">
+    <div class="panel"><b style="font-size:13.5px">${t('dec_funnel')}</b>
+      <table style="margin-top:8px"><tr><th style="width:44%">${t('th_layer')}</th><th>${t('th_pass')}</th><th>${t('th_out')}</th></tr>${rows}</table>
+      <div class="foot" style="margin-top:10px">${t('dec_foot', killed.length, byLen, (th.len_gate*100).toFixed(0))}</div>
+    </div>
+    <div class="panel"><b style="font-size:13.5px">Primary candidate</b>
+      <div style="font-size:19px;font-weight:700;margin:8px 0 10px;color:${HEX[p.model]||'#1a202c'}">★ ${esc(prim)}</div>
+      <table>
+        <tr><td>${t('dec_e9')}</td><td><b>${p.e9.toFixed(3)}</b></td></tr>
+        <tr><td>${t('dec_vs')}</td><td class="pos">+${p.vs_b0_delta.toFixed(2)} / +${p.vs_b1_delta.toFixed(2)}</td></tr>
+        <tr><td>${t('dec_cost')}</td><td>${t('dec_costu', p.cost.toFixed(4))}</td></tr>
+        <tr><td>${t('dec_safe')}</td><td>${(p.pass_rate*100).toFixed(1)}%</td></tr>
+        <tr><td>${t('dec_len')}</td><td><b>${(p.len_ok*100).toFixed(1)}%</b></td></tr>
+        <tr><td>${t('dec_lat')}</td><td>${p.lat_mean.toFixed(1)}s (${p.lat_p95.toFixed(1)}s)</td></tr>
+      </table>
+      <div class="foot" style="margin-top:10px">${t('dec_foot2', th.near_opt, kc.e9.toFixed(3), kc.cost.toFixed(4), (kc.len_ok*100).toFixed(1))}</div>
+    </div></div>`;
+}
+
+// ── baseline ──
+function renderBaseline(){
+  const el=document.getElementById('baseline');
+  if(!D.baseline){ el.innerHTML=`<div class="banner">${t('bl_none')}</div>`; return; }
+  const lv=Object.entries(D.baseline.levels).map(([b,v])=>`<tr><td>${b}</td><td>${v.e9}</td><td>${(v.pass_rate*100).toFixed(1)}%</td><td>${v.n}</td></tr>`).join('');
+  const cmp=D.baseline.comparisons.map(c=>`<tr><td>${c.arm}</td><td>${c.baseline}</td><td class="${c.delta>0?'pos':'neg'}">${c.delta>0?'+':''}${c.delta}</td><td class="${c.sig?'sig':'ns'}">${c.sig?'✅':'✗'} ${fmtP(c.p_adj)}</td></tr>`).join('');
+  el.innerHTML=`<div class="grid2"><div class="panel"><b>${t('bl_lv')}</b><table style="margin-top:8px"><tr><th>${t('bl_th_lv')}</th><th>${t('bl_th_e9')}</th><th>${t('bl_th_pr')}</th><th>n</th></tr>${lv}</table></div>
+  <div class="panel"><b>${t('bl_cmp')}</b><table style="margin-top:8px"><tr><th>arm</th><th>vs</th><th>Δ</th><th>${t('bl_th_sig')}</th></tr>${cmp}</table></div></div>`;
+}
+
+// ── examples drill-down ──
+let selArm = null;
+function renderExamples(){
+  const sel=document.getElementById('armSel');
+  const keys=Object.keys(D.examples).sort();
+  if(selArm===null || !keys.includes(selArm)) selArm = keys[0];
+  sel.innerHTML=keys.map(k=>`<option${k===selArm?' selected':''}>${k}</option>`).join('');
+  sel.onchange=()=>{ selArm=sel.value; drawExamples(); };
+  drawExamples();
+}
+function drawExamples(){
+  const exs=D.examples[selArm]||[];
+  document.getElementById('examples').innerHTML=exs.map(e=>{
+    const chips=Object.entries(e.scores).map(([d,v])=>{
+      if(typeof v==='boolean') return v?`<span class="chip" style="background:#fee2e2;color:#b91c1c">${dim(d)} ⚠</span>`:'';
+      if(v===null) return `<span class="chip">${dim(d)}<b>N/A</b></span>`;
+      const bg=v>=5?'#dcfce7':v>=4?'#eef2f7':'#fef3c7';
+      return `<span class="chip" style="background:${bg}">${dim(d)}<b>${v}</b></span>`;
+    }).join('');
+    const whys=Object.entries(e.whys).filter(([,w])=>w).map(([d,w])=>`<dt>${dim(d)} = ${typeof e.scores[d]==='boolean'?(e.scores[d]?t('ex_viol'):t('ex_ok')):e.scores[d]??'N/A'}</dt><dd>${esc(w)}</dd>`).join('');
+    const persona = EN() ? (e.persona_en || e.persona) : e.persona;
+    return `<div class="ex">
+      <div class="k" style="color:${e.kind==='best'?'var(--pos)':'var(--neg)'}">${e.kind==='best'?t('ex_best'):t('ex_worst')} ${t('ex_e9', e.e9)}</div>
+      <div class="vt">${esc(e.case_id)} · ${esc(persona)}<br>🎬 ${esc(e.video_title)}</div>
+      <div class="push"><div class="t">${esc(e.title)}</div><div class="b">${esc(e.body)}</div></div>
+      <div class="chips">${chips}</div>
+      <details><summary>${t('ex_why')}</summary><dl>${whys}</dl></details>
+    </div>`;
+  }).join('');
+}
+
+function renderNotes(){
+  document.getElementById('notes').innerHTML =
+    Object.values(D.notes).map(n=>'· '+esc(pick(n))).join('<br>') + '<br>· ' + t('notes_stat');
+}
+
+function renderAll(){
+  renderStatics(); renderMeta(); renderTakeaways(); renderRanking(); renderLadders();
+  renderCD(); renderPareto(); renderDecision(); renderBaseline(); renderExamples(); renderNotes();
+}
+document.getElementById('langBtn').onclick=()=>{
+  LANG = EN() ? 'zh' : 'en';
+  try{ localStorage.setItem('pe_lang', LANG); }catch(_){}
+  renderAll();
+};
+renderAll();
+</script>
+</body>
+</html>

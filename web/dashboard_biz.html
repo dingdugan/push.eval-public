@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="zh-CN" id="html">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI-written push copy — evaluation results</title>
+<style>
+  :root{
+    --bg:#f7f8fa; --card:#fff; --line:#e4e7ec; --ink:#16202c; --mut:#667085; --soft:#f1f4f8;
+    --brand:#2f5fd0; --pos:#0a7d52; --neg:#c2410c; --warn:#b45309;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);
+       font:15px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB",sans-serif;
+       padding:32px 20px 100px}
+  .wrap{max-width:980px;margin:0 auto}
+  header{margin-bottom:8px}
+  h1{font-size:25px;letter-spacing:.2px}
+  .lede{color:var(--mut);font-size:15px;margin-top:8px;max-width:760px}
+  h2{font-size:19px;margin:44px 0 4px;display:flex;align-items:baseline;gap:10px}
+  h3.ev{font-size:15.5px;margin:26px 0 8px;display:flex;align-items:center;gap:9px;color:#1f2d3d}
+  h3.ev .tag{font-size:11.5px;font-weight:700;color:#4a6fa5;background:#e8eefb;border:1px solid #d3e0f5;
+             border-radius:5px;padding:2px 8px;letter-spacing:.3px;white-space:nowrap}
+  .answer.sm{font-size:15px;font-weight:500;margin:6px 0 10px;color:#33435a}
+  h2 .num{font-size:12px;font-weight:700;color:#fff;background:var(--brand);border-radius:5px;padding:2px 8px;letter-spacing:.5px}
+  .answer{font-size:17px;font-weight:650;margin:10px 0 16px;line-height:1.6}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px 22px}
+  .foot{color:var(--mut);font-size:13px;line-height:1.7;margin-top:12px}
+  /* 自绘提示: 不依赖浏览器原生 title (原生要悬停 1-2s, 且在 iframe/渲染面板里常不显示) */
+  .tip{position:relative;border-bottom:1px dashed var(--brand);cursor:help;color:var(--brand)}
+  .tip::after{content:attr(data-tip);position:absolute;left:50%;transform:translateX(-50%);
+    bottom:calc(100% + 9px);background:#16202c;color:#fff;font-size:12.5px;line-height:1.65;
+    font-weight:400;padding:9px 12px;border-radius:8px;width:max-content;max-width:300px;
+    white-space:normal;text-align:left;opacity:0;visibility:hidden;transition:opacity .15s;
+    z-index:20;box-shadow:0 6px 20px rgba(0,0,0,.18)}
+  .tip::before{content:'';position:absolute;left:50%;transform:translateX(-50%);
+    bottom:calc(100% + 3px);border:6px solid transparent;border-top-color:#16202c;
+    opacity:0;visibility:hidden;transition:opacity .15s;z-index:20}
+  .tip:hover::after,.tip:hover::before{opacity:1;visibility:visible}
+  /* 图表点: 悬停显示标签, 同样不依赖 SVG <title> */
+  svg .dot .lbl{opacity:0;transition:opacity .12s;pointer-events:none}
+  svg .dot:hover .lbl{opacity:1}
+  svg .dot:hover circle{r:8;stroke:#fff;stroke-width:2}
+  b.pos{color:var(--pos)} b.neg{color:var(--neg)}
+  /* 地基条 */
+  .basis{background:#eef3fb;border:1px solid #d3e0f5;border-radius:12px;padding:18px 22px;margin-top:18px}
+  .basis h3{font-size:14px;color:var(--brand);margin-bottom:12px;letter-spacing:.3px}
+  .basis-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:16px 26px}
+  .basis-grid dt{font-size:13px;font-weight:700;margin-bottom:3px}
+  .basis-grid dd{font-size:13px;color:#42536b;line-height:1.65}
+  /* 分数对比 */
+  .scores{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:6px 0 4px}
+  .score{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;text-align:center}
+  .score .lab{font-size:13px;color:var(--mut)}
+  .score .val{font-size:34px;font-weight:700;letter-spacing:-.5px;margin:2px 0}
+  .score .note{font-size:12px;color:var(--mut)}
+  .score.hi{border-color:#b9dccb;background:#f4fbf7}
+  .score.hi .val{color:var(--pos)}
+  /* 文案对比 */
+  .cmp{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin-bottom:14px}
+  .cmp .ctx{font-size:13px;color:var(--mut);margin-bottom:14px}
+  .cmp .ctx b{color:var(--ink)}
+  .three{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+  .push{border:1px solid var(--line);border-radius:10px;padding:12px 14px;background:var(--soft)}
+  .push.win{background:#f4fbf7;border-color:#b9dccb}
+  .push .who{font-size:11.5px;font-weight:700;letter-spacing:.3px;color:var(--mut);display:flex;justify-content:space-between}
+  .push.win .who{color:var(--pos)}
+  .push .t{font-weight:650;margin:7px 0 3px;font-size:14px}
+  .push .b{font-size:13px;color:#33435a;line-height:1.6}
+  /* 推荐 */
+  .rec{background:linear-gradient(180deg,#f4fbf7,#fff);border:1.5px solid #9ed0b6;border-radius:12px;padding:22px}
+  .rec .big{font-size:27px;font-weight:700;letter-spacing:-.4px;color:var(--pos)}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;margin-top:10px}
+  th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:right}
+  th:first-child,td:first-child{text-align:left}
+  th{color:var(--mut);font-weight:600;font-size:12.5px}
+  .bar{height:15px;border-radius:3px;display:inline-block;vertical-align:middle}
+  .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(400px,1fr));gap:14px}
+  .kill{background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:14px 16px;font-size:13.5px;margin-top:12px}
+  details{margin-top:10px;font-size:13.5px}
+  summary{cursor:pointer;color:var(--brand);font-weight:600}
+  .ex{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px}
+  .chips{display:flex;flex-wrap:wrap;gap:5px;margin:10px 0}
+  .chip{font-size:11.5px;border-radius:5px;padding:2px 8px;background:var(--soft)}
+  select{font:inherit;font-size:14px;padding:6px 11px;border:1px solid var(--line);border-radius:8px;background:#fff}
+  dl.why dt{font-weight:650;margin-top:9px;font-size:13px}
+  dl.why dd{color:#4a5a72;font-size:13px}
+  .sub-h{font-size:14px;font-weight:700;color:var(--mut);letter-spacing:.4px;margin:22px 0 10px}
+  .adv{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--brand);
+       border-radius:10px;padding:16px 20px;margin-bottom:10px;display:flex;gap:14px}
+  .adv .no{flex:0 0 26px;height:26px;border-radius:50%;background:var(--brand);color:#fff;
+           font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center}
+  .adv b{color:var(--brand)}
+  .lim{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--warn);border-radius:10px;padding:16px 20px;margin-bottom:10px}
+  .lim b{color:var(--warn)}
+  .langbtn{position:fixed;top:16px;right:18px;z-index:99;font:600 12.5px/1 -apple-system,sans-serif;
+    padding:8px 13px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--mut);cursor:pointer}
+  .langbtn:hover{border-color:#94a3b8;color:var(--ink)}
+</style>
+</head>
+<body>
+<button class="langbtn" id="langBtn"></button>
+<div class="wrap">
+<header>
+  <h1 id="h1"></h1>
+  <div class="lede" id="lede"></div>
+</header>
+
+<div class="basis">
+  <h3 id="basisH"></h3>
+  <dl class="basis-grid" id="basis"></dl>
+</div>
+
+<h2><span class="num" id="n1"></span><span id="q1"></span></h2>
+<div class="answer" id="ans1"></div>
+<div class="scores" id="scores"></div>
+<div class="foot" id="scoreFoot"></div>
+
+<h3 class="ev"><span class="tag" id="t11"></span><span id="h11"></span></h3>
+<div id="proof1"></div>
+
+<h3 class="ev"><span class="tag" id="t12"></span><span id="h12"></span></h3>
+<div id="copycmp"></div>
+
+<h2><span class="num" id="n2"></span><span id="q2"></span></h2>
+<div class="answer" id="ans2"></div>
+<div id="recommend"></div>
+
+<h3 class="ev"><span class="tag" id="t21"></span><span id="h21"></span></h3>
+<div class="answer sm" id="ans3"></div>
+<div class="card" id="modelcmp"></div>
+
+<h3 class="ev"><span class="tag" id="t22"></span><span id="h22"></span></h3>
+<div id="funnel"></div>
+
+<h3 class="ev"><span class="tag" id="t23"></span><span id="h23"></span></h3>
+<div id="costcmp"></div>
+
+<h3 class="ev"><span class="tag" id="t24"></span><span id="h24"></span></h3>
+<div class="answer sm" id="ans4"></div>
+<div class="card" id="modality"></div>
+
+<h2><span class="num" id="n3"></span><span id="q3"></span></h2>
+<div class="answer" id="ans5"></div>
+<div style="margin-bottom:12px"><select id="armSel"></select></div>
+<div class="grid2" id="drill"></div>
+
+<h2><span class="num" id="n4"></span><span id="q4"></span></h2>
+<div id="limits"></div>
+<div id="advice"></div>
+
+</div>
+
+<script src="data_results.js"></script>
+<script>
+const D = window.RESULTS_DATA;
+const dc = D.decision, TH = dc.thresholds, A = dc.arms;
+// 语言: ?lang= 优先 (可直接分享指定语言的链接), 否则用上次选择
+let LANG = (() => {
+  const q = new URLSearchParams(location.search).get('lang');
+  if (q === 'en' || q === 'zh') return q;
+  try { return localStorage.getItem('pe_lang') === 'en' ? 'en' : 'zh'; } catch(_) { return 'zh'; }
+})();
+const EN = () => LANG === 'en';
+const Z = (zh, en) => EN() ? en : zh;
+
+const VAR_SHORT_M = {zh:{A:'标题简介',B:'加截图',C:'加讲话内容',D:'加完整视频'},
+                     en:{A:'title & blurb',B:'screenshots',C:'speech',D:'full video'}};
+// 配置名: 不带 +/加 前缀, 由 armLabel 的连接符负责 (中文 " + ", 英文 " — ")
+const VAR_NAME_M  = {zh:{A:'只给标题简介',B:'加画面截图',C:'加讲话内容',D:'加完整视频'},
+                     en:{A:'title & blurb only',B:'plus screenshots',C:'plus speech',D:'plus full video'}};
+const VAR_SHORT = v => VAR_SHORT_M[EN()?'en':'zh'][v];
+const VAR_NAME  = v => VAR_NAME_M[EN()?'en':'zh'][v];
+const DIM_M = {
+  readability:['好不好读','Easy to read'], video_relevance:['贴不贴视频','Matches the video'],
+  content_fidelity:['有没有夸大','Free of exaggeration'], expressiveness:['有没有吸引力','Compelling'],
+  naturalness:['像不像人话','Sounds human'], expectation_alignment:['点进去会不会落空','Delivers what it promises'],
+  preference_match:['合不合用户口味',"Fits the user's taste"], tone_fit:['语气合不合适','Right tone'],
+  push_value:['值不值得打扰','Worth the interruption'], misleading:['误导','Misleading'],
+  manipulative:['诱导','Manipulative'], harmful:['有害','Harmful'], privacy:['隐私','Privacy'],
+};
+const DIM = d => (DIM_M[d] || [d, d])[EN() ? 1 : 0];
+const pick = v => (v && typeof v === 'object' && ('zh' in v)) ? (v[EN()?'en':'zh'] ?? v.zh) : v;
+
+const HEX = {'gpt-5.5':'#6d28d9','kimi-k2.6':'#0e7490','gemini-2.5-flash':'#2563eb','deepseek-v4-pro':'#d97706'};
+const esc = s => String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const armZH = k => { const [m,v]=k.split('|'); return EN() ? `${m} — ${VAR_NAME(v)}` : `${m} + ${VAR_NAME(v)}` };
+const prim = dc.primary_5_3, P = A[prim];
+const B0 = D.baseline.levels.B0, B1 = D.baseline.levels.B1;
+
+const gapB0 = P.vs_b0_delta, gapB1 = P.vs_b1_delta;
+const B0GAP = {}; D.baseline.comparisons.filter(c=>c.baseline==='B0').forEach(c=>B0GAP[c.arm]=c.delta);
+const allGaps = Object.values(B0GAP);
+const modelSpan = Math.max(...Object.values(A).map(a=>a.e9)) - Math.min(...Object.values(A).map(a=>a.e9));
+const nAll = Object.keys(A).length;
+const poolN = dc.pool_5_2.length;
+const killedN = nAll - poolN;
+const ratioLo = (Math.min(...allGaps)/modelSpan).toFixed(1), ratioHi = (Math.max(...allGaps)/modelSpan).toFixed(1);
+
+// ── 标题 ──
+function renderHeads(){
+  const S = {
+    h1:  Z('AI 写推送文案 — 评估结果', 'AI-written push copy — evaluation results'),
+    basisH: Z('先看懂这几件事，下面的数字才有意义',
+              "Read these four things first, or the numbers below won't mean much"),
+    n1: Z('结论 1','Finding 1'), q1: Z('该不该用 AI 写推送文案？','Should we use AI to write push copy?'),
+    t11: Z('论据 1.1','Evidence 1.1'),
+    h11: Z(`测了 ${nAll} 个配置，质量均好于现状`,
+            `All ${nAll} configurations tested beat the status quo on quality`),
+    t12: Z('论据 1.2','Evidence 1.2'), h12: Z('三个典型 case','Three typical cases'),
+    n2: Z('结论 2','Finding 2'), q2: Z('用哪个配置？成本多少？','Which configuration, and what does it cost?'),
+    t21: Z('论据 2.1','Evidence 2.1'), h21: Z('只看质量，四个模型差得不多','On quality alone, the four models are close'),
+    t22: Z('论据 2.2','Evidence 2.2'),
+    h22: Z(`但字数达标率过关、能上线的只有 ${poolN} 个配置`,
+            `But only ${poolN} configurations clear the length bar and are deployable`),
+    t23: Z('论据 2.3','Evidence 2.3'),
+    h23: Z(`这 ${poolN} 个质量也相差不大，所以取最便宜的`,
+            `Those ${poolN} are close in quality too, so take the cheapest`),
+    t24: Z('论据 2.4','Evidence 2.4'),
+    h24: Z('而多喂画面、语音、视频，并不会更好','And feeding more pictures, speech or video does not help'),
+    n3: Z('怎么打的分','How scoring works'), q3: Z('随便抽一条看看','Pick one and look'),
+    ans5: Z('AI 评分员对每条文案的 13 个维度都写了打分理由，不是只给一个数字。下面可以切换配置，看它打得最高和最低的两条。',
+            'The AI judge writes a reason for each of the 13 dimensions on every piece of copy, not just a number. Switch configuration below to see its highest- and lowest-scoring examples.'),
+    n4: Z('最后','Finally'), q4: Z('方案局限与后续建议','Limitations and what to do next'),
+  };
+  for (const [id, v] of Object.entries(S)) { const e = document.getElementById(id); if (e) e.textContent = v; }
+  document.getElementById('html').lang = EN() ? 'en' : 'zh-CN';
+  document.title = Z('AI 写推送文案 — 评估结果', 'AI-written push copy — evaluation results');
+  document.getElementById('langBtn').textContent = EN() ? '中文' : 'EN';
+}
+
+// ── 导语 + 地基 ──
+function renderLede(){
+  document.getElementById('lede').innerHTML = Z(
+   `一个视频推给一个用户时，那条推送文案该怎么写？这份报告测了 <b>4 个大模型 × 4 种输入方式</b>，
+    回答两件事：<b>该不该用 AI 写</b>，以及<b>用哪个配置最划算</b>。
+    所有数字来自 ${D.totals.n_judged.toLocaleString()} 条文案的逐条打分。`,
+   `When one video is pushed to one user, how should that notification be written? This report tested
+    <b>4 large models × 4 ways of feeding them the video</b> to answer two questions:
+    <b>should AI write this copy at all</b>, and <b>which configuration gives the best value</b>.
+    Every number comes from scoring ${D.totals.n_judged.toLocaleString()} pieces of copy one by one.`);
+
+  document.getElementById('basis').innerHTML = Z(`
+   <div><dt>分是谁打的</dt><dd>不参与写作的另一个大模型当评分员，<b>看完整视频</b>后逐条打分，每个维度都要写理由。另有 72 条由人工盲评校准过它的偏差。</dd></div>
+   <div><dt>分怎么算</dt><dd>每条文案打 <b>13 个维度</b>：9 个质量维（好不好读、贴不贴视频、有没有夸大、语气合不合适…）<b>1–5 分</b>，4 个安全维（误导/诱导/有害/隐私）判是否违规。报告里的分数 = 9 个质量维的平均分，<b>满分 5 分</b>。</dd></div>
+   <div><dt>测了什么</dt><dd>4 个模型（gpt-5.5 / kimi-k2.6 / deepseek-v4-pro / gemini-2.5-flash）× 4 种喂给模型的输入方式：<b>①只给标题简介 ②加画面截图 ③加讲话内容 ④加完整视频</b>。</dd></div>
+   <div><dt>拿什么做样本</dt><dd>${D.totals.n_videos} 个公开视频 × ${D.totals.n_personas} 个虚拟用户画像 = 416 种组合，每种写 3 遍取平均。<b>无任何真实用户数据</b>。</dd></div>`,
+  `
+   <div><dt>Who does the scoring</dt><dd>A different large model, not involved in the writing, acts as judge. It <b>watches the full video</b>, scores each piece of copy, and must write a reason for every dimension. Its bias was calibrated against 72 human blind ratings.</dd></div>
+   <div><dt>How the score is computed</dt><dd>Each piece of copy is scored on <b>13 dimensions</b>: 9 quality dimensions (easy to read, matches the video, free of exaggeration, right tone…) on <b>1–5</b>, plus 4 safety dimensions (misleading / manipulative / harmful / privacy) judged pass-fail. The score in this report is the mean of the 9 quality dimensions, <b>out of 5</b>.</dd></div>
+   <div><dt>What was tested</dt><dd>4 models (gpt-5.5 / kimi-k2.6 / deepseek-v4-pro / gemini-2.5-flash) × 4 ways of feeding the video to them: <b>① title + blurb only ② plus screenshots ③ plus what is said ④ plus the full video</b>.</dd></div>
+   <div><dt>What the sample is</dt><dd>${D.totals.n_videos} public videos × ${D.totals.n_personas} synthetic user profiles = 416 combinations, each written 3 times and averaged. <b>No real user data of any kind.</b></dd></div>`);
+}
+
+// ── 结论 1 ──
+function renderConclusion1(){
+  document.getElementById('ans1').innerHTML = Z(
+   `<b class="pos">该用。</b>测的 ${nAll} 个配置，<b>质量全部</b>显著好过现在的做法，高出 ${Math.min(...allGaps).toFixed(2)}–${Math.max(...allGaps).toFixed(2)} 分（满分 5 分）——
+    而四个模型之间的差距只有 ${modelSpan.toFixed(2)} 分，前者是后者的 <b>${ratioLo}–${ratioHi} 倍</b>（模型之间的比较详见论据 2.1），也就是说：<b>"用不用 AI"是个大决定，"用哪个模型"是个小决定。</b>`,
+   `<b class="pos">Yes.</b> All ${nAll} configurations tested score significantly <b>higher on quality</b> than the current approach, by ${Math.min(...allGaps).toFixed(2)}–${Math.max(...allGaps).toFixed(2)} points (out of 5) —
+    while the spread <i>between</i> the four models is only ${modelSpan.toFixed(2)} points. The first gap is <b>${ratioLo}–${ratioHi}× the second</b> (model-by-model comparison is in Evidence 2.1). In other words: <b>"whether to use AI" is a big decision; "which model" is a small one.</b>`);
+  document.getElementById('scores').innerHTML = `
+   <div class="score"><div class="lab">${Z('现在的做法','Current approach')}</div><div class="val">${B0.e9}</div><div class="note">${Z('作者名 + 视频原标题','Creator name + raw video title')}</div></div>
+   <div class="score"><div class="lab">${Z('套模板的做法','Rule-based template')}</div><div class="val">${B1.e9}</div><div class="note">${Z('用视频信息拼装的固定模板','Fixed template assembled from video metadata')}</div></div>
+   <div class="score hi"><div class="lab">${Z('AI 写（推荐配置）','AI-written (recommended)')}</div><div class="val">${P.e9.toFixed(2)}</div><div class="note">+${gapB0.toFixed(2)} ${Z('vs 现状','vs current')}　+${gapB1.toFixed(2)} ${Z('vs 模板','vs template')}</div></div>`;
+  document.getElementById('scoreFoot').innerHTML = Z(
+   `满分 5 分。差距都通过了<span class="tip" data-tip="用 paired Wilcoxon 符号秩检验，并对多组比较做了 Bonferroni 校正；关键结论另用按视频重采样的方式复核过">统计显著性检验</span>。
+    需要提醒：本次样本量能可靠分辨的最小差距是 <b>0.2 分</b>，小于这个数的差异不宜当作真实差距。`,
+   `Out of 5. Every gap clears a <span class="tip" data-tip="Paired Wilcoxon signed-rank test with Bonferroni correction for multiple comparisons; key conclusions were re-checked by resampling at the video level">test of statistical significance</span>.
+    One caveat: with this sample size the smallest gap that can be resolved reliably is <b>0.2 points</b> — treat anything smaller as noise.`);
+}
+
+// ── 论据 1.1: 13 个配置 vs 现状 ──
+function renderProof1(){
+  const b0 = {}; D.baseline.comparisons.filter(c=>c.baseline==='B0').forEach(c=>b0[c.arm]=c);
+  const keys = Object.keys(A);
+  const models = [...new Set(keys.map(k=>k.split('|')[0]))]
+    .sort((x,y)=>Math.max(...keys.filter(k=>k.startsWith(y+'|')).map(k=>b0[k].delta))
+               - Math.max(...keys.filter(k=>k.startsWith(x+'|')).map(k=>b0[k].delta)));
+  const W=660, X0=118, XW=W-X0-96, MAX=0.62, RH=34;
+  const x = d => X0 + d/MAX*XW;
+  let axis = '';
+  [0,0.2,0.4,0.6].forEach(v=>{
+    axis += `<line x1="${x(v)}" y1="14" x2="${x(v)}" y2="${18+models.length*RH}" stroke="${v===0?'#94a3b8':'#eef1f4'}" ${v===0?'stroke-dasharray="3 3"':''}/>`
+         +  `<text x="${x(v)-10}" y="${34+models.length*RH}" style="font-size:11px;fill:#667085">${v===0?Z('现状','current'):'+'+v.toFixed(1)}</text>`;
+  });
+  const rows = models.map((m,i)=>{
+    const ks = keys.filter(k=>k.startsWith(m+'|')).sort((p,q)=>b0[p].delta-b0[q].delta);
+    const y = 32+i*RH;
+    const dots = ks.map(k=>{
+      const v = VAR_SHORT(k.split('|')[1]), cx = x(b0[k].delta);
+      const txt = `${v} +${b0[k].delta.toFixed(2)}`;
+      const anchor = cx > X0+XW*0.62 ? 'end' : 'start';
+      const tx = anchor === 'end' ? cx - 11 : cx + 11;
+      const wpx = txt.length*(EN()?6.6:7.2)+12;
+      return `<g class="dot">`
+           + `<circle cx="${cx}" cy="${y}" r="6" fill="${HEX[m]}" opacity=".88"/>`
+           + `<rect class="lbl" x="${anchor==='end'? tx-wpx+4 : tx-4}" y="${y-11}" `
+           + `width="${wpx}" height="21" rx="5" fill="#16202c"/>`
+           + `<text class="lbl" x="${tx}" y="${y+4}" text-anchor="${anchor}" `
+           + `style="fill:#fff;font-size:11.5px">${txt}</text></g>`;
+    }).join('');
+    const lo=b0[ks[0]].delta, hi=b0[ks[ks.length-1]].delta;
+    return `<text x="0" y="${y+4}" style="font-size:12.5px;font-weight:650;fill:#16202c">${m}</text>${dots}`
+         + `<text x="${W-88}" y="${y+4}" style="font-size:11.5px;fill:#667085">+${lo.toFixed(2)}~+${hi.toFixed(2)}</text>`;
+  }).join('');
+  const ds = allGaps;
+  document.getElementById('proof1').innerHTML = `
+   <div class="card">
+     <div style="font-weight:650;margin-bottom:4px">${Z(
+       `这不是个别配置的偶然：${keys.length} 个配置的质量分，<b class="pos">全部</b>高于现状`,
+       `This is not a fluke of one configuration: <b class="pos">all</b> ${keys.length} configurations score above the status quo`)}</div>
+     <div class="foot" style="margin:0 0 6px">${Z(
+       '每个圆点是一个配置（模型 + 一种输入方式），横轴是比现状高出多少分。鼠标悬停看具体是哪个。',
+       'Each dot is one configuration (a model plus one way of feeding it the video). The horizontal axis is how far above the status quo it scores. Hover a dot to see which one.')}</div>
+     <svg width="${W}" height="${44+models.length*RH}">${axis}${rows}</svg>
+     <div class="foot">${Z(
+       `${keys.length} 个配置<b>全部</b>通过显著性检验，最小的也高出 <b>${Math.min(...ds).toFixed(2)} 分</b>，最大 ${Math.max(...ds).toFixed(2)} 分。
+        作为对照：四个模型之间的差距只有 ${modelSpan.toFixed(2)} 分 ——
+        <b>"用不用 AI"的差距，是"用哪个模型"的 ${ratioLo}–${ratioHi} 倍。</b>`,
+       `<b>All</b> ${keys.length} configurations clear the significance test; even the smallest is <b>${Math.min(...ds).toFixed(2)} points</b> above, the largest ${Math.max(...ds).toFixed(2)}.
+        For contrast, the spread between the four models is only ${modelSpan.toFixed(2)} points —
+        <b>the "AI or not" gap is ${ratioLo}–${ratioHi}× the "which model" gap.</b>`)}</div>
+   </div>`;
+}
+
+// ── 论据 1.2: 文案三方对比 ──
+function renderCopyCmp(){
+  const ce = D.copy_examples;
+  const el = document.getElementById('copycmp');
+  if(!ce){ el.innerHTML=''; return; }
+  el.innerHTML = `<div style="font-weight:650;margin-bottom:10px">${Z(
+     '同一个视频、同一个用户，三种做法写出来是这样：',
+     'Same video, same user — here is what the three approaches produce:')}</div>` +
+   ce.items.map(it=>`
+    <div class="cmp">
+      <div class="ctx">🎬 <b>${esc(it.video_title)}</b>　·　${Z('推给：','pushed to: ')}${esc((EN()&&it.persona_en)||it.persona||'')}</div>
+      <div class="three">
+        <div class="push"><div class="who"><span>${Z('现在的做法','Current approach')}</span><span>${it.b0.e9}</span></div>
+          <div class="t">${esc(it.b0.title)}</div><div class="b">${esc(it.b0.body)}</div></div>
+        <div class="push"><div class="who"><span>${Z('套模板','Template')}</span><span>${it.b1.e9}</span></div>
+          <div class="t">${esc(it.b1.title)}</div><div class="b">${esc(it.b1.body)}</div></div>
+        <div class="push win"><div class="who"><span>${Z('AI 写的','AI-written')}</span><span>${it.llm.e9}</span></div>
+          <div class="t">${esc(it.llm.title)}</div><div class="b">${esc(it.llm.body)}</div></div>
+      </div>
+    </div>`).join('') +
+   `<div class="foot">${Z(
+     `这 3 组不是挑出来的最好案例 —— 从 ${ce.n_total} 种组合里按"AI 比现状好多少"排序，取的是<b>中间位置</b>的典型案例。`,
+     `These 3 are not cherry-picked best cases — the ${ce.n_total} combinations were sorted by how far AI beats the status quo, and these were taken from <b>the middle of that range</b>.`)}</div>`;
+}
+
+// ── 结论 2: 答案 + 推荐卡 ──
+function renderConclusion2(){
+  const per1M = (P.cost*1e6).toLocaleString('en-US',{maximumFractionDigits:0});
+  document.getElementById('ans2').innerHTML = Z(
+   `推荐 <b class="pos">${esc(armZH(prim))}</b>。花更多钱喂画面、语音、视频<b>都不值</b> ——
+    多喂信号带来的提升不到 0.03 分，远低于本次能可靠分辨的 0.2 分，等于白花钱。`,
+   `Recommended: <b class="pos">${esc(armZH(prim))}</b>. Paying more to feed in screenshots, speech or full video is <b>not worth it</b> —
+    the extra signal buys under 0.03 points, far below the 0.2 this study can resolve, so the money buys nothing measurable.`);
+  document.getElementById('recommend').innerHTML = `
+   <div class="rec">
+     <div style="font-size:13px;color:var(--mut)">${Z('推荐配置','Recommended configuration')}</div>
+     <div class="big">${esc(armZH(prim))}</div>
+     <table>
+       <tr><td>${Z('质量分','Quality score')}</td><td><b>${P.e9.toFixed(2)}</b> / 5${Z(`（比现状 +${gapB0.toFixed(2)}）`, ` (+${gapB0.toFixed(2)} vs current)`)}</td></tr>
+       <tr><td>${Z('安全通过率','Safety pass rate')}</td><td>${(P.pass_rate*100).toFixed(0)}%</td></tr>
+       <tr><td><span class="tip" data-tip="${Z('推送位有字数上限，超出会被系统截断，所以这是能不能上线的硬指标','A push slot has a hard character limit and anything over it gets truncated, which makes this a go/no-go metric')}">${Z('字数达标率','Length compliance')}</span></td><td><b>${(P.len_ok*100).toFixed(0)}%</b></td></tr>
+       <tr><td>${Z('成本','Cost')}</td><td>$${P.cost.toFixed(4)} ${Z('/ 次生成　≈ <b>$'+per1M+' / 100 万次</b>', '/ generation　≈ <b>$'+per1M+' / 1M generations</b>')}</td></tr>
+       <tr><td>${Z('速度','Speed')}</td><td>${Z(`平均 ${P.lat_mean.toFixed(1)} 秒，95% 在 ${P.lat_p95.toFixed(1)} 秒内返回`, `${P.lat_mean.toFixed(1)}s mean, 95% return within ${P.lat_p95.toFixed(1)}s`)}</td></tr>
+     </table>
+     <div class="foot">${Z(
+       `<b>成本口径要注意</b>：1 次生成 = 1 个视频 × 1 个用户分群。同分群的用户共用一条文案，
+        所以实际推送条数远多于生成次数 —— 摊到每条推送的成本，取决于你的分群规模。<br>
+        速度是本项目测量环境下的实测值（含跨境网络），只能横向比较，不代表线上延迟。`,
+       `<b>Read the cost carefully</b>: one generation = one video × one user segment. Users in the same segment share a single piece of copy,
+        so the number of notifications sent is far larger than the number of generations — the cost per notification depends on how big your segments are.<br>
+        Speed is measured in this project's own environment (including a cross-border network hop); use it for relative comparison only, not as production latency.`)}</div>
+   </div>`;
+}
+
+// ── 论据 2.1: 模型之间差多少 ──
+function renderModelCmp(){
+  const rank = D.rankings.A.order;
+  const vals = rank.map(m=>A[`${m}|A`]);
+  const lo = Math.min(...vals.map(a=>a.e9))-0.06, hi = Math.max(...vals.map(a=>a.e9))+0.04;
+  document.getElementById('ans3').innerHTML = Z(
+   `四家的质量分全部落在 ${Math.min(...vals.map(a=>a.e9)).toFixed(2)}–${Math.max(...vals.map(a=>a.e9)).toFixed(2)} 之间。
+    真正把它们分开的不是文笔，是<b>守规矩的能力</b>——见下表右列的字数达标率，<b>那一列正是下一条论据里筛掉 ${killedN} 个配置的关键</b>。`,
+   `All four land between ${Math.min(...vals.map(a=>a.e9)).toFixed(2)} and ${Math.max(...vals.map(a=>a.e9)).toFixed(2)}.
+    What actually separates them is not writing skill but <b>the ability to follow instructions</b> — see the length-compliance column on the right, <b>the column that eliminates ${killedN} configurations in the next piece of evidence</b>.`);
+  document.getElementById('modelcmp').innerHTML = `
+   <table>
+     <tr><th>${Z('模型（都用"只给标题简介"这种输入）','Model (all on "title + blurb only" input)')}</th><th>${Z('质量分','Quality')}</th><th></th><th>${Z('字数达标率','Length OK')}</th></tr>
+     ${rank.map(m=>{const a=A[`${m}|A`];const w=(a.e9-lo)/(hi-lo)*160;
+       return `<tr><td>${m}</td><td><b>${a.e9.toFixed(2)}</b></td>
+         <td style="width:180px"><span class="bar" style="width:${w}px;background:${HEX[m]}"></span></td>
+         <td style="color:${a.len_ok>=TH.len_gate?'var(--pos)':'var(--neg)'}"><b>${(a.len_ok*100).toFixed(0)}%</b></td></tr>`}).join('')}
+   </table>
+   <div class="foot">${Z(
+     `gpt-5.5 对另外三家的领先都通过了显著性检验，但绝对差距只有 ${(A['gpt-5.5|A'].e9-A[rank[rank.length-1]+'|A'].e9).toFixed(2)} 分；
+      kimi 和 deepseek 之间<b>没有显著差异</b>（可视为并列）。
+      字数达标率那一列才是决定能不能上线的分水岭。`,
+     `gpt-5.5's lead over the other three is statistically significant, but in absolute terms it is only ${(A['gpt-5.5|A'].e9-A[rank[rank.length-1]+'|A'].e9).toFixed(2)} points;
+      kimi and deepseek show <b>no significant difference</b> and can be treated as tied.
+      It is the length-compliance column that decides what can actually ship.`)}</div>`;
+}
+
+// ── 论据 2.2 + 2.3: 筛选漏斗 与 成本对比 ──
+function renderFunnelCost(){
+  const pool = dc.pool_5_2, killed = Object.keys(A).filter(k=>!pool.includes(k));
+  const byLen = killed.filter(k=>A[k].len_ok < TH.len_gate).length;
+  const kc = A['kimi-k2.6|C'];
+  document.getElementById('funnel').innerHTML = `
+   <div class="card" style="margin-top:10px">
+     <table>
+       <tr><th>${Z('筛选条件','Filter')}</th><th>${Z('通过','Passed')}</th><th>${Z('剩下谁','Survivors')}</th></tr>
+       <tr><td><b>${Z('第 1 关　比现状明显更好','Gate 1　Clearly better than the status quo')}</b><div class="foot" style="margin:0">${Z('安全达标 + 显著高于现状 + 差距 ≥ 0.3 分','safety pass + significantly above the status quo + gap ≥ 0.3')}</div></td>
+           <td style="font-size:16px"><b>${dc.qualified_5_1.length}</b> / ${nAll}</td><td>${Z('全部通过','all pass')}</td></tr>
+       <tr><td><b>${Z('第 2 关　能不能真上线','Gate 2　Can it actually ship')}</b><div class="foot" style="margin:0">${Z(`再加：字数达标率 ≥ ${(TH.len_gate*100).toFixed(0)}%、比模板做法好 ≥ ${TH.b1_min} 分`, `plus: length compliance ≥ ${(TH.len_gate*100).toFixed(0)}% and ≥ ${TH.b1_min} above the template approach`)}</div></td>
+           <td style="font-size:16px"><b>${pool.length}</b> / ${nAll}</td><td>${pool.map(k=>esc(armZH(k))).join('<br>')}</td></tr>
+       <tr><td><b>${Z('第 3 关　同等效果取最省','Gate 3　Equal quality, cheapest wins')}</b><div class="foot" style="margin:0">${Z(`剩下几个质量差距都 < ${TH.near_opt} 分，取最便宜的`, `the survivors are all within ${TH.near_opt} of each other, so take the cheapest`)}</div></td>
+           <td style="font-size:16px"><b>1</b> / ${pool.length}</td><td><b>${esc(armZH(prim))}</b></td></tr>
+     </table>
+     <div class="kill">${Z(
+       `<b>最意外的发现：被淘汰的 ${killed.length} 个配置里，${byLen} 个是栽在"字数达标率"上，没有一个是因为写得不好或不安全。</b><br>
+        四个模型的文案质量其实很接近（都在 ${Math.min(...Object.values(A).map(a=>a.e9)).toFixed(2)}–${Math.max(...Object.values(A).map(a=>a.e9)).toFixed(2)} 分之间），
+        真正拉开差距的是<b>能不能稳定守住字数要求</b>。推送位字数是硬约束，写得再好但超长，上线就会被截断。`,
+       `<b>The most surprising result: of the ${killed.length} eliminated configurations, ${byLen} fell on length compliance — not one on poor writing or safety.</b><br>
+        The four models are in fact close on copy quality (all between ${Math.min(...Object.values(A).map(a=>a.e9)).toFixed(2)} and ${Math.max(...Object.values(A).map(a=>a.e9)).toFixed(2)}).
+        What separates them is <b>whether they reliably respect the character limit</b>. That limit is hard: however well a notification reads, if it runs long it gets truncated in production.`)}
+     </div>
+     <details>
+       <summary>${Z(`有个配置很可惜，值得单独说：${esc(armZH('kimi-k2.6|C'))}`, `One near miss worth calling out: ${esc(armZH('kimi-k2.6|C'))}`)}</summary>
+       <div style="margin-top:8px">${Z(
+         `如果<b>只看质量和成本</b>，它是性价比最优的：质量 ${kc.e9.toFixed(2)} 分（几乎追平第一），
+          成本只要 $${kc.cost.toFixed(4)}，<b>是推荐配置的 ${(P.cost/kc.cost).toFixed(0)} 分之一</b>。
+          它唯一不过关的是字数达标率只有 ${(kc.len_ok*100).toFixed(0)}%。<br><br>
+          而字数这件事，是可以靠改写提示词来治的 —— 所以<b>下一步最值得做的实验</b>，
+          是专门给它加强字数约束再测一轮。如果能提到 ${(TH.len_gate*100).toFixed(0)}%，成本就能降到现在的 ${(P.cost/kc.cost).toFixed(0)} 分之一。`,
+         `On <b>quality and cost alone</b> it is the best value of all: quality ${kc.e9.toFixed(2)} (essentially level with the leader)
+          at a cost of only $${kc.cost.toFixed(4)}, <b>one ${(P.cost/kc.cost).toFixed(0)}th of the recommended configuration</b>.
+          Its only failure is length compliance at ${(kc.len_ok*100).toFixed(0)}%.<br><br>
+          And length is something a prompt rewrite can fix — which makes <b>the highest-value next experiment</b>
+          a rerun of this configuration with a hardened length constraint. If it reaches ${(TH.len_gate*100).toFixed(0)}%, cost drops to one ${(P.cost/kc.cost).toFixed(0)}th of today's.`)}
+       </div>
+     </details>
+   </div>`;
+  document.getElementById('costcmp').innerHTML = `
+   <div class="card" style="margin-top:10px">
+     <table>
+       <tr><th>${Z('通过筛选的三个配置','The three configurations that survived')}</th><th>${Z('质量分','Quality')}</th><th>${Z('成本 / 次生成','Cost / generation')}</th><th>${Z('相对推荐配置','vs recommended')}</th></tr>
+       ${pool.slice().sort((a,b)=>A[a].cost-A[b].cost).map(k=>{
+         const a=A[k], isP = k===prim;
+         return `<tr${isP?' style="background:#f4fbf7"':''}>
+           <td>${isP?'<b>':''}${esc(armZH(k))}${isP?'</b>　'+Z('← 推荐','← recommended'):''}</td>
+           <td>${a.e9.toFixed(2)}</td>
+           <td>$${a.cost.toFixed(4)}</td>
+           <td>${(a.cost/A[prim].cost).toFixed(1)}×</td></tr>`}).join('')}
+     </table>
+     <div class="kill" style="background:#f1f5fb;border-color:#cddcf0">${Z(
+       `三个配置的质量差最大只有 <b>${(Math.max(...pool.map(k=>A[k].e9))-Math.min(...pool.map(k=>A[k].e9))).toFixed(2)} 分</b>，
+        低于本次样本能可靠分辨的 ${TH.near_opt} 分 —— 也就是说<b>这点差距根本测不准，更谈不上用户能感知</b>。
+        但成本相差 <b>${(Math.max(...pool.map(k=>A[k].cost))/A[prim].cost).toFixed(1)} 倍</b>。多花的钱买不到可感知的质量，所以取最便宜的。`,
+       `The largest quality gap among the three is <b>${(Math.max(...pool.map(k=>A[k].e9))-Math.min(...pool.map(k=>A[k].e9))).toFixed(2)} points</b>,
+        below the ${TH.near_opt} this sample can resolve — meaning <b>the gap cannot be measured reliably, let alone perceived by a user</b>.
+        Cost, however, differs by <b>${(Math.max(...pool.map(k=>A[k].cost))/A[prim].cost).toFixed(1)}×</b>. The extra spend buys no perceptible quality, so take the cheapest.`)}
+     </div>
+     <div class="foot">${Z(
+       `把全部 ${nAll} 个配置放在一起看，这个反差更明显：<b>成本从 $${Math.min(...Object.values(A).map(a=>a.cost)).toFixed(4)} 到 $${Math.max(...Object.values(A).map(a=>a.cost)).toFixed(4)}，差 ${(Math.max(...Object.values(A).map(a=>a.cost))/Math.min(...Object.values(A).map(a=>a.cost))).toFixed(0)} 倍</b>；
+        而质量从 ${Math.min(...Object.values(A).map(a=>a.e9)).toFixed(2)} 到 ${Math.max(...Object.values(A).map(a=>a.e9)).toFixed(2)}，只差 ${((Math.max(...Object.values(A).map(a=>a.e9))/Math.min(...Object.values(A).map(a=>a.e9))-1)*100).toFixed(0)}%。
+        选配置时，<b>成本侧的决策空间远大于质量侧</b>。`,
+       `Across all ${nAll} configurations the contrast is starker: <b>cost ranges from $${Math.min(...Object.values(A).map(a=>a.cost)).toFixed(4)} to $${Math.max(...Object.values(A).map(a=>a.cost)).toFixed(4)}, a factor of ${(Math.max(...Object.values(A).map(a=>a.cost))/Math.min(...Object.values(A).map(a=>a.cost))).toFixed(0)}</b>,
+        while quality ranges from ${Math.min(...Object.values(A).map(a=>a.e9)).toFixed(2)} to ${Math.max(...Object.values(A).map(a=>a.e9)).toFixed(2)} — a spread of just ${((Math.max(...Object.values(A).map(a=>a.e9))/Math.min(...Object.values(A).map(a=>a.e9))-1)*100).toFixed(0)}%.
+        When choosing a configuration, <b>there is far more room to decide on cost than on quality</b>.`)}
+     </div>
+   </div>`;
+}
+
+// ── 论据 2.4: 多喂信号值不值 ──
+function renderModality(){
+  const lad = D.ladders['kimi-k2.6'];
+  const cd = D.cd_decomp['kimi-k2.6'];
+  const worst = cd.filter(r=>r.sig && r.delta<0).slice(0,3);
+  document.getElementById('ans4').innerHTML = Z(
+   `<b class="neg">不值 —— 这正是推荐配置只用最简单输入的原因。</b>从"只给标题简介"到"加讲话内容"，每一步确实有提升，但每步只有 0.02–0.06 分；
+    继续加到<b>完整视频反而变差</b>。`,
+   `<b class="neg">No — and that is exactly why the recommended configuration uses the simplest input.</b> Going from "title + blurb only" to "plus speech" does help at every step, but only by 0.02–0.06 points each;
+    pushing on to the <b>full video actually makes it worse</b>.`);
+  document.getElementById('modality').innerHTML = `
+   <table>
+     <tr><th>${Z('喂给模型的输入','What the model is fed')}</th><th>${Z('质量分','Quality')}</th><th>${Z('比上一档','vs previous')}</th></tr>
+     ${lad.map((s,i)=>`<tr><td>${i+1}. ${VAR_SHORT(s.var)}</td><td><b>${s.e9.toFixed(3)}</b></td>
+       <td style="color:${s.delta===undefined?'var(--mut)':(s.delta>0?'var(--pos)':'var(--neg)')}">
+         ${s.delta===undefined?'—':(s.delta>0?'+':'')+s.delta.toFixed(3)+(s.sig?'':Z('（不显著）',' (n.s.)'))}</td></tr>`).join('')}
+   </table>
+   <div class="kill" style="background:#f1f5fb;border-color:#cddcf0">${Z(
+     `<b>为什么喂完整视频反而更差？</b>把分数拆到每个维度看就清楚了：喂完整视频后，
+      "贴不贴视频""有没有夸大"这些<b>内容维度没变差甚至变好</b>，
+      但 ${worst.map(r=>`<b>${DIM(r.dim)}</b>（${r.delta.toFixed(2)}）`).join('、')} 这些维度明显下滑。<br>
+      也就是说：模型把注意力花在"把视频讲清楚"上，反而<b>没顾上按要求写、贴合这个用户</b>。`,
+     `<b>Why does the full video make things worse?</b> Breaking the score down by dimension makes it clear: with the full video,
+      content dimensions such as "matches the video" and "free of exaggeration" <b>hold steady or even improve</b>,
+      while ${worst.map(r=>`<b>${DIM(r.dim)}</b> (${r.delta.toFixed(2)})`).join(', ')} drop noticeably.<br>
+      In other words, the model spends its attention on describing the video accurately and <b>stops attending to the instructions and to this particular user</b>.`)}
+   </div>
+   <div class="foot">${Z(
+     '上表以 kimi-k2.6 为例（它是唯一四种输入都测了的模型）。gemini 的趋势相同，但完整视频那一步的下滑未达显著。',
+     'The table uses kimi-k2.6 (the only model tested on all four inputs). gemini shows the same trend, but its drop on the full-video step is not statistically significant.')}</div>`;
+}
+
+// ── 下钻 ──
+let selArm = null;
+function renderDrill(){
+  const sel = document.getElementById('armSel');
+  const keys = Object.keys(D.examples).sort((a,b)=> a===prim?-1: b===prim?1: a.localeCompare(b));
+  if(selArm===null || !keys.includes(selArm)) selArm = prim;
+  sel.innerHTML = keys.map(k=>`<option value="${k}"${k===selArm?' selected':''}>${esc(armZH(k))}${k===prim?Z('（推荐配置）',' (recommended)'):''}</option>`).join('');
+  sel.onchange = () => { selArm = sel.value; drawDrill(); };
+  drawDrill();
+}
+function drawDrill(){
+  document.getElementById('drill').innerHTML = (D.examples[selArm]||[]).map(e=>{
+    const chips = Object.entries(e.scores).map(([d,v])=>{
+      if(typeof v==='boolean') return v?`<span class="chip" style="background:#fee2e2;color:#b91c1c">${DIM(d)} ${Z('违规','violation')}</span>`:'';
+      if(v===null) return `<span class="chip">${DIM(d)} ${Z('不适用','n/a')}</span>`;
+      const bg = v>=5?'#dcfce7':v>=4?'#eef2f7':'#fef3c7';
+      return `<span class="chip" style="background:${bg}">${DIM(d)} <b>${v}</b></span>`;
+    }).join('');
+    const whys = Object.entries(e.whys).filter(([,w])=>w)
+      .map(([d,w])=>`<dt>${DIM(d)}</dt><dd>${esc(w)}</dd>`).join('');
+    const persona = (EN() && e.persona_en) ? e.persona_en : e.persona;
+    return `<div class="ex">
+      <div style="font-size:12.5px;font-weight:700;color:${e.kind==='best'?'var(--pos)':'var(--neg)'}">
+        ${e.kind==='best'?Z('打分最高的一条','Highest-scoring example'):Z('打分最低的一条','Lowest-scoring example')}　·　${Z(e.e9+' 分', e.e9+' / 5')}</div>
+      <div class="foot" style="margin:4px 0 10px">🎬 ${esc(e.video_title)}<br>${Z('推给：','pushed to: ')}${esc(persona||'')}</div>
+      <div class="push"><div class="t">${esc(e.title)}</div><div class="b">${esc(e.body)}</div></div>
+      <div class="chips">${chips}</div>
+      <details open><summary>${Z('AI 评分员给的理由（13 个维度）',"The AI judge's reasoning (13 dimensions)")}</summary><dl class="why">${whys}</dl></details>
+    </div>`;
+  }).join('');
+}
+
+// ── 局限 ──
+function renderLimits(){
+  document.getElementById('limits').innerHTML = Z(`
+   <div class="sub-h">一、这份结论哪里不可靠</div>
+   <div class="lim"><b>打分的是 AI，不是真实用户。</b>这份报告测的是"文案写得好不好"，
+     <b>不是</b>"用户会不会点"。点击率、打开率这类真实效果，只有上线做 A/B 才能知道。
+     这份评估的价值在于<b>上线前先把明显不行的配置筛掉</b>。</div>
+   <div class="lim"><b>人工校准做得不够。</b>原计划人工盲评 330–500 条来校准 AI 评分员的偏差，
+     实际只完成了 72 条。影响是：偏差修正值的精度有限。
+     但它<b>不影响模型之间的排序</b> —— 修正对所有配置减去的是同一个数。</div>
+   <div class="lim"><b>样本量决定了分辨率。</b>416 种组合只能可靠分辨 <b>0.2 分以上</b>的差距。
+     模型之间 0.1 分左右的差异，方向可参考，不宜当作确定结论。</div>
+   <div class="lim"><b>用户画像是合成的。</b>13 个用户画像由模型生成，用来覆盖不同活跃度和兴趣偏好，
+     <b>不是</b>真实用户抽样，也没有使用任何真实用户数据。</div>
+   <div class="foot" style="margin-top:16px">
+     数据更新于 ${D.generated_at}　·　完整方法论见评估设计文档　·　
+     给技术读者的版本（含统计检验细节）：<a href="dashboard.html" style="color:var(--brand)">dashboard.html</a>
+   </div>`,
+  `
+   <div class="sub-h">1 · Where this conclusion is not reliable</div>
+   <div class="lim"><b>The scorer is an AI, not a real user.</b> This report measures <i>how well the copy is written</i>,
+     <b>not</b> whether users will tap it. Click-through and open rates can only be learned from a live A/B test.
+     The value of this evaluation is <b>filtering out the clearly unusable configurations before launch</b>.</div>
+   <div class="lim"><b>Human calibration is under-done.</b> The plan called for 330–500 human blind ratings to calibrate the AI judge's bias;
+     only 72 were completed. The consequence is limited precision on the bias correction.
+     It does <b>not affect the ranking between models</b> — the correction subtracts the same constant from every configuration.</div>
+   <div class="lim"><b>Sample size sets the resolution.</b> 416 combinations can only resolve gaps <b>above 0.2 points</b> reliably.
+     A ~0.1 difference between models is directional at best, not a firm conclusion.</div>
+   <div class="lim"><b>The user profiles are synthetic.</b> The 13 profiles were model-generated to cover different activity levels and interests.
+     They are <b>not</b> a sample of real users, and no real user data was used anywhere.</div>
+   <div class="foot" style="margin-top:16px">
+     Data updated ${D.generated_at}　·　full methodology in the evaluation design doc　·　
+     version for technical readers (with significance-test detail): <a href="dashboard.html" style="color:var(--brand)">dashboard.html</a>
+   </div>`);
+}
+
+// ── 后续建议 ──
+function renderAdvice(){
+  const kc = A['kimi-k2.6|C'];
+  const lenKilled = Object.keys(A).filter(k=>!dc.pool_5_2.includes(k) && A[k].len_ok<TH.len_gate).length;
+  document.getElementById('advice').innerHTML = Z(`
+   <div class="sub-h">二、接下来建议做什么（按优先级）</div>
+   <div class="adv"><div class="no">1</div><div>
+     <b>先攻字数达标率这个卡点 —— 它是目前唯一的淘汰原因。</b>
+     被筛掉的 ${killedN} 个配置全部栽在这里，没有一个是因为写得不好或不安全。两条路径：
+     <br>· <b>快的</b>：给 ${esc(armZH('kimi-k2.6|C'))} 加强字数约束的提示词再测一轮 ——
+       它质量 ${kc.e9.toFixed(2)} 分几乎追平第一，成本只有推荐配置的 ${(P.cost/kc.cost).toFixed(0)} 分之一，唯一卡点就是字数达标率 ${(kc.len_ok*100).toFixed(0)}%。
+     <br>· <b>彻底的</b>：在系统里加"生成后检查长度、超长自动重写"的兜底。
+       ${nAll} 个配置里 ${lenKilled} 个栽在字数，
+       说明这是当前模型的<b>普遍弱点而非个别问题</b>；一旦系统有兜底，选型就不必再被这条硬约束绑住，
+       可以直接选质量成本更优的配置。
+   </div></div>
+   <div class="adv"><div class="no">2</div><div>
+     <b>推荐配置进小流量 A/B，验真实效果。</b>
+     这份评估只能说明"文案写得更好"，说明不了"用户会不会点"。
+     它的作用是<b>在上线前把明显不行的配置筛掉</b>，把 ${nAll} 个候选缩到 1 个，
+     省下的是 A/B 的流量和时间，不是替代 A/B。
+   </div></div>
+   <div class="adv"><div class="no">3</div><div>
+     <b>补完人工校准，约 2–3 小时。</b>
+     104 条抽样和打分工具都已就绪，跑完就能验证 AI 评分员的偏差在新样本上是否稳定 ——
+     这是目前这份结论最主要的未闭合项（见上方局限第二条）。
+   </div></div>
+   <div class="adv"><div class="no">4</div><div>
+     <b>若要做分垂类的结论，需要扩样本。</b>
+     当前每个内容垂类只有约 4 个视频，"某类内容上哪个模型更好"这种结论只能作方向参考。
+     要让它达到可下结论的强度，视频样本量需要从 ${D.totals.n_videos} 扩到 80–150。
+   </div></div>`,
+  `
+   <div class="sub-h">2 · What to do next (in priority order)</div>
+   <div class="adv"><div class="no">1</div><div>
+     <b>Attack length compliance first — it is currently the only reason anything gets eliminated.</b>
+     All ${killedN} filtered-out configurations failed here; not one failed on writing quality or safety. Two routes:
+     <br>· <b>The quick one</b>: rerun ${esc(armZH('kimi-k2.6|C'))} with a hardened length constraint in the prompt —
+       its quality of ${kc.e9.toFixed(2)} is essentially level with the leader, it costs one ${(P.cost/kc.cost).toFixed(0)}th of the recommended configuration, and length compliance at ${(kc.len_ok*100).toFixed(0)}% is its only blocker.
+     <br>· <b>The thorough one</b>: add a system-level fallback that checks length after generation and rewrites anything over the limit.
+       ${lenKilled} of ${nAll} configurations failed on length, which makes this a <b>general weakness of current models rather than a quirk of one</b>.
+       With that fallback in place, model choice is no longer hostage to the hard limit and you can simply pick the best quality-per-dollar option.
+   </div></div>
+   <div class="adv"><div class="no">2</div><div>
+     <b>Take the recommended configuration into a small-traffic A/B to verify real-world effect.</b>
+     This evaluation can show the copy is better written; it cannot show users will tap it.
+     Its job is to <b>filter out the clearly unusable options before launch</b>, narrowing ${nAll} candidates to 1.
+     What it saves is A/B traffic and time — it does not replace the A/B.
+   </div></div>
+   <div class="adv"><div class="no">3</div><div>
+     <b>Finish the human calibration — about 2–3 hours.</b>
+     The 104-item sample and the rating tool are both ready. Completing it would verify whether the AI judge's bias holds steady on a fresh sample —
+     the main open gap in this conclusion (see limitation 2 above).
+   </div></div>
+   <div class="adv"><div class="no">4</div><div>
+     <b>Per-vertical conclusions would need a larger sample.</b>
+     With only about 4 videos per content vertical, a claim like "model X is better for this kind of content" is directional at best.
+     To make it conclusive, the video sample would need to grow from ${D.totals.n_videos} to 80–150.
+   </div></div>`);
+}
+
+function renderAll(){
+  renderHeads(); renderLede(); renderConclusion1(); renderProof1(); renderCopyCmp();
+  renderConclusion2(); renderModelCmp(); renderFunnelCost(); renderModality();
+  renderDrill(); renderLimits(); renderAdvice();
+}
+document.getElementById('langBtn').onclick = () => {
+  LANG = EN() ? 'zh' : 'en';
+  try{ localStorage.setItem('pe_lang', LANG); }catch(_){}
+  renderAll();
+};
+renderAll();
+</script>
+</body>
+</html>
